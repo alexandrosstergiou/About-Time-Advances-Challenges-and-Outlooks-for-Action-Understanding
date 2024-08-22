@@ -846,7 +846,7 @@ A significant effort has been made to collect diverse videos to comprise baselin
       100. \citet{yang2024vidchapters}
     \end{tabular}
     }
-    \caption{\textcolor{red}{TODO: datasets arranged in axes by their modality. Use cycle size to indicate total duration.}}
+    \caption{\textbf{Comparisons of total dataset durations by primary modality}. The size of the circle corresponds to the (approximate) summed duration of all videos in the datasets. Recent datasets (i.e. $>80$) not only have multi-fold longer total running times compared to previous datasets but also include additional primary modalities such as language or audio.}
 \end{figure*}
 
 \subsection{General datasets}
@@ -917,7 +917,7 @@ Initial efforts compiled multi-view videos from a small number of subjects \cite
          \caption{\textbf{Knowledge transfer}}
          \label{fig:redundancies_reduction::transfer}
      \end{subfigure}
-        \caption{\textbf{Redudency reduction methods overview} \textcolor{red}{To update}}
+        \caption{\textbf{Redundancy reduction methods} include; the selection of salient frames for downstream tasks (a), the use of supplementary modalities such as audio to preview relevant regions to sample from (b), permitting the input by reducing the computation overhead of non-relevant frames and segments (c), and using embeddings for a teacher model to optimize representations (d). }
         \label{fig:redundancies_reduction}
 \end{figure}
 
@@ -993,14 +993,6 @@ Drawing inspiration from \textbf{single-stage} object detection methods~\citep{c
 
 \noindent
 \textbf{Future outlooks}.
-
-\noindent
-\subsection{Multitask optimization}
-
-cross-dataset
-\citep{perrett2019ddlstm}
-\citep{kapidis2019multitask} 
-\citep{bansal2024videocon}
 
 
 
@@ -1155,30 +1147,20 @@ temporal grounding
 
 \subsection{Audio-visual and multimodal recognition} 
 
-audion-only models \ding{52}
-\citep{baade2022mae,gong2021psla,kazakos2021slow,kong2020panns,koutini2021efficient,stergiou2023play}
-
-audio-visual \ding{52}
-\citep{arandjelovic2018objects}
-\citep{zhao2018sound}
-\citep{gong2022uavm}
-\citep{singh2024looking}
-\citep{gong2023contrastive}
-\citep{huang2023mavil}
-\citep{pian2023audio}
-\citep{guo2024crossmae}
-\citep{georgescu2023audiovisual}
-\citep{lin2024siamese}
-\citep{nagrani2021attention}
-\citep{fayek2020large}
-\citep{wang2020makes}
-\citep{jaegle2021perceiver}
-\citep{xiao2020audiovisual}
-\citep{srivastava2024omnivec2}
+The recognition of actions or activities has been primarily studied in the vision domain. Modeling distinguishable appearance- or motion-based characteristics corresponding to actions has been the primary motivation for vision-based action understanding methods. Instead, the auditorily recognition of actions focuses on the sounds emitted by objects, their interactions, or actions. This can include distinct challenges as the sounds emitted by different objects or actions can be similar. Time-frequency spectrograms have been a popular format for the representation of audio events in videos. Initial audio-based models have been built following image-based object recognition \citep{gong2021psla} or video classification \citep{kazakos2021slow} CNNs. Attending over audio patches has been either integrated with convolutions \citep{gulati2020conformer,kong2020panns} or employed image-pre-trained models \citep{koutini2021efficient}. Approaches have also explored the effects of patch masking \citep{baade2022mae,huang2022masked}, focusing on salient sounds \citep{stergiou2023play}, adapting \citep{liu2022learning_the} or compressing \citep{feng2024coarse} spectrogram resolutions. More recently, the use of audio has gained attention in multi-modal learning settings as it can provide supplementary information to both visual features and language context.
 
 
 
-multiple modalities
+\noindent
+\textbf{Audio-visual models}. In developmental psychology, relationships between visual and auditory understanding of the environment are developed at a young age \citep{morrongiello1998developmental}. This has motivated early efforts in active speaker recognition \citep{chen1998audio,matthews2002extraction} and person identification \citep{aleksic2006audio} to study vision and audio cues in tandem. As video and audio signal types differ significantly, works have used two-step models to infer predictions. Two-step approaches extract video and audio embeddings first and then either fuse modality-specific predictions \citep{fayek2020large}, embeddings from multiple paths from multiple modalities \citep{xiao2020audiovisual}, or jointly attending vision and audio features for the final prediction \citep{gong2022uavm}. More recently, architectures have tokenized and attended audio and vision jointly with multi-modal learnable tokens \citep{nagrani2021attention}, cross-modal attention \citep{jaegle2021perceiver}, and modality-gating \citep{xue2023dynamic}. Accounting for models trained on uni-modal tasks, \citet{lin2023vision} also proposed using cross-modal adaptors to combine architectures in multi-modal tasks. Exploring the relevant audio and visual features with self-supervision has also been a learning paradigm of significant research interest. The use of a common embedding spaced can be useful for discovering correspondences in both in-modal and cross-modal retrieval \citep{arandjelovic2018objects,wu2021exploring}, multi-modal clustering \citep{hu2019deep}, and sound source separation \citep{hu2022mix,mo2023unified,zhao2018sound}. Token reconstruction through masking has also been a popular self-supervision pre-training task with a variety of training schemes including; concatenating masked tokens \citep{gong2023contrastive}, multi-view masking per modality \citep{huang2023mavil}, fusing a mixture of per modality masked tokens \citep{guo2024crossmae}, combining modality-specific masked and unmasked embeddings \citep{georgescu2023audiovisual}, or using multiple masking ratios with siamese networks \citep{lin2024siamese}. 
+Variation in the relevance of either visual and auditory signals depending on the instance. A promising direction for integrating this into optimization is Gradient blending \citep{wang2020makes} which recalibrates the loss per modality. Other research works have explored multi-audio to single-visual scene correspondence with contrastive learning. This has been done by utilizing joint semantic similarity in both modalities \citep{morgado2021audio}, using active sampling to diversify the pool of negative samples
+\citep{ma2021active}, or by counterfactual audio and video pairs to enforce a relationship between multiple audio to single visual scenes \citep{singh2024looking}. Enforcing a similarity constraint between audio and vision steams can also be used to train incremental tasks \citep{pian2023audio}.
+
+
+
+
+\noindent
+\textbf{Multi-modal models}
 \citep{akbari2021vatt}
 \citep{kaiser2017one}
 \citep{radevski2023multimodal} 
@@ -1188,6 +1170,7 @@ multiple modalities
 \citep{recasens2023zorro}
 \citep{dai2022one}
 \citep{zellers2022merlot}
+\citep{srivastava2024omnivec2}
 
 
 \subsection{Interaction recognition}
