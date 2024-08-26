@@ -10,6 +10,7 @@
 \def\cl@chapter{\cl@chapter \@elt {theorem}}%bug in class
 \def\cl@chapter{\@elt {theorem}}
 % Patch case where name and year are separated by aysep
+\iffalse
 \patchcmd{\NAT@citex}
   {\@citea\NAT@hyper@{%
      \NAT@nmfmt{\NAT@nm}%
@@ -29,7 +30,7 @@
    \NAT@spacechar\NAT@@open\if*#1*\else#1\NAT@spacechar\fi\NAT@hyper@{\NAT@date}}
   {}{}
 \makeatother
-
+\fi
 
 %\documentclass[lettersize,journal]{IEEEtran}
 
@@ -60,9 +61,9 @@
 \usepackage{pifont}
 \usepackage{makecell}
 \usepackage{totcount}
-\captionsetup{%
-    justification=Justified,%
-}
+%\captionsetup{%
+%    justification=Justified,%
+%}
 
 % Include other packages here, before hyperref.
 
@@ -124,7 +125,7 @@ R.Poppe \at Department of Information and Computing Sciences at Utrecht Universi
 
 \begin{abstract}
 %% Text of abstract
-We have witnessed impressive advances in action understanding research, both in terms of accuracy, and in the diversification of tasks. We are increasingly capable of extracting more meaningful information from action videos. Powered by datasets of expanded sizes and the upscaled computation availability, current systems can provide fine- and coarse-grained descriptions of video scenes, extract segments corresponding to queries, synthesize unobserved parts of the video, and predict the context of videos. This survey provides a comprehensive review of recent advances in uni-and-multi-modal action understanding. We focus on the prevalent challenges, overview widely adopted datasets, and survey seminal works. We focus on how temporal information is used, distinguishing broadly between action classification, prediction, and forecasting. This division allows us to identify specific challenges. Finally, we provide an outward look into future directions to address current shortcomings.
+We have witnessed impressive advances in action understanding research,  both in terms of performance as well as the diversification of tasks.  Powered by datasets of expanded sizes and increased computation availability, current systems can provide fine- and coarse-grained descriptions of video scenes, extract segments corresponding to queries, synthesize unobserved parts of the video, and predict the context of videos. This survey provides a comprehensive review of recent advances in uni-and-multi-modal action understanding. We focus on the prevalent challenges, overview widely adopted datasets, and survey seminal works. We broadly distinguish three main scopes of tasks based on the temporal extent of their inputs. We discuss recognition tasks on the actions observed in full, prediction tasks on ongoing partially observed actions, and forecasting tasks for the subsequent unobserved action. This division allows us to identify specific challenges and focus on tasks relating to specific times during the execution of an action. Finally, we provide an outward look into future directions to address current shortcomings.
 
 \end{abstract}
 
@@ -140,56 +141,59 @@ We have witnessed impressive advances in action understanding research, both in 
 
 
 % Preface paragraph
-Rapid technological advancements have integrated into multiple aspects of our everyday life. Digital processing of information has enabled greater levels of automation enhancing our quality of life. These advancements allow us to capture, share, and consume footage of our or other's everyday experiences. The definition of algorithms able to \emph{understand} these experiences and the actions performed has been of particular interest to the computer vision community since its early days. 
+Rapid technological advancements are embedded into multiple aspects of our everyday life.  Digital processing of information has enabled great levels of automation enhancing our quality of life. These advancements allow us to capture, share, and consume footage of our or other's everyday experiences. The definition of algorithms able to \emph{understand} these experiences and the actions performed has been of particular interest to the computer vision community since its early days. 
 
 
 
 % Action understanding in cognitive science 
-In neuroscience, \emph{action understanding} has been explored across several distinct psychological processes \citep{thompson2019conceptualizing}. Aspects include; \emph{The capacity to understand the action being performed}. This defines the capability to differentiate between analogous actions \citep{gallese1996action,jeannerod1994representing} and the conceptualization of how an action is performed \citep{spunt2011identifying}. \emph{Determining the goal of the action}. Works \citep{calvo2005action,kohler2002hearing,rizzolatti2001neurophysiological} have studied action understanding in relation to the immediate goals of actions. This includes both motor functions for executing an action and sensory perception of actions performed by others. \emph{Determining the actor's intention}. In contrast to goals that can be understood immediately after an action's completion, intentions relate to high-level motivations for performing an action \citep{kilner2011more}. Such intentions have been defined by the sequential grouping of individual actions \citep{fogassi2005parietal} and their abstract associated target \citep{uithol2011understanding}.
+In developmental psychology, action understanding has been explored across several distinct psychological processes \citep{thompson2019conceptualizing}. Such aspects include; 
+
+\noindent
+\textbf{The capacity to understand the action performed}. This relates to the capability to differentiate between analogous actions \citep{gallese1996action,jeannerod1994representing} and the conceptualization of \emph{how} an action is performed \citep{spunt2011identifying}. 
+
+\noindent
+\textbf{Determining the goal of the action}. Works \citep{calvo2005action,kohler2002hearing,rizzolatti2001neurophysiological} have studied action understanding in relation to immediate goals. This includes both the motor functions responsible for the execution of an action and the sensory perception of actions performed by others. 
+
+\noindent
+\textbf{Determining the actor's intention}. In contrast to goals that can be understood immediately after the action's completion, intentions are the high-level motivations for performing an action \citep{kilner2011more}. Such intentions have been defined as the sequential grouping of the individual actions \citep{fogassi2005parietal} and their abstract associated target \citep{uithol2011understanding}.
 
 \begin{figure*}[t]
     \centering
     \includegraphics[width=\linewidth,trim={1cm 0 6cm 0},clip]{figs/action_understanding_tasks.pdf}
-    \caption{\textbf{Action understanding tasks}. The progress of the video is shown by the top bar. Given an action that is currently being performed, and with duration $\tau_1$, only $\tau_{1,\rho}<\tau_1 $ part of the action is currently observable. After a short transition period $0\leq\tau_{1 \rightarrow 2}$ another action is performed with duration $\tau_2$. \textbf{Action recognition} tasks are based on full observations of the action at $\tau_1$. \textbf{Ongoing action prediction} uses only part $\tau_{1,\rho}$ of ongoing action. \textbf{Action forecasting} uses current action at $\tau_1$ to predict future actions. Example selected from \citep{wang2019vatex}.} 
+    \caption{\textbf{Action understanding tasks}. The progress of the video is shown by the top bar. From the currently performed, action of total duration $\tau_1$, only the $\tau_{1,\rho}<\tau_1 $ part is currently observable. After a transition period $0\leq\tau_{1 \rightarrow 2}$ another action is performed with duration $\tau_2$. \textbf{Action recognition} tasks are based on full observations of the action at $\tau_1$. \textbf{Action prediction} uses only part $\tau_{1,\rho}$ of ongoing action. \textbf{Action forecasting} uses current action at $\tau_1$ to predict future actions. Example selected from \citep{wang2019vatex}.} 
     \label{fig:tasks}
 \end{figure*}
 
 % Temporal scopes
-Inspired by the human cognition aspects of action understanding, we define three broad \emph{temporal scopes} and group seminal machine vision action understanding methods accordingly. We visualize the evolution of a video in~\Cref{fig:tasks} when an action is currently being performed and a subsequent action will follow next. We group tasks that require the first action to be \emph{observed in full} as \textbf{recognition} tasks, which infer information such as action categories or high-level semantics. Instead, if the prediction about ongoing actions is made from the action being only \emph{partially observed}, we group these tasks as \textbf{prediction} tasks. The final temporal focus of \textbf{forecasting} tasks is to use reasoning from the currently observed action for the future action \emph{not yet observed}. For each temporal scope, we discuss previous surveys that provide condensed overviews of advancements across different tasks and application domains.
+Inspired by the cognitive aspects of action understanding, we define three broad \emph{temporal scopes} and group seminal machine vision action understanding tasks. We visualize the action progression in~\Cref{fig:tasks} with a currently performed action followed by a subsequent action. Tasks that require the first action to be \emph{observed in full} are broadly termed as \textbf{recognition} tasks and infer information such as the action categories or high-level semantics. Prediction about the ongoing actions are made from the only \emph{partial observations} without the action being completed, we define such tasks as \textbf{prediction}. In \textbf{forecasting} tasks, reasoning from the currently observed action is used for the actions \emph{not yet observed}. For each temporal scope, we discuss the previous surveys that overview advancements in tasks and application domains.
 
 \noindent
-\textbf{Recognition}. Early works on action recognition have primarily focused on overviewing motion modeling. \citet{aggarwal1994articulated} defined a taxonomy of motions based on rigidness with a subsequent overview \citep{aggarwal1998nonrigid} of further subdivisions based on prior knowledge of the objects' shape. \citet{cedras1995motion} and later \citet{moeslund2001survey} discussed temporal modeling approaches in the context of classification and tracking. As overviewed by \citet{buxton2003learning} tracking approaches have also been used in more complex tasks such as behavior analysis or non-verbal human interactions. A division in modeling and estimation of human motions was later discussed by \citet{poppe2007vision}. 
+\textbf{Recognition}. Early surveys on action recognition have primarily focused on works based on motion modeling. \citet{aggarwal1994articulated} defined a taxonomy of motions based on rigidness and subsequently \citep{aggarwal1998nonrigid} discuss further subdivisions of motion categories based on prior knowledge of the objects' shape. \citet{cedras1995motion} and later \citet{moeslund2001survey} discussed temporal modeling approaches in the context of classification and tracking. As overviewed by \citet{buxton2003learning} tracking approaches have also been used in more complex tasks such as behavior analysis or non-verbal human interactions. Human motion modeling and estimation divisions were later discussed by \citet{poppe2007vision}. 
 % Classification surveys
-Later overviews included more explicit scopes such as action classification, and localization \citep{weinland2011survey}, behavior understanding \citep{chaaraoui2012review}, or surveillance applications \citep{vishwakarma2013survey}. They explored task-specific advancements on more semantically complex topics, primarily relating to classification. \citet{turaga2008machine} and \citet{poppe2010survey} both discussed approaches addressing atomic actions and group activities. \citet{herath2017going} provided an initial summary of learned-feature approaches for action recognition. Later surveys overviewed the adoption and adaptation of deep learning approaches for topics such as; depth-based motion recognition \citep{wang2018rgb}, activity recognition \citep{beddiar2020vision}, human-human interactions \citep{stergiou2019analyzing}, and pose estimation \citep{zheng2020deep}. \citet{sun2022human} reviewed approaches across multiple modalities combining motion features, audio, and vision. More recently, \citet{selva2023video} overviewed attention-based approaches for video tasks while \citet{schiappa2023self} focused on self-supervised approaches.
+More explicit scopes such as action classification, and localization \citep{weinland2011survey}, behavior understanding \citep{chaaraoui2012review}, or surveillance applications \citep{vishwakarma2013survey} emerged with later recognition advancements. They explored task-specific methods and more semantically complex topics, primarily in relation to classification. \citet{turaga2008machine} and \citet{poppe2010survey} both discussed approaches addressing atomic actions and group activities. \citet{herath2017going} provided an initial summary of approaches using learned-features for action recognition. Following surveys overviewed the adoption and adaptation of deep learning approaches for topics such as; depth-based motion recognition \citep{wang2018rgb}, activity recognition \citep{beddiar2020vision}, human-human interactions \citep{stergiou2019analyzing}, and pose estimation \citep{zheng2020deep}. \citet{sun2022human} reviewed approaches across multiple modalities combining motion features, audio, and vision. More recently, \citet{selva2023video} discussed attention-based approaches for video tasks while \citet{schiappa2023self} focused on self-supervised approaches.
 
 \noindent
-\textbf{Prediction}. The advancements in the recognition of actions in videos have recently enabled the definition of more challenging predictive tasks from partial observations. \citet{rasouli2020deep} discussed four main domains of predictive models including video, action, trajectory, and motion prediction. \citet{kong2022human} described recent advancements for action recognition and prediction focusing on their applications to domains such as robot vision, surveillance, and driver behavior prediction. The surveys of \citet{dhiman2019review} and later \citet{ramachandra2020survey} overviewed predictive methods for anomaly detection tasks.
+\textbf{Prediction}. The recent advancements in action recognition have also enabled the definition of more challenging predictive tasks from partial observations. \citet{rasouli2020deep} discussed four main domains of predictive models including video, action, trajectory, and motion prediction. \citet{kong2022human} described recent advancements for action recognition and prediction focusing on their applications to domains such as robot vision, surveillance, and driver behavior prediction. The surveys of \citet{dhiman2019review} and later \citet{ramachandra2020survey} overviewed predictive methods for anomaly detection.
 
 
 
 
 \noindent
-\textbf{Forecasting}. Similarly, forecasting tasks have more recently been at the forefront of research. \citet{rodin2021predicting} discussed prevalent approaches for future action anticipation in egocentric videos. \citet{zhong2023survey} overviewed both short and long-term approaches for predicting actions into the future. \citet{hu2022online} provided a review of both online and anticipation approaches. More recently, \citet{plizzari2024outlook} discussed challenges in egocentric videos and provided future direction outlooks for multiple scopes including forecasting tasks.
+\textbf{Forecasting}. Similarly, forecasting tasks have also recently been at the forefront of action understanding research. \citet{rodin2021predicting} discussed prevalent approaches for future action anticipation in egocentric videos. \citet{zhong2023survey} overviewed both short and long-term anticipation approaches. \citet{hu2022online} provided a review of online and anticipation methods. More recently, \citet{plizzari2024outlook} discussed challenges in egocentric videos and discussed future outlooks for multiple scopes including forecasting tasks.
 
 
-%Considering the vastness of tasks that study changes in the visual information across time, an answer to the question \emph{where does one start from?} may be less easy to define.
-% Motion modeling
-
-
-
- 
   
 % Addressing multiple aspects of action understanding
-Despite providing extensive overviews, prior surveys focus on specific aspects of action understanding. As summarized in \Cref{tab:surveys}, an overview over critical works of the past decades across multiple aspects of action understanding is missing from the current literature. 
+Despite the extensive coverage of topics, prior surveys focus on specific aspects of action understanding. As summarized in \Cref{tab:surveys}, an overview over critical works of the past decades that groups multiple aspects of action understanding is missing from the current literature. 
 
 
 % TODO paragraph on survey focus and structure
-In this survey we address the diversity of action understanding tasks by their use of the temporal dimension. We overview the general methods for modeling actions in videos over the years in~\ref{sec:modeling}. We discuss datasets and benchmarks used by prior works in~\Cref{sec:datasets}. Following the defined action understanding tasks categories, we first distinguish tasks that require actions to be observed in their entirety to infer their semantics in~\Cref{sec:recognition}. Tasks that aim to predict ongoing actions in which only parts of the action are observed are overviewed in~\Cref{sec:prediction}. We discuss tasks and approaches that aim to anticipate what will happen next in~\Cref{sec:forecasting}. For each of these directions we outline main challenges and provide our insights as to what the future of action understanding may look like in~\Cref{sec:outlook}. We conclude with a summary of this survey's findings and general thoughts in~\Cref{sec:discussion}.
+In this survey we address the diversity of action understanding tasks by their use of the temporal dimension. We overview the general methods for modeling actions in videos over the years in~\ref{sec:modeling}. We discuss datasets and benchmarks used by prior works in~\Cref{sec:datasets}. We then first distinguish the tasks that require actions to be observed in full to infer semantics in~\Cref{sec:recognition}.  Predictive tasks that aim to predict ongoing actions in which only parts of the action are observed are overviewed in~\Cref{sec:prediction}. We overview tasks and anticipative approaches next in~\Cref{sec:forecasting}. For each of these directions we outline main challenges and provide our insights as to what the future of action understanding may look like in~\Cref{sec:outlook}. We conclude with a summary of this survey's findings and general thoughts in~\Cref{sec:discussion}.
 
 
 \begin{table*}[t]
     \centering
-    \caption{\textbf{Action understanding surveys through the years}. Columns highlight the temporal scope of surveys; with works on either recognition (Rec.), prediction (Pred.), or anticipation (Ant.). The reported broad objectives that surveys overview include multi-modality (MM), self-supervision (Self-Sup.), and multi-view (MV). The two tasks of interest tracked among surveys are human interactions (HI) to either objects or other humans, and long video understanding (LVU). Scopes/objectives/tasks addressed partially by surveys are denoted with (partial) and the main focus is denoted with \ding{52}.}
+    \caption{\textbf{Action understanding surveys through the years}. Columns highlight the temporal scope of surveys; with overviews of recognition (Rec.), prediction (Pred.), or anticipation (Ant.) works.  Three broad objectives are tracked across surveys; multi-modality (MM), self-supervision (Self-Sup.), and multi-view (MV). The two tasks of human interactions (HI) to objects or other humans, and long video understanding (LVU)., are also reported per survey. Scopes/objectives/tasks addressed partially by surveys are denoted with (partial) and the main focus is denoted with \ding{52}.}
     \resizebox{\textwidth}{!}{
     \begin{tabular}{l c c c c c l c c c l c c}
     \toprule

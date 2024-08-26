@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: spbasic.bst
+Reallocated cite_list (elt_size=4) to 1500 items from 750.
+Reallocated type_list (elt_size=4) to 1500 items from 750.
+Reallocated entry_exists (elt_size=4) to 1500 items from 750.
+Reallocated cite_info (elt_size=4) to 1500 items from 750.
+Reallocated field_info (elt_size=4) to 28604 items from 5000.
+Database file #1: egbib.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 843 entries,
+            3269 wiz_defined-function locations,
+            3310 strings with 141296 characters,
+and the built_in function-call counts, 855670 in all, are:
+= -- 70248
+> -- 37144
+< -- 126
++ -- 12927
+- -- 11850
+* -- 74933
+:= -- 121497
+add.period$ -- 843
+call.type$ -- 843
+change.case$ -- 9374
+chr.to.int$ -- 713
+cite$ -- 843
+duplicate$ -- 72813
+empty$ -- 74489
+format.name$ -- 14581
+if$ -- 176647
+int.to.chr$ -- 131
+int.to.str$ -- 1
+missing$ -- 9008
+newline$ -- 2539
+num.names$ -- 3372
+pop$ -- 26196
+preamble$ -- 1
+purify$ -- 7282
+quote$ -- 0
+skip$ -- 16835
+stack$ -- 0
+substring$ -- 70465
+swap$ -- 17241
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 7587
+warning$ -- 0
+while$ -- 6699
+width$ -- 0
+write$ -- 8441

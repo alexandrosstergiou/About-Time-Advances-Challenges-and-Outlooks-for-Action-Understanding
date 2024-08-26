@@ -1,0 +1,4023 @@
+\begin{thebibliography}{843}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Aakur and Sarkar(2019)}]{aakur2019perceptual}
+Aakur SN, Sarkar S (2019) A perceptual prediction framework for self supervised
+  event segmentation. In: CVPR
+
+\bibitem[{Abati et~al(2023)Abati, Ben~Yahia, Nagel, and
+  Habibian}]{abati2023resq}
+Abati D, Ben~Yahia H, Nagel M, Habibian A (2023) Resq: Residual quantization
+  for video perception. In: ICCV
+
+\bibitem[{Abdelsalam et~al(2023)Abdelsalam, Rangrej, Hadji, Dvornik, Derpanis,
+  and Fazly}]{abdelsalam2023gepsan}
+Abdelsalam MA, Rangrej SB, Hadji I, Dvornik N, Derpanis KG, Fazly A (2023)
+  Gepsan: Generative procedure step anticipation in cooking videos. In: ICCV
+
+\bibitem[{Abu-El-Haija et~al(2016)Abu-El-Haija, Kothari, Lee, Natsev, Toderici,
+  Varadarajan, and Vijayanarasimhan}]{abu2016youtube}
+Abu-El-Haija S, Kothari N, Lee J, Natsev P, Toderici G, Varadarajan B,
+  Vijayanarasimhan S (2016) Youtube-8m: A large-scale video classification
+  benchmark. arxiv
+
+\bibitem[{Abu~Farha et~al(2018)Abu~Farha, Richard, and Gall}]{abu2018will}
+Abu~Farha Y, Richard A, Gall J (2018) When will you do what?-anticipating
+  temporal occurrences of activities. In: CVPR
+
+\bibitem[{Abu~Farha et~al(2021)Abu~Farha, Ke, Schiele, and Gall}]{abu2021long}
+Abu~Farha Y, Ke Q, Schiele B, Gall J (2021) Long-term anticipation of
+  activities with cycle consistency. In: DAGM GCPR
+
+\bibitem[{Acsintoae et~al(2022)Acsintoae, Florescu, Georgescu, Mare, Sumedrea,
+  Ionescu, Khan, and Shah}]{acsintoae2022ubnormal}
+Acsintoae A, Florescu A, Georgescu MI, Mare T, Sumedrea P, Ionescu RT, Khan FS,
+  Shah M (2022) Ubnormal: New benchmark for supervised open-set video anomaly
+  detection. In: CVPR
+
+\bibitem[{Agarwal et~al(2020)Agarwal, Chen, Dariush, and
+  Yang}]{agarwal2020unsupervised}
+Agarwal N, Chen YT, Dariush B, Yang MH (2020) Unsupervised domain adaptation
+  for spatio-temporal action localization. In: BMVC
+
+\bibitem[{Aggarwal and Cai(1999)}]{aggarwal1999human}
+Aggarwal JK, Cai Q (1999) Human motion analysis: A review. CVIU
+
+\bibitem[{Aggarwal et~al(1994)Aggarwal, Cai, Liao, and
+  Sabata}]{aggarwal1994articulated}
+Aggarwal JK, Cai Q, Liao W, Sabata B (1994) Articulated and elastic non-rigid
+  motion: A review. In: Workshop on Motion of Non-rigid and Articulated Objects
+
+\bibitem[{Aggarwal et~al(1998)Aggarwal, Cai, Liao, and
+  Sabata}]{aggarwal1998nonrigid}
+Aggarwal JK, Cai Q, Liao W, Sabata B (1998) Nonrigid motion analysis:
+  Articulated and elastic motion. CVIU
+
+\bibitem[{Akbari et~al(2021)Akbari, Yuan, Qian, Chuang, Chang, Cui, and
+  Gong}]{akbari2021vatt}
+Akbari H, Yuan L, Qian R, Chuang WH, Chang SF, Cui Y, Gong B (2021) Vatt:
+  Transformers for multimodal self-supervised learning from raw video, audio
+  and text. NeurIPS
+
+\bibitem[{Alayrac et~al(2016)Alayrac, Bojanowski, Agrawal, Sivic, Laptev, and
+  Lacoste-Julien}]{alayrac2016unsupervised}
+Alayrac JB, Bojanowski P, Agrawal N, Sivic J, Laptev I, Lacoste-Julien S (2016)
+  Unsupervised learning from narrated instruction videos. In: CVPR
+
+\bibitem[{Alayrac et~al(2017)Alayrac, Laptev, Sivic, and
+  Lacoste-Julien}]{alayrac2017joint}
+Alayrac JB, Laptev I, Sivic J, Lacoste-Julien S (2017) Joint discovery of
+  object states and manipulation actions. In: ICCV
+
+\bibitem[{Alayrac et~al(2022)Alayrac, Donahue, Luc, Miech, Barr, Hasson, Lenc,
+  Mensch, Millican, Reynolds et~al}]{alayrac2022flamingo}
+Alayrac JB, Donahue J, Luc P, Miech A, Barr I, Hasson Y, Lenc K, Mensch A,
+  Millican K, Reynolds M, et~al (2022) Flamingo: a visual language model for
+  few-shot learning. NeurIPS
+
+\bibitem[{Alayrac et~al(2024)Alayrac, Miech, Laptev, Sivic
+  et~al}]{alayrac2024multi}
+Alayrac JB, Miech A, Laptev I, Sivic J, et~al (2024) Multi-task learning of
+  object states and state-modifying actions from web videos. IEEE TPAMI
+
+\bibitem[{Albanese et~al(2010)Albanese, Chellappa, Cuntoor, Moscato,
+  Picariello, Subrahmanian, and Udrea}]{albanese2010pads}
+Albanese M, Chellappa R, Cuntoor N, Moscato V, Picariello A, Subrahmanian V,
+  Udrea O (2010) Pads: A probabilistic activity detection framework for video
+  data. IEEE TPAMI
+
+\bibitem[{Albanie et~al(2020)Albanie, Liu, Nagrani, Miech, Coto, Laptev,
+  Sukthankar, Ghanem, Zisserman, Gabeur et~al}]{albanie2020end}
+Albanie S, Liu Y, Nagrani A, Miech A, Coto E, Laptev I, Sukthankar R, Ghanem B,
+  Zisserman A, Gabeur V, et~al (2020) The end-of-end-to-end: A video
+  understanding pentathlon challenge (2020). arXiv
+
+\bibitem[{Albu et~al(2008)Albu, Bergevin, and Quirion}]{branzan2008generic}
+Albu AB, Bergevin R, Quirion S (2008) {Generic Temporal Segmentation of Cyclic
+  Human Motion}. PR
+
+\bibitem[{Aleksic and Katsaggelos(2006)}]{aleksic2006audio}
+Aleksic PS, Katsaggelos AK (2006) Audio-visual biometrics. Proceedings of the
+  IEEE
+
+\bibitem[{AlMarri et~al(2024)AlMarri, Zaheer, and
+  Nandakumar}]{almarri2024multi}
+AlMarri S, Zaheer MZ, Nandakumar K (2024) A multi-head approach with shuffled
+  segments for weakly-supervised video anomaly detection. In: WACVw
+
+\bibitem[{Alwassel et~al(2018)Alwassel, Heilbron, Escorcia, and
+  Ghanem}]{alwassel2018diagnosing}
+Alwassel H, Heilbron FC, Escorcia V, Ghanem B (2018) Diagnosing error in
+  temporal action detectors. In: ECCV
+
+\bibitem[{Alwassel et~al(2021)Alwassel, Giancola, and Ghanem}]{alwassel2021tsp}
+Alwassel H, Giancola S, Ghanem B (2021) Tsp: Temporally-sensitive pretraining
+  of video encoders for localization tasks. In: ICCV
+
+\bibitem[{Amer and Todorovic(2012)}]{amer2012sum}
+Amer MR, Todorovic S (2012) Sum-product networks for modeling activities with
+  stochastic structure. In: CVPR
+
+\bibitem[{Anderson et~al(2018)Anderson, Wu, Teney, Bruce, Johnson,
+  S{\"u}nderhauf, Reid, Gould, and Van Den~Hengel}]{anderson2018vision}
+Anderson P, Wu Q, Teney D, Bruce J, Johnson M, S{\"u}nderhauf N, Reid I, Gould
+  S, Van Den~Hengel A (2018) Vision-and-language navigation: Interpreting
+  visually-grounded navigation instructions in real environments. In: CVPR
+
+\bibitem[{Andrew et~al(2013)Andrew, Arora, Bilmes, and
+  Livescu}]{andrew2013deep}
+Andrew G, Arora R, Bilmes J, Livescu K (2013) Deep canonical correlation
+  analysis. In: ICML
+
+\bibitem[{Anne~Hendricks et~al(2017)Anne~Hendricks, Wang, Shechtman, Sivic,
+  Darrell, and Russell}]{anne2017localizing}
+Anne~Hendricks L, Wang O, Shechtman E, Sivic J, Darrell T, Russell B (2017)
+  Localizing moments in video with natural language. In: ICCV
+
+\bibitem[{Arandjelovic and Zisserman(2018)}]{arandjelovic2018objects}
+Arandjelovic R, Zisserman A (2018) Objects that sound. In: ECCV
+
+\bibitem[{Arnab et~al(2021{\natexlab{a}})Arnab, Dehghani, Heigold, Sun,
+  Lu{\v{c}}i{\'c}, and Schmid}]{arnab2021vivit}
+Arnab A, Dehghani M, Heigold G, Sun C, Lu{\v{c}}i{\'c} M, Schmid C
+  (2021{\natexlab{a}}) Vivit: A video vision transformer. In: ICCV
+
+\bibitem[{Arnab et~al(2021{\natexlab{b}})Arnab, Sun, and
+  Schmid}]{arnab2021unified}
+Arnab A, Sun C, Schmid C (2021{\natexlab{b}}) Unified graph structured models
+  for video understanding. In: CVPR
+
+\bibitem[{Ashutosh et~al(2023)Ashutosh, Girdhar, Torresani, and
+  Grauman}]{ashutosh2023hiervl}
+Ashutosh K, Girdhar R, Torresani L, Grauman K (2023) Hiervl: Learning
+  hierarchical video-language embeddings. In: CVPR
+
+\bibitem[{Ashutosh et~al(2024)Ashutosh, Ramakrishnan, Afouras, and
+  Grauman}]{ashutosh2024video}
+Ashutosh K, Ramakrishnan SK, Afouras T, Grauman K (2024) Video-mined task
+  graphs for keystep recognition in instructional videos. NeurIPS
+
+\bibitem[{Astrid et~al(2021{\natexlab{a}})Astrid, Zaheer, Lee, and
+  Lee}]{astrid2021learning}
+Astrid M, Zaheer MZ, Lee JY, Lee SI (2021{\natexlab{a}}) Learning not to
+  reconstruct anomalies. In: BMVC
+
+\bibitem[{Astrid et~al(2021{\natexlab{b}})Astrid, Zaheer, and
+  Lee}]{astrid2021synthetic}
+Astrid M, Zaheer MZ, Lee SI (2021{\natexlab{b}}) Synthetic temporal anomaly
+  guided end-to-end video anomaly detection. In: ICCVw
+
+\bibitem[{Azy and Ahuja(2008)}]{ousman2008segmentation}
+Azy O, Ahuja N (2008) {Segmentation of Periodically Moving Objects}. In: ICPR
+
+\bibitem[{Baade et~al(2022)Baade, Peng, and Harwath}]{baade2022mae}
+Baade A, Peng P, Harwath D (2022) Mae-ast: Masked autoencoding audio
+  spectrogram transformer. In: Interspeech
+
+\bibitem[{Babaeizadeh et~al(2018)Babaeizadeh, Finn, Erhan, Campbell, and
+  Levine}]{babaeizadeh2018stochastic}
+Babaeizadeh M, Finn C, Erhan D, Campbell RH, Levine S (2018) Stochastic
+  variational video prediction. In: ICLR
+
+\bibitem[{Baccouche et~al(2011)Baccouche, Mamalet, Wolf, Garcia, and
+  Baskurt}]{baccouche2011sequential}
+Baccouche M, Mamalet F, Wolf C, Garcia C, Baskurt A (2011) Sequential deep
+  learning for human action recognition. In: HBU
+
+\bibitem[{Bacharidis and Argyros(2023)}]{bacharidis2023repetition}
+Bacharidis K, Argyros A (2023) {Repetition-aware Image Sequence Sampling for
+  Recognizing Repetitive Human Actions}. In: ICCVw
+
+\bibitem[{Bai et~al(2020)Bai, Wang, Tong, Yang, Liu, and Liu}]{bai2020boundary}
+Bai Y, Wang Y, Tong Y, Yang Y, Liu Q, Liu J (2020) Boundary content graph
+  neural network for temporal action proposal generation. In: ECCV
+
+\bibitem[{Bain et~al(2021)Bain, Nagrani, Varol, and Zisserman}]{bain2021frozen}
+Bain M, Nagrani A, Varol G, Zisserman A (2021) Frozen in time: A joint video
+  and image encoder for end-to-end retrieval. In: ICCV
+
+\bibitem[{Ballas et~al(2015)Ballas, Yao, Pal, and
+  Courville}]{ballas2015delving}
+Ballas N, Yao L, Pal C, Courville A (2015) Delving deeper into convolutional
+  networks for learning video representations. In: ICLR
+
+\bibitem[{Bandara et~al(2023)Bandara, Patel, Gholami, Nikkhah, Agrawal, and
+  Patel}]{bandara2023adamae}
+Bandara WGC, Patel N, Gholami A, Nikkhah M, Agrawal M, Patel VM (2023) Adamae:
+  Adaptive masking for efficient spatiotemporal learning with masked
+  autoencoders. In: CVPR
+
+\bibitem[{Bansal et~al(2022)Bansal, Arora, and Jawahar}]{bansal2022my}
+Bansal S, Arora C, Jawahar C (2022) My view is the best view: Procedure
+  learning from egocentric videos. In: ECCV
+
+\bibitem[{Barekatain et~al(2017)Barekatain, Mart{\'\i}, Shih, Murray, Nakayama,
+  Matsuo, and Prendinger}]{barekatain2017okutama}
+Barekatain M, Mart{\'\i} M, Shih HF, Murray S, Nakayama K, Matsuo Y, Prendinger
+  H (2017) Okutama-action: An aerial view video dataset for concurrent human
+  action detection. In: ICCVw
+
+\bibitem[{Becattini et~al(2020)Becattini, Uricchio, Seidenari, Ballan, and
+  Bimbo}]{becattini2020done}
+Becattini F, Uricchio T, Seidenari L, Ballan L, Bimbo AD (2020) Am i done?
+  predicting action progress in videos. TOMM
+
+\bibitem[{Beddiar et~al(2020)Beddiar, Nini, Sabokrou, and
+  Hadid}]{beddiar2020vision}
+Beddiar DR, Nini B, Sabokrou M, Hadid A (2020) Vision-based human activity
+  recognition: a survey. MTA
+
+\bibitem[{Ben-Shabat et~al(2021)Ben-Shabat, Yu, Saleh, Campbell,
+  Rodriguez-Opazo, Li, and Gould}]{ben2021ikea}
+Ben-Shabat Y, Yu X, Saleh F, Campbell D, Rodriguez-Opazo C, Li H, Gould S
+  (2021) The ikea asm dataset: Understanding people assembling furniture
+  through actions, objects and pose. In: WACV
+
+\bibitem[{BenAbdelkader et~al(2004)BenAbdelkader, Cutler, and
+  Davis}]{benabdelkader2004gait}
+BenAbdelkader C, Cutler RG, Davis LS (2004) Gait recognition using image
+  self-similarity. EURASIP
+
+\bibitem[{Bertasius et~al(2021)Bertasius, Wang, and
+  Torresani}]{bertasius2021space}
+Bertasius G, Wang H, Torresani L (2021) Is space-time attention all you need
+  for video understanding? In: ICML
+
+\bibitem[{Bilen et~al(2016)Bilen, Fernando, Gavves, Vedaldi, and
+  Gould}]{bilen2016dynamic}
+Bilen H, Fernando B, Gavves E, Vedaldi A, Gould S (2016) Dynamic image networks
+  for action recognition. In: CVPR
+
+\bibitem[{Blank et~al(2005)Blank, Gorelick, Shechtman, Irani, and
+  Basri}]{blank2005actions}
+Blank M, Gorelick L, Shechtman E, Irani M, Basri R (2005) Actions as space-time
+  shapes. In: ICCV
+
+\bibitem[{Blattmann et~al(2023)Blattmann, Rombach, Ling, Dockhorn, Kim, Fidler,
+  and Kreis}]{blattmann2023align}
+Blattmann A, Rombach R, Ling H, Dockhorn T, Kim SW, Fidler S, Kreis K (2023)
+  Align your latents: High-resolution video synthesis with latent diffusion
+  models. In: CVPR
+
+\bibitem[{Bobick and Davis(2001)}]{bobick2001recognition}
+Bobick AF, Davis JW (2001) The recognition of human movement using temporal
+  templates. IEEE TPAMI
+
+\bibitem[{Bokhari and Kitani(2017)}]{bokhari2017long}
+Bokhari SZ, Kitani KM (2017) Long-term activity forecasting using first-person
+  vision. In: ACCV
+
+\bibitem[{Briassouli and Ahuja(2007)}]{briassouli2007extraction}
+Briassouli A, Ahuja N (2007) {Extraction and Analysis of Multiple Periodic
+  Motions in Video Sequences}. IEEE TPAMI)
+
+\bibitem[{Brooks et~al(2022)Brooks, Hellsten, Aittala, Wang, Aila, Lehtinen,
+  Liu, Efros, and Karras}]{brooks2022generating}
+Brooks T, Hellsten J, Aittala M, Wang TC, Aila T, Lehtinen J, Liu MY, Efros A,
+  Karras T (2022) Generating long videos of dynamic scenes. NeurIPS
+
+\bibitem[{Brown et~al(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal,
+  Neelakantan, Shyam, Sastry, Askell et~al}]{brown2020language}
+Brown T, Mann B, Ryder N, Subbiah M, Kaplan JD, Dhariwal P, Neelakantan A,
+  Shyam P, Sastry G, Askell A, et~al (2020) Language models are few-shot
+  learners. NeurIPS
+
+\bibitem[{Broxton et~al(2020)Broxton, Flynn, Overbeck, Erickson, Hedman,
+  Duvall, Dourgarian, Busch, Whalen, and Debevec}]{broxton2020immersive}
+Broxton M, Flynn J, Overbeck R, Erickson D, Hedman P, Duvall M, Dourgarian J,
+  Busch J, Whalen M, Debevec P (2020) Immersive light field video with a
+  layered mesh representation. ACM TOG
+
+\bibitem[{Bulat et~al(2021)Bulat, Perez~Rua, Sudhakaran, Martinez, and
+  Tzimiropoulos}]{bulat2021space}
+Bulat A, Perez~Rua JM, Sudhakaran S, Martinez B, Tzimiropoulos G (2021)
+  Space-time mixing attention for video transformer. NeurIPS
+
+\bibitem[{Buxton(2003)}]{buxton2003learning}
+Buxton H (2003) Learning and understanding dynamic scene activity: a review.
+  IVC
+
+\bibitem[{Caba~Heilbron et~al(2015)Caba~Heilbron, Escorcia, Ghanem, and
+  Carlos~Niebles}]{caba2015activitynet}
+Caba~Heilbron F, Escorcia V, Ghanem B, Carlos~Niebles J (2015) Activitynet: A
+  large-scale video benchmark for human activity understanding. In: CVPR
+
+\bibitem[{Cai et~al(2019)Cai, Li, Hu, and Zheng}]{cai2019action}
+Cai Y, Li H, Hu JF, Zheng WS (2019) Action knowledge transfer for action
+  prediction with partial videos. In: AAAI
+
+\bibitem[{Calvo-Merino et~al(2005)Calvo-Merino, Glaser, Gr{\`e}zes, Passingham,
+  and Haggard}]{calvo2005action}
+Calvo-Merino B, Glaser DE, Gr{\`e}zes J, Passingham RE, Haggard P (2005) Action
+  observation and acquired motor skills: an fmri study with expert dancers.
+  Cerebral cortex
+
+\bibitem[{Cao et~al(2021)Cao, Chen, Shou, Zhang, and Zou}]{cao2021pursuit}
+Cao M, Chen L, Shou MZ, Zhang C, Zou Y (2021) On pursuit of designing
+  multi-modal transformer for video grounding. In: EMNLP
+
+\bibitem[{Cao et~al(2013)Cao, Barrett, Barbu, Narayanaswamy, Yu, Michaux, Lin,
+  Dickinson, Mark~Siskind, and Wang}]{cao2013recognize}
+Cao Y, Barrett D, Barbu A, Narayanaswamy S, Yu H, Michaux A, Lin Y, Dickinson
+  S, Mark~Siskind J, Wang S (2013) Recognize human activities from partially
+  observed videos. In: CVPR
+
+\bibitem[{Carion et~al(2020)Carion, Massa, Synnaeve, Usunier, Kirillov, and
+  Zagoruyko}]{carion2020end}
+Carion N, Massa F, Synnaeve G, Usunier N, Kirillov A, Zagoruyko S (2020)
+  End-to-end object detection with transformers. In: ECCV
+
+\bibitem[{Carreira and Zisserman(2017)}]{carreira2017quo}
+Carreira J, Zisserman A (2017) Quo vadis, action recognition? a new model and
+  the kinetics dataset. In: CVPR
+
+\bibitem[{Carreira et~al(2018)Carreira, Noland, Banki-Horvath, Hillier, and
+  Zisserman}]{carreira2018short}
+Carreira J, Noland E, Banki-Horvath A, Hillier C, Zisserman A (2018) A short
+  note about kinetics-600. arxiv
+
+\bibitem[{Carreira et~al(2019)Carreira, Noland, Hillier, and
+  Zisserman}]{carreira2019short}
+Carreira J, Noland E, Hillier C, Zisserman A (2019) A short note on the
+  kinetics-700 human action dataset. arxiv
+
+\bibitem[{Castrejon et~al(2019)Castrejon, Ballas, and
+  Courville}]{castrejon2019improved}
+Castrejon L, Ballas N, Courville A (2019) Improved conditional vrnns for video
+  prediction. In: CVPR
+
+\bibitem[{Cedras and Shah(1995)}]{cedras1995motion}
+Cedras C, Shah M (1995) Motion-based recognition a survey. IVC
+
+\bibitem[{Chaabane et~al(2020)Chaabane, Trabelsi, Blanchard, and
+  Beveridge}]{chaabane2020looking}
+Chaabane M, Trabelsi A, Blanchard N, Beveridge R (2020) Looking ahead:
+  Anticipating pedestrians crossing with future frames prediction. In: WACV
+
+\bibitem[{Chaaraoui et~al(2012)Chaaraoui, Climent-P{\'e}rez, and
+  Fl{\'o}rez-Revuelta}]{chaaraoui2012review}
+Chaaraoui AA, Climent-P{\'e}rez P, Fl{\'o}rez-Revuelta F (2012) A review on
+  vision techniques applied to human behaviour analysis for ambient-assisted
+  living. ESWA
+
+\bibitem[{Chadha et~al(2021)Chadha, Arora, and Kaloty}]{chadha2021iperceive}
+Chadha A, Arora G, Kaloty N (2021) iperceive: Applying common-sense reasoning
+  to multi-modal dense video captioning and video question answering. In: WACV
+
+\bibitem[{Chang et~al(2019)Chang, Huang, Sui, Fei-Fei, and
+  Niebles}]{chang2019d3tw}
+Chang CY, Huang DA, Sui Y, Fei-Fei L, Niebles JC (2019) D3tw: Discriminative
+  differentiable dynamic time warping for weakly supervised action alignment
+  and segmentation. In: CVPR
+
+\bibitem[{Chang et~al(2024)Chang, Prakash, and Gupta}]{chang2024look}
+Chang M, Prakash A, Gupta S (2024) Look ma, no hands! agent-environment
+  factorization of egocentric videos. NeurIPS
+
+\bibitem[{Chang et~al(2021)Chang, Zhang, Wang, Ma, Ye, Xinguang, and
+  Gao}]{chang2021mau}
+Chang Z, Zhang X, Wang S, Ma S, Ye Y, Xinguang X, Gao W (2021) Mau: A
+  motion-aware unit for video prediction and beyond. In: NeurIPS
+
+\bibitem[{Chang et~al(2022)Chang, Zhang, Wang, Ma, and Gao}]{chang2022strpm}
+Chang Z, Zhang X, Wang S, Ma S, Gao W (2022) Strpm: A spatiotemporal residual
+  predictive model for high-resolution video prediction. In: CVPR
+
+\bibitem[{Chao et~al(2018)Chao, Vijayanarasimhan, Seybold, Ross, Deng, and
+  Sukthankar}]{chao2018rethinking}
+Chao YW, Vijayanarasimhan S, Seybold B, Ross DA, Deng J, Sukthankar R (2018)
+  Rethinking the faster r-cnn architecture for temporal action localization.
+  In: CVPR
+
+\bibitem[{Chao et~al(2021)Chao, Yang, Xiang, Molchanov, Handa, Tremblay,
+  Narang, Van~Wyk, Iqbal, Birchfield et~al}]{chao2021dexycb}
+Chao YW, Yang W, Xiang Y, Molchanov P, Handa A, Tremblay J, Narang YS, Van~Wyk
+  K, Iqbal U, Birchfield S, et~al (2021) Dexycb: A benchmark for capturing hand
+  grasping of objects. In: CVPR
+
+\bibitem[{Chen and Dolan(2011)}]{chen2011collecting}
+Chen D, Dolan WB (2011) Collecting highly parallel data for paraphrase
+  evaluation. In: ACL
+
+\bibitem[{Chen et~al(2022{\natexlab{a}})Chen, Zheng, Wang, and
+  Lu}]{chen2022dcan}
+Chen G, Zheng YD, Wang L, Lu T (2022{\natexlab{a}}) Dcan: improving temporal
+  action detection via dual context aggregation. In: AAAI
+
+\bibitem[{Chen et~al(2020{\natexlab{a}})Chen, Xie, Vedaldi, and
+  Zisserman}]{chen2020vggsound}
+Chen H, Xie W, Vedaldi A, Zisserman A (2020{\natexlab{a}}) Vggsound: A
+  large-scale audio-visual dataset. In: ICASSP
+
+\bibitem[{Chen et~al(2018{\natexlab{a}})Chen, Chen, Ma, Jie, and
+  Chua}]{chen2018temporally}
+Chen J, Chen X, Ma L, Jie Z, Chua TS (2018{\natexlab{a}}) Temporally grounding
+  natural sentence in video. In: EMNLP
+
+\bibitem[{Chen et~al(2020{\natexlab{b}})Chen, Lu, Tang, Xiao, Zhang, Tan, and
+  Li}]{chen2020rethinking}
+Chen L, Lu C, Tang S, Xiao J, Zhang D, Tan C, Li X (2020{\natexlab{b}})
+  Rethinking the bottom-up framework for query-based video localization. In:
+  AAAI
+
+\bibitem[{Chen et~al(2022{\natexlab{b}})Chen, Lu, Song, and
+  Zhou}]{chen2022ambiguousness}
+Chen L, Lu J, Song Z, Zhou J (2022{\natexlab{b}}) Ambiguousness-aware state
+  evolution for action prediction. IEEE TCSVT
+
+\bibitem[{Chen and Jiang(2021)}]{chen2021towards}
+Chen S, Jiang YG (2021) Towards bridging event captioner and sentence localizer
+  for weakly supervised dense event captioning. In: CVPR
+
+\bibitem[{Chen et~al(2021)Chen, Sun, Xie, Ge, Wu, Ma, Shen, and
+  Luo}]{chen2021watch}
+Chen S, Sun P, Xie E, Ge C, Wu J, Ma L, Shen J, Luo P (2021) Watch only once:
+  An end-to-end video action detection framework. In: ICCV
+
+\bibitem[{Chen and Rao(1998)}]{chen1998audio}
+Chen T, Rao RR (1998) Audio-visual integration in multimodal communication.
+  Proceedings of the IEEE
+
+\bibitem[{Chen et~al(2020{\natexlab{c}})Chen, Kornblith, Norouzi, and
+  Hinton}]{chen2020simple}
+Chen T, Kornblith S, Norouzi M, Hinton G (2020{\natexlab{c}}) A simple
+  framework for contrastive learning of visual representations. In: ICML
+
+\bibitem[{Chen et~al(2024)Chen, Siarohin, Menapace, Deyneka, Chao, Jeon, Fang,
+  Lee, Ren, Yang et~al}]{chen2024panda}
+Chen TS, Siarohin A, Menapace W, Deyneka E, Chao Hw, Jeon BE, Fang Y, Lee HY,
+  Ren J, Yang MH, et~al (2024) Panda-70m: Captioning 70m videos with multiple
+  cross-modality teachers. In: CVPR
+
+\bibitem[{Chen et~al(2017)Chen, Wang, Wang, and Li}]{chen2017learning}
+Chen X, Wang W, Wang J, Li W (2017) Learning object-centric transformation for
+  video prediction. In: MM
+
+\bibitem[{Chen et~al(2018{\natexlab{b}})Chen, Kalantidis, Li, Yan, and
+  Feng}]{chen20182}
+Chen Y, Kalantidis Y, Li J, Yan S, Feng J (2018{\natexlab{b}}) A\^{} 2-nets:
+  Double attention networks. NeurIPS
+
+\bibitem[{Chen et~al(2018{\natexlab{c}})Chen, Kalantidis, Li, Yan, and
+  Feng}]{chen2018multi}
+Chen Y, Kalantidis Y, Li J, Yan S, Feng J (2018{\natexlab{c}}) Multi-fiber
+  networks for video recognition. In: ECCV
+
+\bibitem[{Chen et~al(2019)Chen, Fan, Xu, Yan, Kalantidis, Rohrbach, Yan, and
+  Feng}]{chen2019drop}
+Chen Y, Fan H, Xu B, Yan Z, Kalantidis Y, Rohrbach M, Yan S, Feng J (2019) Drop
+  an octave: Reducing spatial redundancy in convolutional neural networks with
+  octave convolution. In: CVPR
+
+\bibitem[{Chen et~al(2023)Chen, Liu, Zhang, Fok, Qi, and Wu}]{chen2023mgfn}
+Chen Y, Liu Z, Zhang B, Fok W, Qi X, Wu YC (2023) Mgfn: Magnitude-contrastive
+  glance-and-focus network for weakly-supervised video anomaly detection. In:
+  AAAI
+
+\bibitem[{Cheng and Bertasius(2022)}]{cheng2022tallformer}
+Cheng F, Bertasius G (2022) Tallformer: Temporal action localization with a
+  long-memory transformer. In: ECCV
+
+\bibitem[{Cheng et~al(2022)Cheng, Xu, Xiong, Chen, Li, Li, and
+  Xia}]{cheng2022stochastic}
+Cheng F, Xu M, Xiong Y, Chen H, Li X, Li W, Xia W (2022) Stochastic
+  backpropagation: A memory efficient strategy for training video models. In:
+  CVPR
+
+\bibitem[{Cheng et~al(2024)Cheng, Guo, Wu, Fang, Li, Liu, and
+  Liu}]{cheng2024egothink}
+Cheng S, Guo Z, Wu J, Fang K, Li P, Liu H, Liu Y (2024) Egothink: Evaluating
+  first-person perspective thinking capability of vision-language models. In:
+  CVPR
+
+\bibitem[{Cherian et~al(2022)Cherian, Hori, Marks, and Le~Roux}]{cherian20222}
+Cherian A, Hori C, Marks TK, Le~Roux J (2022) (2.5+ 1) d spatio-temporal scene
+  graphs for video question answering. In: AAAI
+
+\bibitem[{Chi et~al(2023)Chi, Lee, Agarwal, Xu, Ramani, and
+  Choi}]{chi2023adamsformer}
+Chi Hg, Lee K, Agarwal N, Xu Y, Ramani K, Choi C (2023) Adamsformer for spatial
+  action localization in the future. In: CVPR
+
+\bibitem[{Cho et~al(2022)Cho, Kim, Kim, Cho, and Lee}]{cho2022unsupervised}
+Cho M, Kim T, Kim WJ, Cho S, Lee S (2022) Unsupervised video anomaly detection
+  via normalizing flows with implicit latent features. PR
+
+\bibitem[{Choi et~al(2019)Choi, Gao, Messou, and Huang}]{choi2019can}
+Choi J, Gao C, Messou JC, Huang JB (2019) Why can't i dance in the mall?
+  learning to mitigate scene bias in action recognition. NeurIPS
+
+\bibitem[{Chung and Zisserman(2016)}]{chung2016signs}
+Chung J, Zisserman A (2016) Signs in time: Encoding human motion as a temporal
+  image. In: ECCVw
+
+\bibitem[{Chung et~al(2021)Chung, Wuu, Yang, Tai, and Tang}]{chung2021haa500}
+Chung J, Wuu Ch, Yang Hr, Tai YW, Tang CK (2021) Haa500: Human-centric atomic
+  action dataset with curated videos. In: ICCV
+
+\bibitem[{Cipolla and Blake(1990)}]{cipolla1990dynamic}
+Cipolla R, Blake A (1990) The dynamic analysis of apparent contours. In: ICCV
+
+\bibitem[{Clark et~al(2019)Clark, Donahue, and Simonyan}]{clark2019adversarial}
+Clark A, Donahue J, Simonyan K (2019) Adversarial video generation on complex
+  datasets. arxiv
+
+\bibitem[{Cui et~al(2023)Cui, Zeng, Zhao, Yang, Wu, and
+  Wang}]{cui2023sportsmot}
+Cui Y, Zeng C, Zhao X, Yang Y, Wu G, Wang L (2023) Sportsmot: A large
+  multi-object tracking dataset in multiple sports scenes. In: ICCV
+
+\bibitem[{Cutler and Davis(2000)}]{ross2000robust}
+Cutler R, Davis LS (2000) {Robust Real-Time Periodic Motion Detection,
+  Analysis, and Applications}. IEEE TPAMI
+
+\bibitem[{Dai et~al(2022{\natexlab{a}})Dai, Das, Sharma, Minciullo, Garattoni,
+  Bremond, and Francesca}]{dai2022toyota}
+Dai R, Das S, Sharma S, Minciullo L, Garattoni L, Bremond F, Francesca G
+  (2022{\natexlab{a}}) Toyota smarthome untrimmed: Real-world untrimmed videos
+  for activity detection. IEEE TPAMI
+
+\bibitem[{Dai et~al(2022{\natexlab{b}})Dai, Tang, Liu, Tan, Zhou, Wang, Feng,
+  Zhang, Hu, and Shi}]{dai2022one}
+Dai Y, Tang D, Liu L, Tan M, Zhou C, Wang J, Feng Z, Zhang F, Hu X, Shi S
+  (2022{\natexlab{b}}) One model, multiple modalities: A sparsely activated
+  approach for text, sound, image, video and code. arxiv
+
+\bibitem[{Damen et~al(2018)Damen, Doughty, Farinella, Fidler, Furnari, Kazakos,
+  Moltisanti, Munro, Perrett, Price et~al}]{damen2018scaling}
+Damen D, Doughty H, Farinella GM, Fidler S, Furnari A, Kazakos E, Moltisanti D,
+  Munro J, Perrett T, Price W, et~al (2018) Scaling egocentric vision: The
+  epic-kitchens dataset. In: ECCV
+
+\bibitem[{Damen et~al(2022)Damen, Doughty, Farinella, Furnari, Kazakos, Ma,
+  Moltisanti, Munro, Perrett, Price et~al}]{damen2022rescaling}
+Damen D, Doughty H, Farinella GM, Furnari A, Kazakos E, Ma J, Moltisanti D,
+  Munro J, Perrett T, Price W, et~al (2022) Rescaling egocentric vision:
+  Collection, pipeline and challenges for epic-kitchens-100. IJCV
+
+\bibitem[{Dang et~al(2021)Dang, Le, Le, and Tran}]{dang2021hierarchical}
+Dang LH, Le TM, Le V, Tran T (2021) Hierarchical object-oriented
+  spatio-temporal reasoning for video question answering. In: IJCAI
+
+\bibitem[{Davtyan et~al(2023)Davtyan, Sameni, and
+  Favaro}]{davtyan2023efficient}
+Davtyan A, Sameni S, Favaro P (2023) Efficient video prediction via sparsely
+  conditioned flow matching. In: ICCV
+
+\bibitem[{De~Geest et~al(2016)De~Geest, Gavves, Ghodrati, Li, Snoek, and
+  Tuytelaars}]{de2016online}
+De~Geest R, Gavves E, Ghodrati A, Li Z, Snoek C, Tuytelaars T (2016) Online
+  action detection. In: ECCV
+
+\bibitem[{Deng et~al(2021)Deng, Chen, Chen, He, and Wu}]{deng2021sketch}
+Deng C, Chen S, Chen D, He Y, Wu Q (2021) Sketch, ground, and refine: Top-down
+  dense video captioning. In: CVPR
+
+\bibitem[{Denton and Fergus(2018)}]{denton2018stochastic}
+Denton E, Fergus R (2018) Stochastic video generation with a learned prior. In:
+  ICML
+
+\bibitem[{Dessalene et~al(2021)Dessalene, Devaraj, Maynord, Ferm{\"u}ller, and
+  Aloimonos}]{dessalene2021forecasting}
+Dessalene E, Devaraj C, Maynord M, Ferm{\"u}ller C, Aloimonos Y (2021)
+  Forecasting action through contact representations from first person video.
+  IEEE TPAMI
+
+\bibitem[{Destro and Gygli(2024)}]{destro2024cyclecl}
+Destro M, Gygli M (2024) {CycleCL: Self-supervised Learning for Periodic
+  Videos}. In: WACV
+
+\bibitem[{Dhariwal and Nichol(2021)}]{dhariwal2021diffusion}
+Dhariwal P, Nichol A (2021) Diffusion models beat gans on image synthesis.
+  NeurIPS
+
+\bibitem[{Dhiman and Vishwakarma(2019)}]{dhiman2019review}
+Dhiman C, Vishwakarma DK (2019) A review of state-of-the-art techniques for
+  abnormal human activity recognition. EAAI
+
+\bibitem[{Diba et~al(2020)Diba, Fayyaz, Sharma, Paluri, Gall, Stiefelhagen, and
+  Van~Gool}]{diba2020large}
+Diba A, Fayyaz M, Sharma V, Paluri M, Gall J, Stiefelhagen R, Van~Gool L (2020)
+  Large scale holistic video understanding. In: ECCV
+
+\bibitem[{Dietterich et~al(1997)Dietterich, Lathrop, and
+  Lozano-P{\'e}rez}]{dietterich1997solving}
+Dietterich TG, Lathrop RH, Lozano-P{\'e}rez T (1997) Solving the multiple
+  instance problem with axis-parallel rectangles. Artificial intelligence
+
+\bibitem[{Diko et~al(2024)Diko, Avola, Prenkaj, Fontana, and
+  Cinque}]{diko2024semantically}
+Diko A, Avola D, Prenkaj B, Fontana F, Cinque L (2024) Semantically guided
+  representation learning for action anticipation. In: ECCV
+
+\bibitem[{Ding et~al(2023)Ding, Sener, and Yao}]{ding2023temporal}
+Ding G, Sener F, Yao A (2023) Temporal action segmentation: An analysis of
+  modern techniques. IEEE TPAMI
+
+\bibitem[{Doll{\'a}r et~al(2005)Doll{\'a}r, Rabaud, Cottrell, and
+  Belongie}]{dollar2005behavior}
+Doll{\'a}r P, Rabaud V, Cottrell G, Belongie S (2005) Behavior recognition via
+  sparse spatio-temporal features. In: VS-PETS
+
+\bibitem[{Donahue and Elhamifar(2024)}]{donahue2024learning}
+Donahue G, Elhamifar E (2024) Learning to predict activity progress by
+  self-supervised video alignment. In: CVPR
+
+\bibitem[{Donahue et~al(2015)Donahue, Anne~Hendricks, Guadarrama, Rohrbach,
+  Venugopalan, Saenko, and Darrell}]{donahue2015long}
+Donahue J, Anne~Hendricks L, Guadarrama S, Rohrbach M, Venugopalan S, Saenko K,
+  Darrell T (2015) Long-term recurrent convolutional networks for visual
+  recognition and description. In: CVPR
+
+\bibitem[{Dong et~al(2018)Dong, Li, and Snoek}]{dong2018predicting}
+Dong J, Li X, Snoek CG (2018) Predicting visual features from text for image
+  and video caption retrieval. TM
+
+\bibitem[{Dosovitskiy et~al(2020)Dosovitskiy, Beyer, Kolesnikov, Weissenborn,
+  Zhai, Unterthiner, Dehghani, Minderer, Heigold, Gelly
+  et~al}]{dosovitskiy2020image}
+Dosovitskiy A, Beyer L, Kolesnikov A, Weissenborn D, Zhai X, Unterthiner T,
+  Dehghani M, Minderer M, Heigold G, Gelly S, et~al (2020) An image is worth
+  16x16 words: Transformers for image recognition at scale. In: ICLR
+
+\bibitem[{Doughty and Snoek(2022)}]{doughty2022you}
+Doughty H, Snoek CG (2022) How do you do it? fine-grained action understanding
+  with pseudo-adverbs. In: CVPR
+
+\bibitem[{Doughty et~al(2018)Doughty, Damen, and Mayol-Cuevas}]{doughty2018s}
+Doughty H, Damen D, Mayol-Cuevas W (2018) Who's better? who's best? pairwise
+  deep ranking for skill determination. In: CVPR
+
+\bibitem[{Doughty et~al(2020)Doughty, Laptev, Mayol-Cuevas, and
+  Damen}]{doughty2020action}
+Doughty H, Laptev I, Mayol-Cuevas W, Damen D (2020) Action modifiers: Learning
+  from adverbs in instructional videos. In: CVPR
+
+\bibitem[{Du et~al(2017)Du, Wang, and Qiao}]{du2017recurrent}
+Du W, Wang Y, Qiao Y (2017) Recurrent spatial-temporal attention network for
+  action recognition in videos. IEEE T-IP
+
+\bibitem[{Dubey et~al(2019)Dubey, Boragule, and Jeon}]{dubey20193d}
+Dubey S, Boragule A, Jeon M (2019) 3d resnet with ranking loss function for
+  abnormal activity detection in videos. In: ICCAIS
+
+\bibitem[{Dvornik et~al(2021)Dvornik, Hadji, Derpanis, Garg, and
+  Jepson}]{dvornik2021drop}
+Dvornik M, Hadji I, Derpanis KG, Garg A, Jepson A (2021) Drop-dtw: Aligning
+  common signal between sequences while dropping outliers. NeurIPS
+
+\bibitem[{Dwibedi et~al(2018)Dwibedi, Sermanet, and
+  Tompson}]{dwibedi2018temporal}
+Dwibedi D, Sermanet P, Tompson J (2018) Temporal reasoning in videos using
+  convolutional gated recurrent units. In: CVPRw
+
+\bibitem[{Dwibedi et~al(2020)Dwibedi, Aytar, Tompson, Sermanet, and
+  Zisserman}]{dwibedi2020counting}
+Dwibedi D, Aytar Y, Tompson J, Sermanet P, Zisserman A (2020) Counting out
+  time: Class agnostic video repetition counting in the wild. In: CVPR
+
+\bibitem[{Dwibedi et~al(2024)Dwibedi, Aytar, Tompson, and
+  Zisserman}]{dwibedi2024ovr}
+Dwibedi D, Aytar Y, Tompson J, Zisserman A (2024) Ovr: A dataset for open
+  vocabulary temporal repetition counting in videos. arXiv
+
+\bibitem[{Edwards et~al(2016)Edwards, Deng, and Xie}]{edwards2016pose}
+Edwards M, Deng J, Xie X (2016) From pose to activity: Surveying datasets and
+  introducing converse. CVIU
+
+\bibitem[{Efros et~al(2003)Efros, Berg, Mori, and Malik}]{efros2003recognizing}
+Efros A, Berg A, Mori G, Malik J (2003) Recognizing action at a distance. In:
+  ICCV
+
+\bibitem[{Epstein et~al(2020)Epstein, Chen, and Vondrick}]{epstein2020oops}
+Epstein D, Chen B, Vondrick C (2020) Oops! predicting unintentional action in
+  video. In: CVPR
+
+\bibitem[{Epstein et~al(2021)Epstein, Wu, Schmid, and
+  Sun}]{epstein2021learning}
+Epstein D, Wu J, Schmid C, Sun C (2021) Learning temporal dynamics from cycles
+  in narrated video. In: ICCV
+
+\bibitem[{Escorcia et~al(2019)Escorcia, Soldan, Sivic, Ghanem, and
+  Russell}]{escorcia2019temporal}
+Escorcia V, Soldan M, Sivic J, Ghanem B, Russell B (2019) Temporal localization
+  of moments in video collections with natural language. arxiv
+
+\bibitem[{Fan et~al(2019)Fan, Zhang, Zhang, Wang, Zhang, and
+  Huang}]{fan2019heterogeneous}
+Fan C, Zhang X, Zhang S, Wang W, Zhang C, Huang H (2019) Heterogeneous memory
+  enhanced multimodal attention model for video question answering. In: CVPR
+
+\bibitem[{Fan et~al(2021)Fan, Xiong, Mangalam, Li, Yan, Malik, and
+  Feichtenhofer}]{fan2021multiscale}
+Fan H, Xiong B, Mangalam K, Li Y, Yan Z, Malik J, Feichtenhofer C (2021)
+  Multiscale vision transformers. In: ICCV
+
+\bibitem[{Fathi and Rehg(2013)}]{fathi2013modeling}
+Fathi A, Rehg JM (2013) Modeling actions through state changes. In: CVPR
+
+\bibitem[{Faure et~al(2023)Faure, Chen, and Lai}]{faure2023holistic}
+Faure GJ, Chen MH, Lai SH (2023) Holistic interaction transformer network for
+  action detection. In: WACV
+
+\bibitem[{Fayek and Kumar(2020)}]{fayek2020large}
+Fayek HM, Kumar A (2020) Large scale audiovisual learning of sounds with weakly
+  labeled data. In: IJCAI
+
+\bibitem[{Feichtenhofer(2020)}]{feichtenhofer2020x3d}
+Feichtenhofer C (2020) X3d: Expanding architectures for efficient video
+  recognition. In: CVPR
+
+\bibitem[{Feichtenhofer et~al(2016)Feichtenhofer, Pinz, and
+  Zisserman}]{feichtenhofer2016convolutional}
+Feichtenhofer C, Pinz A, Zisserman A (2016) Convolutional two-stream network
+  fusion for video action recognition. In: CVPR
+
+\bibitem[{Feichtenhofer et~al(2017)Feichtenhofer, Pinz, and
+  Wildes}]{feichtenhofer2017spatiotemporal}
+Feichtenhofer C, Pinz A, Wildes RP (2017) Spatiotemporal multiplier networks
+  for video action recognition. In: CVPR
+
+\bibitem[{Feichtenhofer et~al(2019)Feichtenhofer, Fan, Malik, and
+  He}]{feichtenhofer2019slowfast}
+Feichtenhofer C, Fan H, Malik J, He K (2019) Slowfast networks for video
+  recognition. In: ICCV
+
+\bibitem[{Feichtenhofer et~al(2022)Feichtenhofer, Li, He
+  et~al}]{feichtenhofer2022masked}
+Feichtenhofer C, Li Y, He K, et~al (2022) Masked autoencoders as spatiotemporal
+  learners. NeurIPS
+
+\bibitem[{Feng et~al(2024)Feng, Erol, Chung, and Senocak}]{feng2024coarse}
+Feng J, Erol MH, Chung JS, Senocak A (2024) From coarse to fine: Efficient
+  training for audio spectrogram transformers. In: ICASSP
+
+\bibitem[{Feng et~al(2021{\natexlab{a}})Feng, Hong, and Zheng}]{feng2021mist}
+Feng JC, Hong FT, Zheng WS (2021{\natexlab{a}}) Mist: Multiple instance
+  self-training framework for video anomaly detection. In: CVPR
+
+\bibitem[{Feng et~al(2021{\natexlab{b}})Feng, Jiang, Huang, Qing, Wang, Zhang,
+  Tang, and Gao}]{feng2021relation}
+Feng Y, Jiang J, Huang Z, Qing Z, Wang X, Zhang S, Tang M, Gao Y
+  (2021{\natexlab{b}}) Relation modeling in spatio-temporal action
+  localization. In: CVPRw
+
+\bibitem[{Fernando and Herath(2021)}]{fernando2021anticipating}
+Fernando B, Herath S (2021) Anticipating human actions by correlating past with
+  the future with jaccard similarity measures. In: CVPR
+
+\bibitem[{Fernando et~al(2015)Fernando, Gavves, Oramas, Ghodrati, and
+  Tuytelaars}]{fernando2015modeling}
+Fernando B, Gavves E, Oramas JM, Ghodrati A, Tuytelaars T (2015) Modeling video
+  evolution for action recognition. In: CVPR
+
+\bibitem[{Fernando et~al(2016)Fernando, Gavves, Oramas, Ghodrati, and
+  Tuytelaars}]{fernando2016rank}
+Fernando B, Gavves E, Oramas J, Ghodrati A, Tuytelaars T (2016) Rank pooling
+  for action recognition. IEEE TPAMI
+
+\bibitem[{Fernando et~al(2017)Fernando, Bilen, Gavves, and
+  Gould}]{fernando2017self}
+Fernando B, Bilen H, Gavves E, Gould S (2017) Self-supervised video
+  representation learning with odd-one-out networks. In: CVPR
+
+\bibitem[{Ferreira et~al(2021)Ferreira, Ferreira, Pinheiro, Figueiredo,
+  Carvalho, Menezes, and Batista}]{ferreira2021deep}
+Ferreira B, Ferreira PM, Pinheiro G, Figueiredo N, Carvalho F, Menezes P,
+  Batista J (2021) {Deep Learning Approaches for Workout Repetition Counting
+  and Validation}. PRL
+
+\bibitem[{Fioresi et~al(2023)Fioresi, Dave, and Shah}]{fioresi2023ted}
+Fioresi J, Dave IR, Shah M (2023) Ted-spad: Temporal distinctiveness for
+  self-supervised privacy-preservation for video anomaly detection. In: ICCV
+
+\bibitem[{Flaborea et~al(2023)Flaborea, Collorone, Di~Melendugno, D'Arrigo,
+  Prenkaj, and Galasso}]{flaborea2023multimodal}
+Flaborea A, Collorone L, Di~Melendugno GMD, D'Arrigo S, Prenkaj B, Galasso F
+  (2023) Multimodal motion conditioned diffusion model for skeleton-based video
+  anomaly detection. In: ICCV
+
+\bibitem[{Flanagan et~al(2023)Flanagan, Damen, and Wray}]{flanagan2023learning}
+Flanagan K, Damen D, Wray M (2023) Learning temporal sentence grounding from
+  narrated egovideos. In: BMVC
+
+\bibitem[{Fogassi et~al(2005)Fogassi, Ferrari, Gesierich, Rozzi, Chersi, and
+  Rizzolatti}]{fogassi2005parietal}
+Fogassi L, Ferrari PF, Gesierich B, Rozzi S, Chersi F, Rizzolatti G (2005)
+  Parietal lobe: from action organization to intention understanding. Science
+
+\bibitem[{Foo et~al(2022)Foo, Li, Rahmani, Ke, and Liu}]{foo2022era}
+Foo LG, Li T, Rahmani H, Ke Q, Liu J (2022) Era: Expert retrieval and assembly
+  for early action prediction. In: ECCV
+
+\bibitem[{F{\"o}rstner and G{\"u}lch(1987)}]{forstner1987fast}
+F{\"o}rstner W, G{\"u}lch E (1987) A fast operator for detection and precise
+  location of distinct points, corners and centres of circular features. In:
+  ICFPPD
+
+\bibitem[{Fouhey et~al(2018)Fouhey, Kuo, Efros, and
+  Malik}]{fouhey2018lifestyle}
+Fouhey DF, Kuo Wc, Efros AA, Malik J (2018) From lifestyle vlogs to everyday
+  interactions. In: CVPR
+
+\bibitem[{Fu et~al(2022)Fu, Liu, and Kitani}]{fu2021sequential}
+Fu Q, Liu X, Kitani KM (2022) Sequential decision-making for active object
+  detection from hand. In: CVPR
+
+\bibitem[{Fu et~al(2021)Fu, Li, Gan, Lin, Wang, Wang, and Liu}]{fu2021violet}
+Fu TJ, Li L, Gan Z, Lin K, Wang WY, Wang L, Liu Z (2021) Violet: End-to-end
+  video-language transformers with masked visual-token modeling. arxiv
+
+\bibitem[{Fu et~al(2023)Fu, Yu, Zhang, Fu, Su, Wang, and Bell}]{fu2023tell}
+Fu TJ, Yu L, Zhang N, Fu CY, Su JC, Wang WY, Bell S (2023) Tell me what
+  happened: Unifying text-guided video completion via multimodal masked video
+  generation. In: CVPR
+
+\bibitem[{Furnari and Farinella(2019)}]{furnari2019would}
+Furnari A, Farinella GM (2019) What would you expect? anticipating egocentric
+  actions with rolling-unrolling lstms and modality attention. In: ICCV
+
+\bibitem[{Furnari et~al(2018)Furnari, Battiato, and
+  Maria~Farinella}]{furnari2018leveraging}
+Furnari A, Battiato S, Maria~Farinella G (2018) Leveraging uncertainty to
+  rethink loss functions and evaluation measures for egocentric action
+  anticipation. In: ECCVw
+
+\bibitem[{Gabeur et~al(2020)Gabeur, Sun, Alahari, and Schmid}]{gabeur2020multi}
+Gabeur V, Sun C, Alahari K, Schmid C (2020) Multi-modal transformer for video
+  retrieval. In: ECCV
+
+\bibitem[{Gallese et~al(1996)Gallese, Fadiga, Fogassi, and
+  Rizzolatti}]{gallese1996action}
+Gallese V, Fadiga L, Fogassi L, Rizzolatti G (1996) Action recognition in the
+  premotor cortex. Brain
+
+\bibitem[{Gammulle et~al(2019)Gammulle, Denman, Sridharan, and
+  Fookes}]{gammulle2019predicting}
+Gammulle H, Denman S, Sridharan S, Fookes C (2019) Predicting the future: A
+  jointly learnt model for action anticipation. In: ICCV
+
+\bibitem[{Gao et~al(2023)Gao, Zhou, Ji, Zhu, Yang, and Shou}]{gao2023mist}
+Gao D, Zhou L, Ji L, Zhu L, Yang Y, Shou MZ (2023) Mist: Multi-modal iterative
+  spatial-temporal transformer for long-form video question answering. In: CVPR
+
+\bibitem[{Gao et~al(2017{\natexlab{a}})Gao, Sun, Yang, and
+  Nevatia}]{gao2017tall}
+Gao J, Sun C, Yang Z, Nevatia R (2017{\natexlab{a}}) Tall: Temporal activity
+  localization via language query. In: ICCV
+
+\bibitem[{Gao et~al(2017{\natexlab{b}})Gao, Yang, and Nevatia}]{gao2017red}
+Gao J, Yang Z, Nevatia R (2017{\natexlab{b}}) Red: Reinforced encoder-decoder
+  networks for action anticipation. arxiv
+
+\bibitem[{Gao et~al(2018)Gao, Ge, Chen, and Nevatia}]{gao2018motion}
+Gao J, Ge R, Chen K, Nevatia R (2018) Motion-appearance co-memory networks for
+  video question answering. In: CVPR
+
+\bibitem[{Gao et~al(2020)Gao, Oh, Grauman, and Torresani}]{gao2020listen}
+Gao R, Oh TH, Grauman K, Torresani L (2020) Listen to look: Action recognition
+  by previewing audio. In: CVPR
+
+\bibitem[{Gao et~al(2022)Gao, Tan, Wu, and Li}]{gao2022simvp}
+Gao Z, Tan C, Wu L, Li SZ (2022) Simvp: Simpler yet better video prediction.
+  In: CVPR
+
+\bibitem[{Garcia-Hernando et~al(2018)Garcia-Hernando, Yuan, Baek, and
+  Kim}]{garcia2018first}
+Garcia-Hernando G, Yuan S, Baek S, Kim TK (2018) First-person hand action
+  benchmark with rgb-d videos and 3d hand pose annotations. In: CVPR
+
+\bibitem[{Ge et~al(2019)Ge, Gao, Chen, and Nevatia}]{ge2019mac}
+Ge R, Gao J, Chen K, Nevatia R (2019) Mac: Mining activity concepts for
+  language-based temporal localization. In: WACV
+
+\bibitem[{Ge et~al(2022{\natexlab{a}})Ge, Hayes, Yang, Yin, Pang, Jacobs,
+  Huang, and Parikh}]{ge2022long}
+Ge S, Hayes T, Yang H, Yin X, Pang G, Jacobs D, Huang JB, Parikh D
+  (2022{\natexlab{a}}) Long video generation with time-agnostic vqgan and
+  time-sensitive transformer. In: ECCV
+
+\bibitem[{Ge et~al(2022{\natexlab{b}})Ge, Ge, Liu, Li, Shan, Qie, and
+  Luo}]{ge2022bridging}
+Ge Y, Ge Y, Liu X, Li D, Shan Y, Qie X, Luo P (2022{\natexlab{b}}) Bridging
+  video-text retrieval with multiple choice questions. In: CVPR
+
+\bibitem[{Gemmeke et~al(2017)Gemmeke, Ellis, Freedman, Jansen, Lawrence, Moore,
+  Plakal, and Ritter}]{gemmeke2017audio}
+Gemmeke JF, Ellis DP, Freedman D, Jansen A, Lawrence W, Moore RC, Plakal M,
+  Ritter M (2017) Audio set: An ontology and human-labeled dataset for audio
+  events. In: ICASSP
+
+\bibitem[{Geng et~al(2021)Geng, Gao, Chatterjee, Hori, Le~Roux, Zhang, Li, and
+  Cherian}]{geng2021dynamic}
+Geng S, Gao P, Chatterjee M, Hori C, Le~Roux J, Zhang Y, Li H, Cherian A (2021)
+  Dynamic graph representation learning for video dialog via multi-modal
+  shuffled transformers. In: AAAI
+
+\bibitem[{Georgescu et~al(2021)Georgescu, Barbalau, Ionescu, Khan, Popescu, and
+  Shah}]{georgescu2021anomaly}
+Georgescu MI, Barbalau A, Ionescu RT, Khan FS, Popescu M, Shah M (2021) Anomaly
+  detection in video via self-supervised and multi-task learning. In: CVPR
+
+\bibitem[{Georgescu et~al(2023)Georgescu, Fonseca, Ionescu, Lucic, Schmid, and
+  Arnab}]{georgescu2023audiovisual}
+Georgescu MI, Fonseca E, Ionescu RT, Lucic M, Schmid C, Arnab A (2023)
+  Audiovisual masked autoencoders. In: ICCV
+
+\bibitem[{Ghadiyaram et~al(2019)Ghadiyaram, Tran, and
+  Mahajan}]{ghadiyaram2019large}
+Ghadiyaram D, Tran D, Mahajan D (2019) Large-scale weakly-supervised
+  pre-training for video action recognition. In: CVPR
+
+\bibitem[{Ghodrati et~al(2021)Ghodrati, Bejnordi, and
+  Habibian}]{ghodrati2021frameexit}
+Ghodrati A, Bejnordi BE, Habibian A (2021) Frameexit: Conditional early exiting
+  for efficient video recognition. In: CVPR
+
+\bibitem[{Girdhar and Grauman(2021)}]{girdhar2021anticipative}
+Girdhar R, Grauman K (2021) Anticipative video transformer. In: ICCV
+
+\bibitem[{Girdhar and Ramanan(2017)}]{girdhar2017attentional}
+Girdhar R, Ramanan D (2017) Attentional pooling for action recognition. NeurIPS
+
+\bibitem[{Girdhar et~al(2019)Girdhar, Carreira, Doersch, and
+  Zisserman}]{girdhar2019video}
+Girdhar R, Carreira J, Doersch C, Zisserman A (2019) Video action transformer
+  network. In: CVPR
+
+\bibitem[{Girshick(2015)}]{girshick2015fast}
+Girshick R (2015) Fast r-cnn. In: ICCV
+
+\bibitem[{Girshick et~al(2014)Girshick, Donahue, Darrell, and
+  Malik}]{girshick2014rich}
+Girshick R, Donahue J, Darrell T, Malik J (2014) Rich feature hierarchies for
+  accurate object detection and semantic segmentation. In: CVPR
+
+\bibitem[{Gong et~al(2022{\natexlab{a}})Gong, Lee, Kim, Ha, and
+  Cho}]{gong2022future}
+Gong D, Lee J, Kim M, Ha SJ, Cho M (2022{\natexlab{a}}) Future transformer for
+  long-term action anticipation. In: CVPR
+
+\bibitem[{Gong et~al(2021)Gong, Chung, and Glass}]{gong2021psla}
+Gong Y, Chung YA, Glass J (2021) Psla: Improving audio tagging with
+  pretraining, sampling, labeling, and aggregation. IEEE/ACM TASLP
+
+\bibitem[{Gong et~al(2022{\natexlab{b}})Gong, Liu, Rouditchenko, and
+  Glass}]{gong2022uavm}
+Gong Y, Liu AH, Rouditchenko A, Glass J (2022{\natexlab{b}}) Uavm: Towards
+  unifying audio and visual models. IEEE SPL
+
+\bibitem[{Gong et~al(2023)Gong, Rouditchenko, Liu, Harwath, Karlinsky, Kuehne,
+  and Glass}]{gong2023contrastive}
+Gong Y, Rouditchenko A, Liu AH, Harwath D, Karlinsky L, Kuehne H, Glass J
+  (2023) Contrastive audio-visual masked autoencoder. In: ICLR
+
+\bibitem[{Gordo and Larlus(2017)}]{gordo2017beyond}
+Gordo A, Larlus D (2017) Beyond instance-level image retrieval: Leveraging
+  captions to learn a global visual representation for semantic retrieval. In:
+  CVPR
+
+\bibitem[{Gorelick et~al(2006)Gorelick, Galun, Sharon, Basri, and
+  Brandt}]{gorelick2006shape}
+Gorelick L, Galun M, Sharon E, Basri R, Brandt A (2006) Shape representation
+  and classification using the poisson equation. IEEE TPAMI
+
+\bibitem[{Gorelick et~al(2007)Gorelick, Blank, Shechtman, Irani, and
+  Basri}]{gorelick2007actions}
+Gorelick L, Blank M, Shechtman E, Irani M, Basri R (2007) Actions as space-time
+  shapes. IEEE TPAMI
+
+\bibitem[{Goroshin et~al(2015)Goroshin, Bruna, Tompson, Eigen, and
+  LeCun}]{goroshin2015unsupervised}
+Goroshin R, Bruna J, Tompson J, Eigen D, LeCun Y (2015) Unsupervised learning
+  of spatiotemporally coherent metrics. In: ICCV
+
+\bibitem[{Gouidis et~al(2023)Gouidis, Patkos, Argyros, and
+  Plexousakis}]{gouidis2023leveraging}
+Gouidis F, Patkos T, Argyros A, Plexousakis D (2023) Leveraging knowledge
+  graphs for zero-shot object-agnostic state classification. arxiv
+
+\bibitem[{Gowda et~al(2021)Gowda, Rohrbach, and Sevilla-Lara}]{gowda2021smart}
+Gowda SN, Rohrbach M, Sevilla-Lara L (2021) Smart frame selection for action
+  recognition. In: AAAI
+
+\bibitem[{Goyal et~al(2017)Goyal, Ebrahimi~Kahou, Michalski, Materzynska,
+  Westphal, Kim, Haenel, Fruend, Yianilos, Mueller-Freitag
+  et~al}]{goyal2017something}
+Goyal R, Ebrahimi~Kahou S, Michalski V, Materzynska J, Westphal S, Kim H,
+  Haenel V, Fruend I, Yianilos P, Mueller-Freitag M, et~al (2017) The"
+  something something" video database for learning and evaluating visual common
+  sense. In: ICCV
+
+\bibitem[{Grauman et~al(2022)Grauman, Westbury, Byrne, Chavis, Furnari,
+  Girdhar, Hamburger, Jiang, Liu, Liu et~al}]{grauman2022ego4d}
+Grauman K, Westbury A, Byrne E, Chavis Z, Furnari A, Girdhar R, Hamburger J,
+  Jiang H, Liu M, Liu X, et~al (2022) Ego4d: Around the world in 3,000 hours of
+  egocentric video. In: CVPR
+
+\bibitem[{Grauman et~al(2024)Grauman, Westbury, Torresani, Kitani, Malik,
+  Afouras, Ashutosh, Baiyya, Bansal, Boote et~al}]{grauman2024ego}
+Grauman K, Westbury A, Torresani L, Kitani K, Malik J, Afouras T, Ashutosh K,
+  Baiyya V, Bansal S, Boote B, et~al (2024) Ego-exo4d: Understanding skilled
+  human activity from first-and third-person perspectives. In: CVPR
+
+\bibitem[{Gritsenko et~al(2024)Gritsenko, Xiong, Djolonga, Dehghani, Sun,
+  Lucic, Schmid, and Arnab}]{gritsenko2024end}
+Gritsenko AA, Xiong X, Djolonga J, Dehghani M, Sun C, Lucic M, Schmid C, Arnab
+  A (2024) End-to-end spatio-temporal action localisation with video
+  transformers. In: CVPR
+
+\bibitem[{Gu et~al(2018)Gu, Sun, Ross, Vondrick, Pantofaru, Li,
+  Vijayanarasimhan, Toderici, Ricco, Sukthankar et~al}]{gu2018ava}
+Gu C, Sun C, Ross DA, Vondrick C, Pantofaru C, Li Y, Vijayanarasimhan S,
+  Toderici G, Ricco S, Sukthankar R, et~al (2018) Ava: A video dataset of
+  spatio-temporally localized atomic visual actions. In: CVPR
+
+\bibitem[{Gu et~al(2024{\natexlab{a}})Gu, Fan, Huang, Luo, and
+  Zhang}]{gu2024context}
+Gu X, Fan H, Huang Y, Luo T, Zhang L (2024{\natexlab{a}}) Context-guided
+  spatio-temporal video grounding. In: CVPR
+
+\bibitem[{Gu et~al(2024{\natexlab{b}})Gu, Wen, Ye, Song, and Gao}]{gu2023seer}
+Gu X, Wen C, Ye W, Song J, Gao Y (2024{\natexlab{b}}) Seer: Language instructed
+  video prediction with latent diffusion models. In: ICLR
+
+\bibitem[{Guen and Thome(2020)}]{guen2020disentangling}
+Guen VL, Thome N (2020) Disentangling physical dynamics from unknown factors
+  for unsupervised video prediction. In: CVPR
+
+\bibitem[{Gulati et~al(2020)Gulati, Qin, Chiu, Parmar, Zhang, Yu, Han, Wang,
+  Zhang, Wu et~al}]{gulati2020conformer}
+Gulati A, Qin J, Chiu CC, Parmar N, Zhang Y, Yu J, Han W, Wang S, Zhang Z, Wu
+  Y, et~al (2020) Conformer: Convolution-augmented transformer for speech
+  recognition. Interspeech
+
+\bibitem[{Guo et~al(2024{\natexlab{a}})Guo, Agarwal, Lo, Lee, and
+  Ji}]{guo2024uncertainty}
+Guo H, Agarwal N, Lo SY, Lee K, Ji Q (2024{\natexlab{a}}) Uncertainty-aware
+  action decoupling transformer for action anticipation. In: CVPR
+
+\bibitem[{Guo et~al(2024{\natexlab{b}})Guo, Sun, Ma, Zheng, Bao, Ma, Zou, and
+  Zheng}]{guo2024crossmae}
+Guo Y, Sun S, Ma S, Zheng K, Bao X, Ma S, Zou W, Zheng Y (2024{\natexlab{b}})
+  Crossmae: Cross-modality masked autoencoders for region-aware audio-visual
+  pre-training. In: CVPR
+
+\bibitem[{Guo et~al(2021)Guo, Zhao, Jiao, Liu, and Li}]{guo2021multi}
+Guo Z, Zhao J, Jiao L, Liu X, Li L (2021) Multi-scale progressive attention
+  network for video question answering. In: ACL
+
+\bibitem[{Gupta et~al(2009)Gupta, Kembhavi, and Davis}]{gupta2009observing}
+Gupta A, Kembhavi A, Davis LS (2009) Observing human-object interactions: Using
+  spatial and functional compatibility for recognition. IEEE TPAMI
+
+\bibitem[{Gupta et~al(2023)Gupta, Yu, Sohn, Gu, Hahn, Fei-Fei, Essa, Jiang, and
+  Lezama}]{gupta2023photorealistic}
+Gupta A, Yu L, Sohn K, Gu X, Hahn M, Fei-Fei L, Essa I, Jiang L, Lezama J
+  (2023) Photorealistic video generation with diffusion models. arxiv
+
+\bibitem[{Hadji et~al(2021)Hadji, Derpanis, and
+  Jepson}]{hadji2021representation}
+Hadji I, Derpanis KG, Jepson AD (2021) Representation learning via global
+  temporal alignment and cycle-consistency. In: CVPR
+
+\bibitem[{Hakeem and Shah(2004)}]{hakeem2004ontology}
+Hakeem A, Shah M (2004) Ontology and taxonomy collaborated framework for
+  meeting classification. In: ICPR
+
+\bibitem[{Hampali et~al(2020)Hampali, Rad, Oberweger, and
+  Lepetit}]{hampali2020honnotate}
+Hampali S, Rad M, Oberweger M, Lepetit V (2020) Honnotate: A method for 3d
+  annotation of hand and object poses. In: CVPR
+
+\bibitem[{Han et~al(2022{\natexlab{a}})Han, Ren, Lee, Barbieri, Olszewski,
+  Minaee, Metaxas, and Tulyakov}]{han2022show}
+Han L, Ren J, Lee HY, Barbieri F, Olszewski K, Minaee S, Metaxas D, Tulyakov S
+  (2022{\natexlab{a}}) Show me what and tell me how: Video synthesis via
+  multimodal conditioning. In: CVPR
+
+\bibitem[{Han et~al(2022{\natexlab{b}})Han, Xie, and
+  Zisserman}]{han2022temporal}
+Han T, Xie W, Zisserman A (2022{\natexlab{b}}) Temporal alignment networks for
+  long-term video. In: CVPR
+
+\bibitem[{Han et~al(2023{\natexlab{a}})Han, Bain, Nagrani, Varol, Xie, and
+  Zisserman}]{han2023autoadii}
+Han T, Bain M, Nagrani A, Varol G, Xie W, Zisserman A (2023{\natexlab{a}})
+  Autoad ii: The sequel-who, when, and what in movie audio description. In:
+  ICCV
+
+\bibitem[{Han et~al(2023{\natexlab{b}})Han, Bain, Nagrani, Varol, Xie, and
+  Zisserman}]{han2023autoad}
+Han T, Bain M, Nagrani A, Varol G, Xie W, Zisserman A (2023{\natexlab{b}})
+  Autoad: Movie description in context. In: CVPR
+
+\bibitem[{Han et~al(2024)Han, Bain, Nagrani, Varol, Xie, and
+  Zisserman}]{han2024autoadiii}
+Han T, Bain M, Nagrani A, Varol G, Xie W, Zisserman A (2024) Autoad iii: The
+  prequel-back to the pixels. In: CVPR
+
+\bibitem[{Hao et~al(2022)Hao, Sun, Ren, Wang, Qi, and Liao}]{hao2022query}
+Hao J, Sun H, Ren P, Wang J, Qi Q, Liao J (2022) Query-aware video encoder for
+  video moment retrieval. Neurocomputing
+
+\bibitem[{Hara et~al(2018)Hara, Kataoka, and Satoh}]{hara2018can}
+Hara K, Kataoka H, Satoh Y (2018) Can spatiotemporal 3d cnns retrace the
+  history of 2d cnns and imagenet? In: CVPR
+
+\bibitem[{Haresh et~al(2021)Haresh, Kumar, Coskun, Syed, Konin, Zia, and
+  Tran}]{haresh2021learning}
+Haresh S, Kumar S, Coskun H, Syed SN, Konin A, Zia Z, Tran QH (2021) Learning
+  by aligning videos in time. In: CVPR
+
+\bibitem[{Harris et~al(1988)Harris, Stephens et~al}]{harris1988combined}
+Harris C, Stephens M, et~al (1988) A combined corner and edge detector. In: AVC
+
+\bibitem[{Harvey et~al(2022)Harvey, Naderiparizi, Masrani, Weilbach, and
+  Wood}]{harvey2022flexible}
+Harvey W, Naderiparizi S, Masrani V, Weilbach C, Wood F (2022) Flexible
+  diffusion modeling of long videos. NeurIPS
+
+\bibitem[{Hasan et~al(2016)Hasan, Choi, Neumann, Roy-Chowdhury, and
+  Davis}]{hasan2016learning}
+Hasan M, Choi J, Neumann J, Roy-Chowdhury AK, Davis LS (2016) Learning temporal
+  regularity in video sequences. In: CVPR
+
+\bibitem[{He et~al(2022{\natexlab{a}})He, Yang, Kang, Cheng, Zhou, and
+  Shrivastava}]{he2022asm}
+He B, Yang X, Kang L, Cheng Z, Zhou X, Shrivastava A (2022{\natexlab{a}})
+  Asm-loc: Action-aware segment modeling for weakly-supervised temporal action
+  localization. In: CVPR
+
+\bibitem[{He et~al(2022{\natexlab{b}})He, Chen, Xie, Li, Doll{\'a}r, and
+  Girshick}]{he2022masked}
+He K, Chen X, Xie S, Li Y, Doll{\'a}r P, Girshick R (2022{\natexlab{b}}) Masked
+  autoencoders are scalable vision learners. In: CVPR
+
+\bibitem[{He et~al(2022{\natexlab{c}})He, Yang, Zhang, Shan, and
+  Chen}]{he2022latent}
+He Y, Yang T, Zhang Y, Shan Y, Chen Q (2022{\natexlab{c}}) Latent video
+  diffusion models for high-fidelity video generation with arbitrary lengths.
+  arxiv
+
+\bibitem[{Hegde et~al(2018)Hegde, Agrawal, Yao, and Fletcher}]{hegde2018morph}
+Hegde K, Agrawal R, Yao Y, Fletcher CW (2018) Morph: Flexible acceleration for
+  3d cnn-based video understanding. In: MICRO
+
+\bibitem[{Heidarivincheh et~al(2016)Heidarivincheh, Mirmehdi, and
+  Damen}]{heidarivincheh2016beyond}
+Heidarivincheh F, Mirmehdi M, Damen D (2016) Beyond action recognition: Action
+  completion in rgb-d data. In: BMVC
+
+\bibitem[{Heidarivincheh et~al(2018)Heidarivincheh, Mirmehdi, and
+  Damen}]{heidarivincheh2018action}
+Heidarivincheh F, Mirmehdi M, Damen D (2018) Action completion: A temporal
+  model for moment detection. In: BMVC
+
+\bibitem[{Herath et~al(2017)Herath, Harandi, and Porikli}]{herath2017going}
+Herath S, Harandi M, Porikli F (2017) Going deeper into action recognition: A
+  survey. IVC
+
+\bibitem[{Ho et~al(2020)Ho, Jain, and Abbeel}]{ho2020denoising}
+Ho J, Jain A, Abbeel P (2020) Denoising diffusion probabilistic models. NeurIPS
+
+\bibitem[{Ho et~al(2022{\natexlab{a}})Ho, Chan, Saharia, Whang, Gao, Gritsenko,
+  Kingma, Poole, Norouzi, Fleet et~al}]{ho2022imagen}
+Ho J, Chan W, Saharia C, Whang J, Gao R, Gritsenko A, Kingma DP, Poole B,
+  Norouzi M, Fleet DJ, et~al (2022{\natexlab{a}}) Imagen video: High definition
+  video generation with diffusion models. arxiv
+
+\bibitem[{Ho et~al(2022{\natexlab{b}})Ho, Salimans, Gritsenko, Chan, Norouzi,
+  and Fleet}]{ho2022video}
+Ho J, Salimans T, Gritsenko A, Chan W, Norouzi M, Fleet DJ (2022{\natexlab{b}})
+  Video diffusion models. NeurIPS
+
+\bibitem[{Hoai and De~la Torre(2014)}]{hoai2014max}
+Hoai M, De~la Torre F (2014) Max-margin early event detectors. IJCV
+
+\bibitem[{Hoai and Zisserman(2015)}]{hoai2015improving}
+Hoai M, Zisserman A (2015) Improving human action recognition using score
+  distribution and ranking. In: ACCV
+
+\bibitem[{Hong et~al(2022{\natexlab{a}})Hong, Zhang, Gharbi, Fisher, and
+  Fatahalian}]{hong2022spotting}
+Hong J, Zhang H, Gharbi M, Fisher M, Fatahalian K (2022{\natexlab{a}}) Spotting
+  temporally precise, fine-grained events in video. In: ECCV
+
+\bibitem[{Hong et~al(2022{\natexlab{b}})Hong, Ding, Zheng, Liu, and
+  Tang}]{hong2022cogvideo}
+Hong W, Ding M, Zheng W, Liu X, Tang J (2022{\natexlab{b}}) Cogvideo:
+  Large-scale pretraining for text-to-video generation via transformers. arxiv
+
+\bibitem[{Hong et~al(2021)Hong, Lan, Pang, Guo, and
+  Cheng}]{hong2021transformation}
+Hong X, Lan Y, Pang L, Guo J, Cheng X (2021) Transformation driven visual
+  reasoning. In: CVPR
+
+\bibitem[{H{\"o}ppe et~al(2024)H{\"o}ppe, Mehrjou, Bauer, Nielsen, and
+  Dittadi}]{hoppe2024diffusion}
+H{\"o}ppe T, Mehrjou A, Bauer S, Nielsen D, Dittadi A (2024) Diffusion models
+  for video prediction and infilling. IEEE TMLR
+
+\bibitem[{Hou et~al(2020)Hou, Wu, Wang, Luo, and Jia}]{hou2020confidence}
+Hou J, Wu X, Wang R, Luo J, Jia Y (2020) Confidence-guided self refinement for
+  action prediction in untrimmed videos. IEEE T-IP
+
+\bibitem[{Hou et~al(2017)Hou, Chen, and Shah}]{hou2017tube}
+Hou R, Chen C, Shah M (2017) Tube convolutional neural network (t-cnn) for
+  action detection in videos. In: ICCV
+
+\bibitem[{Hu et~al(2019)Hu, Nie, and Li}]{hu2019deep}
+Hu D, Nie F, Li X (2019) Deep multimodal clustering for unsupervised
+  audiovisual learning. In: CVPR
+
+\bibitem[{Hu et~al(2022{\natexlab{a}})Hu, Dong, Zhao, Lian, Li, and
+  Gao}]{hu2022transrac}
+Hu H, Dong S, Zhao Y, Lian D, Li Z, Gao S (2022{\natexlab{a}}) Transrac:
+  Encoding multi-scale temporal correlation with transformers for repetitive
+  action counting. In: CVPR
+
+\bibitem[{Hu et~al(2018)Hu, Zheng, Ma, Wang, Lai, and Zhang}]{hu2018early}
+Hu JF, Zheng WS, Ma L, Wang G, Lai J, Zhang J (2018) Early action prediction by
+  soft regression. IEEE TPAMI
+
+\bibitem[{Hu et~al(2022{\natexlab{b}})Hu, Chen, and Owens}]{hu2022mix}
+Hu X, Chen Z, Owens A (2022{\natexlab{b}}) Mix and localize: Localizing sound
+  sources in mixtures. In: CVPR
+
+\bibitem[{Hu et~al(2022{\natexlab{c}})Hu, Dai, Li, Peng, Li, and
+  Du}]{hu2022online}
+Hu X, Dai J, Li M, Peng C, Li Y, Du S (2022{\natexlab{c}}) Online human action
+  detection and anticipation in videos: A survey. Neurocomputing
+
+\bibitem[{Hu et~al(2023)Hu, Huang, Huang, Xu, and Zhou}]{hu2023dynamic}
+Hu X, Huang Z, Huang A, Xu J, Zhou S (2023) A dynamic multi-scale voxel flow
+  network for video prediction. In: CVPR
+
+\bibitem[{Hu et~al(2022{\natexlab{d}})Hu, Luo, and Chen}]{hu2022make}
+Hu Y, Luo C, Chen Z (2022{\natexlab{d}}) Make it move: controllable
+  image-to-video generation with text descriptions. In: CVPR
+
+\bibitem[{Huang et~al(2020{\natexlab{a}})Huang, Chen, Zeng, Du, Tan, and
+  Gan}]{huang2020location}
+Huang D, Chen P, Zeng R, Du Q, Tan M, Gan C (2020{\natexlab{a}}) Location-aware
+  graph convolutional networks for video question answering. In: AAAI
+
+\bibitem[{Huang and Kitani(2014)}]{huang2014action}
+Huang DA, Kitani KM (2014) Action-reaction: Forecasting the dynamics of human
+  interaction. In: ECCV
+
+\bibitem[{Huang et~al(2018)Huang, Ramanathan, Mahajan, Torresani, Paluri,
+  Fei-Fei, and Niebles}]{huang2018makes}
+Huang DA, Ramanathan V, Mahajan D, Torresani L, Paluri M, Fei-Fei L, Niebles JC
+  (2018) What makes a video a video: Analyzing temporal information in video
+  understanding models and datasets. In: CVPR
+
+\bibitem[{Huang et~al(2022)Huang, Xu, Li, Baevski, Auli, Galuba, Metze, and
+  Feichtenhofer}]{huang2022masked}
+Huang PY, Xu H, Li J, Baevski A, Auli M, Galuba W, Metze F, Feichtenhofer C
+  (2022) Masked autoencoders that listen. NeurIPS
+
+\bibitem[{Huang et~al(2023)Huang, Sharma, Xu, Ryali, Li, Li, Ghosh, Malik,
+  Feichtenhofer et~al}]{huang2023mavil}
+Huang PY, Sharma V, Xu H, Ryali C, Li Y, Li SW, Ghosh G, Malik J, Feichtenhofer
+  C, et~al (2023) Mavil: Masked audio-video learners. In: NeurIPS
+
+\bibitem[{Huang et~al(2019)Huang, Dai, and Lu}]{huang2019decoupling}
+Huang Y, Dai Q, Lu Y (2019) Decoupling localization and classification in
+  single shot temporal action detection. In: ICME
+
+\bibitem[{Huang et~al(2020{\natexlab{b}})Huang, Zhang, Elachqar, and
+  Cheng}]{huang2020inset}
+Huang Y, Zhang Y, Elachqar O, Cheng Y (2020{\natexlab{b}}) Inset: Sentence
+  infilling with inter-sentential transformer. In: ACL
+
+\bibitem[{Huh et~al(2023)Huh, Chalk, Kazakos, Damen, and
+  Zisserman}]{huh2023epic}
+Huh J, Chalk J, Kazakos E, Damen D, Zisserman A (2023) Epic-sounds: A
+  large-scale dataset of actions that sound. In: ICASSP
+
+\bibitem[{Hussain et~al(2019)Hussain, Sheng, and Zhang}]{hussain2019different}
+Hussain Z, Sheng M, Zhang WE (2019) Different approaches for human activity
+  recognition: A survey. arxiv
+
+\bibitem[{Hussein et~al(2019)Hussein, Gavves, and
+  Smeulders}]{hussein2019timeception}
+Hussein N, Gavves E, Smeulders AW (2019) Timeception for complex action
+  recognition. In: CVPR
+
+\bibitem[{Hwang et~al(2019)Hwang, Ke, Shi, and Yu}]{hwang2019adversarial}
+Hwang JJ, Ke TW, Shi J, Yu SX (2019) Adversarial structure matching for
+  structured prediction tasks. In: CVPR
+
+\bibitem[{Iashin and Rahtu(2020{\natexlab{a}})}]{iashin2020better}
+Iashin V, Rahtu E (2020{\natexlab{a}}) A better use of audio-visual cues: Dense
+  video captioning with bi-modal transformer. In: BMVC
+
+\bibitem[{Iashin and Rahtu(2020{\natexlab{b}})}]{iashin2020multi}
+Iashin V, Rahtu E (2020{\natexlab{b}}) Multi-modal dense video captioning. In:
+  CVPRw
+
+\bibitem[{Ibrahim et~al(2016)Ibrahim, Muralidharan, Deng, Vahdat, and
+  Mori}]{ibrahim2016hierarchical}
+Ibrahim MS, Muralidharan S, Deng Z, Vahdat A, Mori G (2016) A hierarchical deep
+  temporal model for group activity recognition. In: CVPR
+
+\bibitem[{Ikizler-Cinbis and Sclaroff(2010)}]{ikizler2010object}
+Ikizler-Cinbis N, Sclaroff S (2010) Object, scene and actions: Combining
+  multiple features for human action recognition. In: ECCV
+
+\bibitem[{Ionescu et~al(2013)Ionescu, Papava, Olaru, and
+  Sminchisescu}]{ionescu2013human3}
+Ionescu C, Papava D, Olaru V, Sminchisescu C (2013) Human3. 6m: Large scale
+  datasets and predictive methods for 3d human sensing in natural environments.
+  IEEE TPAMI
+
+\bibitem[{Iosifidis et~al(2012)Iosifidis, Tefas, and Pitas}]{iosifidis2012view}
+Iosifidis A, Tefas A, Pitas I (2012) View-invariant action recognition based on
+  artificial neural networks. IEEE TNNLS
+
+\bibitem[{Ippolito et~al(2019)Ippolito, Grangier, Callison-Burch, and
+  Eck}]{ippolito2019unsupervised}
+Ippolito D, Grangier D, Callison-Burch C, Eck D (2019) Unsupervised
+  hierarchical story infilling. In: WNU
+
+\bibitem[{Isard and Blake(1998)}]{isard1998condensation}
+Isard M, Blake A (1998) Condensation—conditional density propagation for
+  visual tracking. IJCV
+
+\bibitem[{Islam et~al(2024)Islam, Ho, Yang, Nagarajan, Torresani, and
+  Bertasius}]{islam2024video}
+Islam MM, Ho N, Yang X, Nagarajan T, Torresani L, Bertasius G (2024) Video
+  recap: Recursive captioning of hour-long videos. In: CVPR
+
+\bibitem[{Jaegle et~al(2021)Jaegle, Gimeno, Brock, Vinyals, Zisserman, and
+  Carreira}]{jaegle2021perceiver}
+Jaegle A, Gimeno F, Brock A, Vinyals O, Zisserman A, Carreira J (2021)
+  Perceiver: General perception with iterative attention. In: ICML
+
+\bibitem[{Jain et~al(2015)Jain, Tompson, LeCun, and Bregler}]{jain2015modeep}
+Jain A, Tompson J, LeCun Y, Bregler C (2015) Modeep: A deep learning framework
+  using motion features for human pose estimation. In: ACCV
+
+\bibitem[{Jain et~al(2014)Jain, Van~Gemert, J{\'e}gou, Bouthemy, and
+  Snoek}]{jain2014action}
+Jain M, Van~Gemert J, J{\'e}gou H, Bouthemy P, Snoek CG (2014) Action
+  localization with tubelets from motion. In: CVPR
+
+\bibitem[{Jang et~al(2017)Jang, Song, Yu, Kim, and Kim}]{jang2017tgif}
+Jang Y, Song Y, Yu Y, Kim Y, Kim G (2017) Tgif-qa: Toward spatio-temporal
+  reasoning in visual question answering. In: CVPR
+
+\bibitem[{Jeannerod(1994)}]{jeannerod1994representing}
+Jeannerod M (1994) The representing brain: Neural correlates of motor intention
+  and imagery. BBS
+
+\bibitem[{Jhuang et~al(2013)Jhuang, Gall, Zuffi, Schmid, and
+  Black}]{jhuang2013towards}
+Jhuang H, Gall J, Zuffi S, Schmid C, Black MJ (2013) Towards understanding
+  action recognition. In: ICCV
+
+\bibitem[{Ji et~al(2020)Ji, Krishna, Fei-Fei, and Niebles}]{ji2020action}
+Ji J, Krishna R, Fei-Fei L, Niebles JC (2020) Action genome: Actions as
+  compositions of spatio-temporal scene graphs. In: CVPR
+
+\bibitem[{Ji et~al(2012)Ji, Xu, Yang, and Yu}]{ji20123d}
+Ji S, Xu W, Yang M, Yu K (2012) 3d convolutional neural networks for human
+  action recognition. IEEE TPAMI
+
+\bibitem[{Jia and Yeung(2008)}]{jia2008human}
+Jia K, Yeung DY (2008) Human action recognition using local spatio-temporal
+  discriminant embedding. In: CVPR
+
+\bibitem[{Jiang et~al(2019{\natexlab{a}})Jiang, Huang, Yang, and
+  Yuan}]{jiang2019cross}
+Jiang B, Huang X, Yang C, Yuan J (2019{\natexlab{a}}) Cross-modal video moment
+  retrieval with spatial and language-temporal attention. In: ICMR
+
+\bibitem[{Jiang et~al(2019{\natexlab{b}})Jiang, Wang, Gan, Wu, and
+  Yan}]{jiang2019stm}
+Jiang B, Wang M, Gan W, Wu W, Yan J (2019{\natexlab{b}}) Stm: Spatiotemporal
+  and motion encoding for action recognition. In: ICCV
+
+\bibitem[{Jiang et~al(2023)Jiang, Chen, Liu, Yu, Yu, and
+  Chen}]{jiang2023motiongpt}
+Jiang B, Chen X, Liu W, Yu J, Yu G, Chen T (2023) Motiongpt: Human motion as a
+  foreign language. NeurIPS
+
+\bibitem[{Jiang et~al(2021)Jiang, Nan, Chen, Chen, and
+  Zheng}]{jiang2021predicting}
+Jiang J, Nan Z, Chen H, Chen S, Zheng N (2021) Predicting short-term
+  next-active-object through visual attention and hand position. Neurocomputing
+
+\bibitem[{Jiang and Han(2020)}]{jiang2020reasoning}
+Jiang P, Han Y (2020) Reasoning with heterogeneous graph alignment for video
+  question answering. In: AAAI
+
+\bibitem[{Jiang et~al(2011)Jiang, Ye, Chang, Ellis, and
+  Loui}]{jiang2011consumer}
+Jiang YG, Ye G, Chang SF, Ellis D, Loui AC (2011) Consumer video understanding:
+  A benchmark database and an evaluation of human and machine performance. In:
+  ICMR
+
+\bibitem[{Jin et~al(2020)Jin, Hu, Tang, Niu, Shi, Han, and
+  Li}]{jin2020exploring}
+Jin B, Hu Y, Tang Q, Niu J, Shi Z, Han Y, Li X (2020) Exploring
+  spatial-temporal multi-frequency analysis for high-fidelity and
+  temporal-consistency video prediction. In: CVPR
+
+\bibitem[{Jin et~al(2017)Jin, Li, Xiao, Shen, Lin, Yang, Chen, Dong, Liu, Jie
+  et~al}]{jin2017video}
+Jin X, Li X, Xiao H, Shen X, Lin Z, Yang J, Chen Y, Dong J, Liu L, Jie Z, et~al
+  (2017) Video scene parsing with predictive feature learning. In: ICCV
+
+\bibitem[{Joo et~al(2017)Joo, Simon, Li, Liu, Tan, Gui, Banerjee, Godisart,
+  Nabbe, Matthews, Kanade, Nobuhara, and Sheikh}]{joo2017panoptic}
+Joo H, Simon T, Li X, Liu H, Tan L, Gui L, Banerjee S, Godisart TS, Nabbe B,
+  Matthews I, Kanade T, Nobuhara S, Sheikh Y (2017) Panoptic studio: A
+  massively multiview system for social interaction capture. IEEE TPAMI
+
+\bibitem[{Ju et~al(2023)Ju, Zheng, Liu, Zhao, Zhang, Chang, Tian, and
+  Wang}]{ju2023distilling}
+Ju C, Zheng K, Liu J, Zhao P, Zhang Y, Chang J, Tian Q, Wang Y (2023)
+  Distilling vision-language pre-training to collaborate with weakly-supervised
+  temporal action localization. In: CVPR
+
+\bibitem[{Junejo et~al(2010)Junejo, Dexter, Laptev, and Perez}]{junejo2010view}
+Junejo IN, Dexter E, Laptev I, Perez P (2010) View-independent action
+  recognition from temporal self-similarities. IEEE TPAMI
+
+\bibitem[{Kahatapitiya et~al(2024)Kahatapitiya, Arnab, Nagrani, and
+  Ryoo}]{kahatapitiya2024victr}
+Kahatapitiya K, Arnab A, Nagrani A, Ryoo MS (2024) Victr: Video-conditioned
+  text representations for activity recognition. In: CVPR
+
+\bibitem[{Kaiser et~al(2017)Kaiser, Gomez, Shazeer, Vaswani, Parmar, Jones, and
+  Uszkoreit}]{kaiser2017one}
+Kaiser L, Gomez AN, Shazeer N, Vaswani A, Parmar N, Jones L, Uszkoreit J (2017)
+  One model to learn them all. arxiv
+
+\bibitem[{Kalogeiton et~al(2017)Kalogeiton, Weinzaepfel, Ferrari, and
+  Schmid}]{kalogeiton2017action}
+Kalogeiton V, Weinzaepfel P, Ferrari V, Schmid C (2017) Action tubelet detector
+  for spatio-temporal action localization. In: ICCV
+
+\bibitem[{Karpathy et~al(2014)Karpathy, Toderici, Shetty, Leung, Sukthankar,
+  and Fei-Fei}]{karpathy2014large}
+Karpathy A, Toderici G, Shetty S, Leung T, Sukthankar R, Fei-Fei L (2014)
+  Large-scale video classification with convolutional neural networks. In: CVPR
+
+\bibitem[{Kataoka et~al(2016)Kataoka, Miyashita, Hayashi, Iwata, and
+  Satoh}]{kataoka2016recognition}
+Kataoka H, Miyashita Y, Hayashi M, Iwata K, Satoh Y (2016) Recognition of
+  transitional action for short-term action prediction using discriminative
+  temporal cnn feature. In: BMVC
+
+\bibitem[{Kay et~al(2017)Kay, Carreira, Simonyan, Zhang, Hillier,
+  Vijayanarasimhan, Viola, Green, Back, Natsev et~al}]{kay2017kinetics}
+Kay W, Carreira J, Simonyan K, Zhang B, Hillier C, Vijayanarasimhan S, Viola F,
+  Green T, Back T, Natsev P, et~al (2017) The kinetics human action video
+  dataset. arxiv
+
+\bibitem[{Kazakos et~al(2021)Kazakos, Nagrani, Zisserman, and
+  Damen}]{kazakos2021slow}
+Kazakos E, Nagrani A, Zisserman A, Damen D (2021) Slow-fast auditory streams
+  for audio recognition. In: ICASSP
+
+\bibitem[{Ke et~al(2019)Ke, Fritz, and Schiele}]{ke2019time}
+Ke Q, Fritz M, Schiele B (2019) Time-conditioned action anticipation in one
+  shot. In: CVPR
+
+\bibitem[{Ke et~al(2007)Ke, Sukthankar, and Hebert}]{ke2007spatio}
+Ke Y, Sukthankar R, Hebert M (2007) Spatio-temporal shape and flow correlation
+  for action recognition. In: CVPR
+
+\bibitem[{Kilner(2011)}]{kilner2011more}
+Kilner JM (2011) More than one pathway to action understanding. Trends in
+  cognitive sciences
+
+\bibitem[{Kim et~al(2021{\natexlab{a}})Kim, Lee, Kang, Kim, and
+  Kim}]{kim2021hotr}
+Kim B, Lee J, Kang J, Kim ES, Kim HJ (2021{\natexlab{a}}) Hotr: End-to-end
+  human-object interaction detection with transformers. In: CVPR
+
+\bibitem[{Kim et~al(2021{\natexlab{b}})Kim, Jain, Lee, Yun, and
+  Porikli}]{kim2021efficient}
+Kim H, Jain M, Lee JT, Yun S, Porikli F (2021{\natexlab{b}}) Efficient action
+  recognition via dynamic knowledge propagation. In: ICCV
+
+\bibitem[{Kim et~al(2021{\natexlab{c}})Kim, Kwon, Wang, Kwak, and
+  Cho}]{kim2021relational}
+Kim M, Kwon H, Wang C, Kwak S, Cho M (2021{\natexlab{c}}) Relational
+  self-attention: What's missing in attention for video understanding. NeurIPS
+
+\bibitem[{Kim et~al(2024{\natexlab{a}})Kim, Gao, Hsu, Shen, and
+  Jin}]{kim2024token}
+Kim M, Gao S, Hsu YC, Shen Y, Jin H (2024{\natexlab{a}}) Token fusion: Bridging
+  the gap between token pruning and token merging. In: WACV
+
+\bibitem[{Kim et~al(2024{\natexlab{b}})Kim, Kim, Moon, Choi, and
+  Kim}]{kim2024you}
+Kim M, Kim HB, Moon J, Choi J, Kim ST (2024{\natexlab{b}}) Do you remember?
+  dense video captioning with cross-modal memory retrieval. In: CVPR
+
+\bibitem[{Kitani et~al(2012)Kitani, Ziebart, Bagnell, and
+  Hebert}]{kitani2012activity}
+Kitani KM, Ziebart BD, Bagnell JA, Hebert M (2012) Activity forecasting. In:
+  ECCV
+
+\bibitem[{Ko et~al(2022)Ko, Choi, Ko, Noh, On, Kim, and Kim}]{ko2022video}
+Ko D, Choi J, Ko J, Noh S, On KW, Kim ES, Kim HJ (2022) Video-text
+  representation learning via differentiable weak temporal alignment. In: CVPR
+
+\bibitem[{Kohler et~al(2002)Kohler, Keysers, Umilta, Fogassi, Gallese, and
+  Rizzolatti}]{kohler2002hearing}
+Kohler E, Keysers C, Umilta MA, Fogassi L, Gallese V, Rizzolatti G (2002)
+  Hearing sounds, understanding actions: action representation in mirror
+  neurons. Science
+
+\bibitem[{Kondratyuk et~al(2021)Kondratyuk, Yuan, Li, Zhang, Tan, Brown, and
+  Gong}]{kondratyuk2021movinets}
+Kondratyuk D, Yuan L, Li Y, Zhang L, Tan M, Brown M, Gong B (2021) Movinets:
+  Mobile video networks for efficient video recognition. In: CVPR
+
+\bibitem[{Kong et~al(2020)Kong, Cao, Iqbal, Wang, Wang, and
+  Plumbley}]{kong2020panns}
+Kong Q, Cao Y, Iqbal T, Wang Y, Wang W, Plumbley MD (2020) Panns: Large-scale
+  pretrained audio neural networks for audio pattern recognition. IEEE/ACM
+  TASLP
+
+\bibitem[{Kong and Fu(2022)}]{kong2022human}
+Kong Y, Fu Y (2022) Human action recognition and prediction: A survey. IJCV
+
+\bibitem[{Kong et~al(2014)Kong, Kit, and Fu}]{kong2014discriminative}
+Kong Y, Kit D, Fu Y (2014) A discriminative model with multiple temporal scales
+  for action prediction. In: ECCV
+
+\bibitem[{Kong et~al(2018)Kong, Gao, Sun, and Fu}]{kong2018action}
+Kong Y, Gao S, Sun B, Fu Y (2018) Action prediction from videos via memorizing
+  hard-to-predict samples. In: AAAI
+
+\bibitem[{Koppula and Saxena(2015)}]{koppula2015anticipating}
+Koppula HS, Saxena A (2015) Anticipating human activities using object
+  affordances for reactive robotic response. IEEE TPAMI
+
+\bibitem[{Koppula et~al(2013)Koppula, Gupta, and Saxena}]{koppula2013learning}
+Koppula HS, Gupta R, Saxena A (2013) Learning human activities and object
+  affordances from rgb-d videos. IJRR
+
+\bibitem[{Korbar et~al(2019)Korbar, Tran, and Torresani}]{korbar2019scsampler}
+Korbar B, Tran D, Torresani L (2019) Scsampler: Sampling salient clips from
+  video for efficient action recognition. In: ICCV
+
+\bibitem[{K{\"o}rner and Denzler(2013)}]{korner2013temporal}
+K{\"o}rner M, Denzler J (2013) Temporal self-similarity for appearance-based
+  action recognition in multi-view setups. In: CAIP
+
+\bibitem[{Koutini et~al(2022)Koutini, Schl{\"u}ter, Eghbal-Zadeh, and
+  Widmer}]{koutini2021efficient}
+Koutini K, Schl{\"u}ter J, Eghbal-Zadeh H, Widmer G (2022) Efficient training
+  of audio transformers with patchout. In: Interspeech
+
+\bibitem[{Krishna et~al(2017)Krishna, Hata, Ren, Fei-Fei, and
+  Carlos~Niebles}]{krishna2017dense}
+Krishna R, Hata K, Ren F, Fei-Fei L, Carlos~Niebles J (2017) Dense-captioning
+  events in videos. In: ICCV
+
+\bibitem[{Kuehne et~al(2011)Kuehne, Jhuang, Garrote, Poggio, and
+  Serre}]{kuehne2011hmdb}
+Kuehne H, Jhuang H, Garrote E, Poggio T, Serre T (2011) Hmdb: a large video
+  database for human motion recognition. In: ICCV
+
+\bibitem[{Kuehne et~al(2014)Kuehne, Arslan, and Serre}]{kuehne2014language}
+Kuehne H, Arslan A, Serre T (2014) The language of actions: Recovering the
+  syntax and semantics of goal-directed human activities. In: CVPR
+
+\bibitem[{Kumar and Rawat(2022)}]{kumar2022end}
+Kumar A, Rawat YS (2022) End-to-end semi-supervised learning for video action
+  detection. In: CVPR
+
+\bibitem[{Kuo et~al(2023)Kuo, Piergiovanni, Kim, Luo, Caine, Li, Ogale, Zhou,
+  Dai, Chen et~al}]{kuo2023mammut}
+Kuo W, Piergiovanni A, Kim D, Luo X, Caine B, Li W, Ogale A, Zhou L, Dai A,
+  Chen Z, et~al (2023) Mammut: A simple architecture for joint learning for
+  multimodal tasks. TMLR
+
+\bibitem[{Kviatkovsky et~al(2014)Kviatkovsky, Rivlin, and
+  Shimshoni}]{kviatkovsky2014online}
+Kviatkovsky I, Rivlin E, Shimshoni I (2014) Online action recognition using
+  covariance of shape and motion. CVIU
+
+\bibitem[{Kwon et~al(2021)Kwon, Tekin, St{\"u}hmer, Bogo, and
+  Pollefeys}]{kwon2021h2o}
+Kwon T, Tekin B, St{\"u}hmer J, Bogo F, Pollefeys M (2021) H2o: Two hands
+  manipulating objects for first person interaction recognition. In: ICCV
+
+\bibitem[{Laptev and Lindeberg(2003)}]{laptev2003space}
+Laptev I, Lindeberg T (2003) Space-time interest points. In: ICCV
+
+\bibitem[{Laptev and P{\'e}rez(2007)}]{laptev2007retrieving}
+Laptev I, P{\'e}rez P (2007) Retrieving actions in movies. In: ICCV
+
+\bibitem[{Laptev et~al(2008)Laptev, Marszalek, Schmid, and
+  Rozenfeld}]{laptev2008learning}
+Laptev I, Marszalek M, Schmid C, Rozenfeld B (2008) Learning realistic human
+  actions from movies. In: CVPR
+
+\bibitem[{Le et~al(2011)Le, Zou, Yeung, and Ng}]{le2011learning}
+Le QV, Zou WY, Yeung SY, Ng AY (2011) Learning hierarchical invariant
+  spatio-temporal features for action recognition with independent subspace
+  analysis. In: CVPR
+
+\bibitem[{Lee et~al(2006)Lee, Battle, Raina, and Ng}]{lee2006efficient}
+Lee H, Battle A, Raina R, Ng A (2006) Efficient sparse coding algorithms.
+  NeurIPS
+
+\bibitem[{Lee et~al(2019)Lee, Lee, Kim, Kosiorek, Choi, and Teh}]{lee2019set}
+Lee J, Lee Y, Kim J, Kosiorek A, Choi S, Teh YW (2019) Set transformer: A
+  framework for attention-based permutation-invariant neural networks. In: ICML
+
+\bibitem[{Lei et~al(2018)Lei, Yu, Bansal, and Berg}]{lei2018tvqa}
+Lei J, Yu L, Bansal M, Berg TL (2018) Tvqa: Localized, compositional video
+  question answering. arxiv
+
+\bibitem[{Lei et~al(2021{\natexlab{a}})Lei, Berg, and
+  Bansal}]{lei2021detecting}
+Lei J, Berg TL, Bansal M (2021{\natexlab{a}}) Detecting moments and highlights
+  in videos via natural language queries. NeurIPS
+
+\bibitem[{Lei et~al(2021{\natexlab{b}})Lei, Li, Zhou, Gan, Berg, Bansal, and
+  Liu}]{lei2021less}
+Lei J, Li L, Zhou L, Gan Z, Berg TL, Bansal M, Liu J (2021{\natexlab{b}}) Less
+  is more: Clipbert for video-and-language learning via sparse sampling. In:
+  CVPR
+
+\bibitem[{Li et~al(2018{\natexlab{a}})Li, Qiu, Dai, Yao, and
+  Mei}]{li2018recurrent}
+Li D, Qiu Z, Dai Q, Yao T, Mei T (2018{\natexlab{a}}) Recurrent tubelet
+  proposal and recognition networks for action detection. In: ECCV
+
+\bibitem[{Li et~al(2022{\natexlab{a}})Li, Li, Li, Niebles, and
+  Hoi}]{li2022align}
+Li D, Li J, Li H, Niebles JC, Hoi SC (2022{\natexlab{a}}) Align and prompt:
+  Video-and-language pre-training with entity prompts. In: CVPR
+
+\bibitem[{Li et~al(2022{\natexlab{b}})Li, Cai, Zeng, and Zhao}]{li2022scale}
+Li G, Cai G, Zeng X, Zhao R (2022{\natexlab{b}}) Scale-aware spatio-temporal
+  relation learning for video anomaly detection. In: ECCV
+
+\bibitem[{Li et~al(2023{\natexlab{a}})Li, Li, Savarese, and Hoi}]{li2023blip}
+Li J, Li D, Savarese S, Hoi S (2023{\natexlab{a}}) Blip-2: Bootstrapping
+  language-image pre-training with frozen image encoders and large language
+  models. In: ICML
+
+\bibitem[{Li et~al(2023{\natexlab{b}})Li, Wei, Han, and Fan}]{li2023intentqa}
+Li J, Wei P, Han W, Fan L (2023{\natexlab{b}}) Intentqa: Context-aware video
+  intent reasoning. In: CVPR
+
+\bibitem[{Li and Fu(2014)}]{li2014prediction}
+Li K, Fu Y (2014) Prediction of human activity by discovering temporal sequence
+  patterns. IEEE TPAMI
+
+\bibitem[{Li et~al(2012)Li, Hu, and Fu}]{li2012modeling}
+Li K, Hu J, Fu Y (2012) Modeling complex temporal composition of actionlets for
+  activity prediction. In: ECCV
+
+\bibitem[{Li et~al(2022{\natexlab{c}})Li, Wang, Peng, Song, Liu, Li, and
+  Qiao}]{li2022uniformer}
+Li K, Wang Y, Peng G, Song G, Liu Y, Li H, Qiao Y (2022{\natexlab{c}})
+  Uniformer: Unified transformer for efficient spatial-temporal representation
+  learning. In: ICLR
+
+\bibitem[{Li et~al(2023{\natexlab{c}})Li, He, Wang, Li, Wang, Luo, Wang, Wang,
+  and Qiao}]{li2023videochat}
+Li K, He Y, Wang Y, Li Y, Wang W, Luo P, Wang Y, Wang L, Qiao Y
+  (2023{\natexlab{c}}) Videochat: Chat-centric video understanding. arxiv
+
+\bibitem[{Li et~al(2024{\natexlab{a}})Li, Wang, He, Li, Wang, Liu, Wang, Xu,
+  Chen, Luo et~al}]{li2024mvbench}
+Li K, Wang Y, He Y, Li Y, Wang Y, Liu Y, Wang Z, Xu J, Chen G, Luo P, et~al
+  (2024{\natexlab{a}}) Mvbench: A comprehensive multi-modal video understanding
+  benchmark. In: CVPR
+
+\bibitem[{Li et~al(2020{\natexlab{a}})Li, Chen, Cheng, Gan, Yu, and
+  Liu}]{li2020hero}
+Li L, Chen YC, Cheng Y, Gan Z, Yu L, Liu J (2020{\natexlab{a}}) Hero:
+  Hierarchical encoder for video+ language omni-representation pre-training.
+  In: EMNLP
+
+\bibitem[{Li et~al(2021{\natexlab{a}})Li, Wang, Liu, and Lin}]{li2021deep}
+Li T, Wang Z, Liu S, Lin WY (2021{\natexlab{a}}) Deep unsupervised anomaly
+  detection. In: WACV
+
+\bibitem[{Li et~al(2022{\natexlab{d}})Li, Slavcheva, Zollhoefer, Green,
+  Lassner, Kim, Schmidt, Lovegrove, Goesele, Newcombe et~al}]{li2022neural}
+Li T, Slavcheva M, Zollhoefer M, Green S, Lassner C, Kim C, Schmidt T,
+  Lovegrove S, Goesele M, Newcombe R, et~al (2022{\natexlab{d}}) Neural 3d
+  video synthesis from multi-view video. In: CVPR
+
+\bibitem[{Li and Fritz(2016)}]{li2016recognition}
+Li W, Fritz M (2016) Recognition of ongoing complex activities by sequence
+  prediction over a hierarchical label space. In: WACV
+
+\bibitem[{Li and Xu(2024)}]{li2024repetitive}
+Li X, Xu H (2024) {Repetitive Action Counting With Motion Feature Learning}.
+  In: WACV
+
+\bibitem[{Li et~al(2019)Li, Song, Gao, Liu, Huang, He, and Gan}]{li2019beyond}
+Li X, Song J, Gao L, Liu X, Huang W, He X, Gan C (2019) Beyond rnns: Positional
+  self-attention with co-attention for video question answering. In: AAAI
+
+\bibitem[{Li et~al(2015)Li, Ye, and Rehg}]{li2015delving}
+Li Y, Ye Z, Rehg JM (2015) Delving into egocentric actions. In: CVPR
+
+\bibitem[{Li et~al(2018{\natexlab{b}})Li, Li, and Vasconcelos}]{li2018resound}
+Li Y, Li Y, Vasconcelos N (2018{\natexlab{b}}) Resound: Towards action
+  recognition without representation bias. In: ECCV
+
+\bibitem[{Li et~al(2018{\natexlab{c}})Li, Yao, Pan, Chao, and
+  Mei}]{li2018jointly}
+Li Y, Yao T, Pan Y, Chao H, Mei T (2018{\natexlab{c}}) Jointly localizing and
+  describing events for dense video captioning. In: CVPR
+
+\bibitem[{Li et~al(2020{\natexlab{b}})Li, Wang, Wang, and Wu}]{li2020actions}
+Li Y, Wang Z, Wang L, Wu G (2020{\natexlab{b}}) Actions as moving points. In:
+  ECCV
+
+\bibitem[{Li et~al(2021{\natexlab{b}})Li, Chen, He, Wang, Wu, and
+  Wang}]{li2021multisports}
+Li Y, Chen L, He R, Wang Z, Wu G, Wang L (2021{\natexlab{b}}) Multisports: A
+  multi-person video dataset of spatio-temporally localized sports actions. In:
+  ICCV
+
+\bibitem[{Li et~al(2022{\natexlab{e}})Li, Wang, Xiao, and
+  Chua}]{li2022equivariant}
+Li Y, Wang X, Xiao J, Chua TS (2022{\natexlab{e}}) Equivariant and invariant
+  grounding for video question answering. In: MM
+
+\bibitem[{Li et~al(2022{\natexlab{f}})Li, Wu, Fan, Mangalam, Xiong, Malik, and
+  Feichtenhofer}]{li2022mvitv2}
+Li Y, Wu CY, Fan H, Mangalam K, Xiong B, Malik J, Feichtenhofer C
+  (2022{\natexlab{f}}) Mvitv2: Improved multiscale vision transformers for
+  classification and detection. In: CVPR
+
+\bibitem[{Li et~al(2023{\natexlab{d}})Li, Xiao, Feng, Wang, and
+  Chua}]{li2023discovering}
+Li Y, Xiao J, Feng C, Wang X, Chua TS (2023{\natexlab{d}}) Discovering
+  spatio-temporal rationales for video question answering. In: ICCV
+
+\bibitem[{Li et~al(2024{\natexlab{b}})Li, Ma, Shang, Zhu, Ci, Qiao, and
+  Wang}]{li2024efficient}
+Li Z, Ma X, Shang Q, Zhu W, Ci H, Qiao Y, Wang Y (2024{\natexlab{b}}) Efficient
+  action counting with dynamic queries. arxiv
+
+\bibitem[{Liang et~al(2022)Liang, Wang, Zhou, and Yang}]{liang2022visual}
+Liang C, Wang W, Zhou T, Yang Y (2022) Visual abductive reasoning. In: CVPR
+
+\bibitem[{Liang et~al(2017)Liang, Lee, Dai, and Xing}]{liang2017dual}
+Liang X, Lee L, Dai W, Xing EP (2017) Dual motion gan for future-flow embedded
+  video prediction. In: ICCV
+
+\bibitem[{Lin et~al(2021{\natexlab{a}})Lin, Xu, Luo, Wang, Tai, Wang, Li,
+  Huang, and Fu}]{lin2021learning}
+Lin C, Xu C, Luo D, Wang Y, Tai Y, Wang C, Li J, Huang F, Fu Y
+  (2021{\natexlab{a}}) Learning salient boundary feature for anchor-free
+  temporal action localization. In: CVPR
+
+\bibitem[{Lin et~al(2019)Lin, Gan, and Han}]{lin2019tsm}
+Lin J, Gan C, Han S (2019) Tsm: Temporal shift module for efficient video
+  understanding. In: ICCV
+
+\bibitem[{Lin et~al(2021{\natexlab{b}})Lin, Xiao, Liu, Yang, and
+  Ramamoorthi}]{lin2021deep}
+Lin KE, Xiao L, Liu F, Yang G, Ramamoorthi R (2021{\natexlab{b}}) Deep 3d mask
+  volume for view synthesis of dynamic scenes. In: ICCV
+
+\bibitem[{Lin et~al(2022)Lin, Wang, Soldan, Wray, Yan, Xu, Gao, Tu, Zhao, Kong
+  et~al}]{lin2022egocentric}
+Lin KQ, Wang J, Soldan M, Wray M, Yan R, Xu EZ, Gao D, Tu RC, Zhao W, Kong W,
+  et~al (2022) Egocentric video-language pretraining. NeurIPS
+
+\bibitem[{Lin et~al(2018)Lin, Zhao, Su, Wang, and Yang}]{lin2018bsn}
+Lin T, Zhao X, Su H, Wang C, Yang M (2018) Bsn: Boundary sensitive network for
+  temporal action proposal generation. In: ECCV
+
+\bibitem[{Lin and Bertasius(2024)}]{lin2024siamese}
+Lin YB, Bertasius G (2024) Siamese vision transformers are scalable
+  audio-visual learners. arxiv
+
+\bibitem[{Lin et~al(2023)Lin, Sung, Lei, Bansal, and Bertasius}]{lin2023vision}
+Lin YB, Sung YL, Lei J, Bansal M, Bertasius G (2023) Vision transformers are
+  parameter-efficient audio-visual learners. In: CVPR
+
+\bibitem[{Lipman et~al(2022)Lipman, Chen, Ben-Hamu, Nickel, and
+  Le}]{lipman2022flow}
+Lipman Y, Chen RT, Ben-Hamu H, Nickel M, Le M (2022) Flow matching for
+  generative modeling. arxiv
+
+\bibitem[{Liu et~al(2021{\natexlab{a}})Liu, Qu, Dong, Zhou, Cheng, Wei, Xu, and
+  Xie}]{liu2021context}
+Liu D, Qu X, Dong J, Zhou P, Cheng Y, Wei W, Xu Z, Xie Y (2021{\natexlab{a}})
+  Context-aware biaffine localizing network for temporal sentence grounding.
+  In: CVPR
+
+\bibitem[{Liu et~al(2022{\natexlab{a}})Liu, Qu, Di, Cheng, Xu, and
+  Zhou}]{liu2022memory}
+Liu D, Qu X, Di X, Cheng Y, Xu Z, Zhou P (2022{\natexlab{a}}) Memory-guided
+  semantic learning network for temporal sentence grounding. In: AAAI
+
+\bibitem[{Liu et~al(2021{\natexlab{b}})Liu, Liu, Wang, and Lu}]{liu2021hair}
+Liu F, Liu J, Wang W, Lu H (2021{\natexlab{b}}) Hair: Hierarchical
+  visual-semantic relational reasoning for video question answering. In: ICCV
+
+\bibitem[{Liu et~al(2022{\natexlab{b}})Liu, Liu, Kong, Wang, and
+  Plumbley}]{liu2022learning_the}
+Liu H, Liu X, Kong Q, Wang W, Plumbley MD (2022{\natexlab{b}}) Learning the
+  spectrogram temporal resolution for audio classification. In: AAAI
+
+\bibitem[{Liu et~al(2024{\natexlab{a}})Liu, Li, Wu, and Lee}]{liu2024visual}
+Liu H, Li C, Wu Q, Lee YJ (2024{\natexlab{a}}) Visual instruction tuning.
+  NeurIPS
+
+\bibitem[{Liu and Shah(2008)}]{liu2008learning}
+Liu J, Shah M (2008) Learning human actions via information maximization. In:
+  CVPR
+
+\bibitem[{Liu et~al(2008)Liu, Ali, and Shah}]{liu2008recognizing}
+Liu J, Ali S, Shah M (2008) Recognizing human actions using multiple features.
+  In: CVPR
+
+\bibitem[{Liu et~al(2009)Liu, Luo, and Shah}]{liu2009recognizing}
+Liu J, Luo J, Shah M (2009) Recognizing realistic actions from videos ``in the
+  wild'''. In: CVPR
+
+\bibitem[{Liu et~al(2018{\natexlab{a}})Liu, Wang, Nie, Tian, Chen, and
+  Chua}]{liu2018cross}
+Liu M, Wang X, Nie L, Tian Q, Chen B, Chua TS (2018{\natexlab{a}}) Cross-modal
+  moment localization in videos. In: MM
+
+\bibitem[{Liu et~al(2020)Liu, Tang, Li, and Rehg}]{liu2020forecasting}
+Liu M, Tang S, Li Y, Rehg JM (2020) Forecasting human-object interaction: joint
+  prediction of motor attention and actions in first person video. In: ECCV
+
+\bibitem[{Liu et~al(2023)Liu, Zhang, Liu, Dai, Yang, Ji, Feng, and
+  Gong}]{liu2023video}
+Liu M, Zhang M, Liu J, Dai H, Yang MH, Ji S, Feng Z, Gong B (2023) Video
+  timeline modeling for news story understanding. NeurIPS
+
+\bibitem[{Liu and Wang(2020)}]{liu2020progressive}
+Liu Q, Wang Z (2020) Progressive boundary refinement network for temporal
+  action detection. In: AAAI
+
+\bibitem[{Liu et~al(2022{\natexlab{c}})Liu, Tripathi, Majumdar, and
+  Wang}]{liu2022joint}
+Liu S, Tripathi S, Majumdar S, Wang X (2022{\natexlab{c}}) Joint hand motion
+  and interaction hotspots prediction from egocentric videos. In: CVPR
+
+\bibitem[{Liu et~al(2024{\natexlab{b}})Liu, Zhang, Zhao, and
+  Ghanem}]{liu2024end}
+Liu S, Zhang CL, Zhao C, Ghanem B (2024{\natexlab{b}}) End-to-end temporal
+  action detection with 1b parameters across 1000 frames. In: CVPR
+
+\bibitem[{Liu and Lam(2022)}]{liu2022hybrid}
+Liu T, Lam KM (2022) A hybrid egocentric activity anticipation framework via
+  memory-augmented recurrent and one-shot representation forecasting. In: CVPR
+
+\bibitem[{Liu et~al(2016)Liu, Anguelov, Erhan, Szegedy, Reed, Fu, and
+  Berg}]{liu2016ssd}
+Liu W, Anguelov D, Erhan D, Szegedy C, Reed S, Fu CY, Berg AC (2016) Ssd:
+  Single shot multibox detector. In: ECCV
+
+\bibitem[{Liu et~al(2018{\natexlab{b}})Liu, Luo, Lian, and Gao}]{liu2018future}
+Liu W, Luo W, Lian D, Gao S (2018{\natexlab{b}}) Future frame prediction for
+  anomaly detection--a new baseline. In: CVPR
+
+\bibitem[{Liu et~al(2022{\natexlab{d}})Liu, Tekin, Coskun, Vineet, Fua, and
+  Pollefeys}]{liu2022learning}
+Liu W, Tekin B, Coskun H, Vineet V, Fua P, Pollefeys M (2022{\natexlab{d}})
+  Learning to align sequential actions in the wild. In: CVPR
+
+\bibitem[{Liu et~al(2022{\natexlab{e}})Liu, Bai, and Bai}]{liu2022empirical}
+Liu X, Bai S, Bai X (2022{\natexlab{e}}) An empirical study of end-to-end
+  temporal action detection. In: CVPR
+
+\bibitem[{Liu et~al(2017{\natexlab{a}})Liu, Wei, and Zhu}]{liu2017jointly}
+Liu Y, Wei P, Zhu SC (2017{\natexlab{a}}) Jointly recognizing object fluents
+  and tasks in egocentric videos. In: ICCV
+
+\bibitem[{Liu et~al(2019)Liu, Albanie, Nagrani, and Zisserman}]{liu2019use}
+Liu Y, Albanie S, Nagrani A, Zisserman A (2019) Use what you have: Video
+  retrieval using representations from collaborative experts. In: BMVC
+
+\bibitem[{Liu et~al(2022{\natexlab{f}})Liu, Wang, Wang, Ma, and
+  Qiao}]{liu2022fineaction}
+Liu Y, Wang L, Wang Y, Ma X, Qiao Y (2022{\natexlab{f}}) Fineaction: A
+  fine-grained video dataset for temporal action localization. IEEE T-IP
+
+\bibitem[{Liu et~al(2024{\natexlab{c}})Liu, Zhang, Li, Yan, Gao, Chen, Yuan,
+  Huang, Sun, Gao et~al}]{liu2024sora}
+Liu Y, Zhang K, Li Y, Yan Z, Gao C, Chen R, Yuan Z, Huang Y, Sun H, Gao J,
+  et~al (2024{\natexlab{c}}) Sora: A review on background, technology,
+  limitations, and opportunities of large vision models. arxiv
+
+\bibitem[{Liu et~al(2017{\natexlab{b}})Liu, Yeh, Tang, Liu, and
+  Agarwala}]{liu2017video}
+Liu Z, Yeh RA, Tang X, Liu Y, Agarwala A (2017{\natexlab{b}}) Video frame
+  synthesis using deep voxel flow. In: ICCV
+
+\bibitem[{Liu et~al(2021{\natexlab{c}})Liu, Wang, Tang, Yuan, Zheng, and
+  Hua}]{liu2021weakly}
+Liu Z, Wang L, Tang W, Yuan J, Zheng N, Hua G (2021{\natexlab{c}}) Weakly
+  supervised temporal action localization through learning explicit subspaces
+  for action and context. In: AAAI
+
+\bibitem[{Liu et~al(2022{\natexlab{g}})Liu, Mao, Wu, Feichtenhofer, Darrell,
+  and Xie}]{liu2022convnet}
+Liu Z, Mao H, Wu CY, Feichtenhofer C, Darrell T, Xie S (2022{\natexlab{g}}) A
+  convnet for the 2020s. In: CVPR
+
+\bibitem[{Liu et~al(2022{\natexlab{h}})Liu, Ning, Cao, Wei, Zhang, Lin, and
+  Hu}]{liu2022video}
+Liu Z, Ning J, Cao Y, Wei Y, Zhang Z, Lin S, Hu H (2022{\natexlab{h}}) Video
+  swin transformer. In: CVPR
+
+\bibitem[{Lu and Ferrier(2004)}]{lu2004repetitive}
+Lu C, Ferrier NJ (2004) {Repetitive Motion Analysis: Segmentation and Event
+  Classification}. IEEE TPAMI
+
+\bibitem[{Lu et~al(2013)Lu, Shi, and Jia}]{lu2013abnormal}
+Lu C, Shi J, Jia J (2013) Abnormal event detection at 150 fps in matlab. In:
+  ICCV
+
+\bibitem[{Luc et~al(2018)Luc, Couprie, Lecun, and Verbeek}]{luc2018predicting}
+Luc P, Couprie C, Lecun Y, Verbeek J (2018) Predicting future instance
+  segmentation by forecasting convolutional features. In: ECCV
+
+\bibitem[{Luc et~al(2020)Luc, Clark, Dieleman, Casas, Doron, Cassirer, and
+  Simonyan}]{luc2020transformation}
+Luc P, Clark A, Dieleman S, Casas DdL, Doron Y, Cassirer A, Simonyan K (2020)
+  Transformation-based adversarial video prediction on large-scale data. arxiv
+
+\bibitem[{Luo and Yuille(2019)}]{luo2019grouped}
+Luo C, Yuille AL (2019) Grouped spatial-temporal aggregation for efficient
+  action recognition. In: ICCV
+
+\bibitem[{Luo et~al(2017)Luo, Liu, and Gao}]{luo2017revisit}
+Luo W, Liu W, Gao S (2017) A revisit of sparse coding based anomaly detection
+  in stacked rnn framework. In: ICCV
+
+\bibitem[{Luo et~al(2020)Luo, Guillory, Shi, Ke, Wan, Darrell, and
+  Xu}]{luo2020weakly}
+Luo Z, Guillory D, Shi B, Ke W, Wan F, Darrell T, Xu H (2020) Weakly-supervised
+  action localization with expectation-maximization multi-instance learning.
+  In: ECCV
+
+\bibitem[{Luo et~al(2021)Luo, Xie, Kapoor, Liang, Cooper, Niebles, Adeli, and
+  Li}]{luo2021moma}
+Luo Z, Xie W, Kapoor S, Liang Y, Cooper M, Niebles JC, Adeli E, Li FF (2021)
+  Moma: Multi-object multi-actor activity parsing. NeurIPS
+
+\bibitem[{Ma et~al(2022)Ma, Guo, Jiang, Luo, Yuan, and Qi}]{ma2022rethinking}
+Ma C, Guo Q, Jiang Y, Luo P, Yuan Z, Qi X (2022) Rethinking resolution in the
+  context of efficient video recognition. NeurIPS
+
+\bibitem[{Ma et~al(2021)Ma, Zeng, McDuff, and Song}]{ma2021active}
+Ma S, Zeng Z, McDuff D, Song Y (2021) Active contrastive learning of
+  audio-visual video representations. In: ICLR
+
+\bibitem[{Maaz et~al(2023)Maaz, Rasheed, Khan, and Khan}]{maaz2023video}
+Maaz M, Rasheed H, Khan S, Khan FS (2023) Video-chatgpt: Towards detailed video
+  understanding via large vision and language models. arxiv
+
+\bibitem[{Mangalam et~al(2023)Mangalam, Akshulakov, and
+  Malik}]{mangalam2023egoschema}
+Mangalam K, Akshulakov R, Malik J (2023) Egoschema: A diagnostic benchmark for
+  very long-form video language understanding. NeurIPS
+
+\bibitem[{Markovitz et~al(2020)Markovitz, Sharir, Friedman, Zelnik-Manor, and
+  Avidan}]{markovitz2020graph}
+Markovitz A, Sharir G, Friedman I, Zelnik-Manor L, Avidan S (2020) Graph
+  embedded pose clustering for anomaly detection. In: CVPR
+
+\bibitem[{Marszalek et~al(2009)Marszalek, Laptev, and
+  Schmid}]{marszalek2009actions}
+Marszalek M, Laptev I, Schmid C (2009) Actions in context. In: CVPR
+
+\bibitem[{Martin et~al(2019)Martin, Roitberg, Haurilet, Horne, Rei{\ss}, Voit,
+  and Stiefelhagen}]{martin2019drive}
+Martin M, Roitberg A, Haurilet M, Horne M, Rei{\ss} S, Voit M, Stiefelhagen R
+  (2019) Drive\&act: A multi-modal dataset for fine-grained driver behavior
+  recognition in autonomous vehicles. In: ICCV
+
+\bibitem[{Mascar{\'o} et~al(2023)Mascar{\'o}, Ahn, and
+  Lee}]{mascaro2023intention}
+Mascar{\'o} EV, Ahn H, Lee D (2023) Intention-conditioned long-term human
+  egocentric action anticipation. In: WACV
+
+\bibitem[{Matthews et~al(2002)Matthews, Cootes, Bangham, Cox, and
+  Harvey}]{matthews2002extraction}
+Matthews I, Cootes TF, Bangham JA, Cox S, Harvey R (2002) Extraction of visual
+  features for lipreading. IEEE TPAMI
+
+\bibitem[{Mavroudi et~al(2023)Mavroudi, Afouras, and
+  Torresani}]{mavroudi2023learning}
+Mavroudi E, Afouras T, Torresani L (2023) Learning to ground instructional
+  articles in videos through narrations. In: ICCV
+
+\bibitem[{Menapace et~al(2021)Menapace, Lathuiliere, Tulyakov, Siarohin, and
+  Ricci}]{menapace2021playable}
+Menapace W, Lathuiliere S, Tulyakov S, Siarohin A, Ricci E (2021) Playable
+  video generation. In: CVPR
+
+\bibitem[{Meng et~al(2020)Meng, Lin, Panda, Sattigeri, Karlinsky, Oliva,
+  Saenko, and Feris}]{meng2020ar}
+Meng Y, Lin CC, Panda R, Sattigeri P, Karlinsky L, Oliva A, Saenko K, Feris R
+  (2020) Ar-net: Adaptive frame resolution for efficient action recognition.
+  In: ECCV
+
+\bibitem[{Metaxas and Zhang(2013)}]{metaxas2013review}
+Metaxas D, Zhang S (2013) A review of motion analysis methods for human
+  nonverbal communication computing. IVC
+
+\bibitem[{Mettes et~al(2016)Mettes, Van~Gemert, and Snoek}]{mettes2016spot}
+Mettes P, Van~Gemert JC, Snoek CG (2016) Spot on: Action localization from
+  pointly-supervised proposals. In: ECCV
+
+\bibitem[{Micorek et~al(2024)Micorek, Possegger, Narnhofer, Bischof, and
+  Kozinski}]{micorek2024mulde}
+Micorek J, Possegger H, Narnhofer D, Bischof H, Kozinski M (2024) Mulde:
+  Multiscale log-density estimation via denoising score matching for video
+  anomaly detection. In: CVPR
+
+\bibitem[{Miech et~al(2019)Miech, Zhukov, Alayrac, Tapaswi, Laptev, and
+  Sivic}]{miech2019howto100m}
+Miech A, Zhukov D, Alayrac JB, Tapaswi M, Laptev I, Sivic J (2019) Howto100m:
+  Learning a text-video embedding by watching hundred million narrated video
+  clips. In: CVPR
+
+\bibitem[{Miech et~al(2020{\natexlab{a}})Miech, Alayrac, Laptev, Sivic, and
+  Zisserman}]{miech2020rareact}
+Miech A, Alayrac JB, Laptev I, Sivic J, Zisserman A (2020{\natexlab{a}})
+  Rareact: A video dataset of unusual interactions. arxiv
+
+\bibitem[{Miech et~al(2020{\natexlab{b}})Miech, Alayrac, Smaira, Laptev, Sivic,
+  and Zisserman}]{miech2020end}
+Miech A, Alayrac JB, Smaira L, Laptev I, Sivic J, Zisserman A
+  (2020{\natexlab{b}}) End-to-end learning of visual representations from
+  uncurated instructional videos. In: CVPR
+
+\bibitem[{Mikolajczyk and Uemura(2008)}]{mikolajczyk2008action}
+Mikolajczyk K, Uemura H (2008) Action recognition with motion-appearance
+  vocabulary forest. In: CVPR
+
+\bibitem[{Min et~al(2024)Min, Buch, Nagrani, Cho, and Schmid}]{min2024morevqa}
+Min J, Buch S, Nagrani A, Cho M, Schmid C (2024) Morevqa: Exploring modular
+  reasoning models for video question answering. In: CVPR
+
+\bibitem[{Misra et~al(2016)Misra, Zitnick, and Hebert}]{misra2016shuffle}
+Misra I, Zitnick CL, Hebert M (2016) Shuffle and learn: unsupervised learning
+  using temporal order verification. In: ECCV
+
+\bibitem[{Mithun et~al(2018)Mithun, Li, Metze, and
+  Roy-Chowdhury}]{mithun2018learning}
+Mithun NC, Li J, Metze F, Roy-Chowdhury AK (2018) Learning joint embedding with
+  multimodal cues for cross-modal video-text retrieval. In: ICMR
+
+\bibitem[{Mittal et~al(2024)Mittal, Agarwal, Lo, and Lee}]{mittal2024can}
+Mittal H, Agarwal N, Lo SY, Lee K (2024) Can't make an omelette without
+  breaking some eggs: Plausible action anticipation using large video-language
+  models. In: CVPR
+
+\bibitem[{Mo and Morgado(2023)}]{mo2023unified}
+Mo S, Morgado P (2023) A unified audio-visual learning framework for
+  localization, separation, and recognition. In: ICML
+
+\bibitem[{Moeslund and Granum(2001)}]{moeslund2001survey}
+Moeslund TB, Granum E (2001) A survey of computer vision-based human motion
+  capture. CVIU
+
+\bibitem[{Moeslund et~al(2006)Moeslund, Hilton, and
+  Kr{\"u}ger}]{moeslund2006survey}
+Moeslund TB, Hilton A, Kr{\"u}ger V (2006) A survey of advances in vision-based
+  human motion capture and analysis. CVIU
+
+\bibitem[{Moltisanti et~al(2019)Moltisanti, Fidler, and
+  Damen}]{moltisanti2019action}
+Moltisanti D, Fidler S, Damen D (2019) Action recognition from single timestamp
+  supervision in untrimmed videos. In: CVPR
+
+\bibitem[{Moltisanti et~al(2023)Moltisanti, Keller, Bilen, and
+  Sevilla-Lara}]{moltisanti2023learning}
+Moltisanti D, Keller F, Bilen H, Sevilla-Lara L (2023) Learning action changes
+  by measuring verb-adverb textual relationships. In: CVPR
+
+\bibitem[{Monfort et~al(2019)Monfort, Andonian, Zhou, Ramakrishnan, Bargal,
+  Yan, Brown, Fan, Gutfreund, Vondrick et~al}]{monfort2019moments}
+Monfort M, Andonian A, Zhou B, Ramakrishnan K, Bargal SA, Yan T, Brown L, Fan
+  Q, Gutfreund D, Vondrick C, et~al (2019) Moments in time dataset: one million
+  videos for event understanding. IEEE TPAMI
+
+\bibitem[{Monfort et~al(2021)Monfort, Jin, Liu, Harwath, Feris, Glass, and
+  Oliva}]{monfort2021spoken}
+Monfort M, Jin S, Liu A, Harwath D, Feris R, Glass J, Oliva A (2021) Spoken
+  moments: Learning joint audio-visual representations from video descriptions.
+  In: CVPR
+
+\bibitem[{Moon et~al(2020)Moon, Yu, Wen, Shiratori, and
+  Lee}]{moon2020interhand2}
+Moon G, Yu SI, Wen H, Shiratori T, Lee KM (2020) Interhand2. 6m: A dataset and
+  baseline for 3d interacting hand pose estimation from a single rgb image. In:
+  ECCV
+
+\bibitem[{Morais et~al(2019)Morais, Le, Tran, Saha, Mansour, and
+  Venkatesh}]{morais2019learning}
+Morais R, Le V, Tran T, Saha B, Mansour M, Venkatesh S (2019) Learning
+  regularity in skeleton trajectories for anomaly detection in videos. In: CVPR
+
+\bibitem[{Morgado et~al(2021)Morgado, Vasconcelos, and
+  Misra}]{morgado2021audio}
+Morgado P, Vasconcelos N, Misra I (2021) Audio-visual instance discrimination
+  with cross-modal agreement. In: CVPR
+
+\bibitem[{Morrongiello et~al(1998)Morrongiello, Fenwick, and
+  Nutley}]{morrongiello1998developmental}
+Morrongiello BA, Fenwick KD, Nutley T (1998) Developmental changes in
+  associations between auditory-visual events. Infant Behavior and Development
+
+\bibitem[{Mounir et~al(2024)Mounir, Vijayaraghavan, and
+  Sarkar}]{mounir2024streamer}
+Mounir R, Vijayaraghavan S, Sarkar S (2024) Streamer: Streaming representation
+  learning and event segmentation in a hierarchical manner. NeurIPS
+
+\bibitem[{Mueller et~al(2017)Mueller, Mehta, Sotnychenko, Sridhar, Casas, and
+  Theobalt}]{mueller2017real}
+Mueller F, Mehta D, Sotnychenko O, Sridhar S, Casas D, Theobalt C (2017)
+  Real-time hand tracking under occlusion from an egocentric rgb-d sensor. In:
+  CVPR
+
+\bibitem[{Mun et~al(2019)Mun, Yang, Ren, Xu, and Han}]{mun2019streamlined}
+Mun J, Yang L, Ren Z, Xu N, Han B (2019) Streamlined dense video captioning.
+  In: CVPR
+
+\bibitem[{Munro and Damen(2020)}]{munro2020multi}
+Munro J, Damen D (2020) Multi-modal domain adaptation for fine-grained action
+  recognition. In: CVPR
+
+\bibitem[{Mur-Labadia et~al(2024)Mur-Labadia, Martinez-Cantin, Guerrero,
+  Farinella, and Furnari}]{mur2024aff}
+Mur-Labadia L, Martinez-Cantin R, Guerrero J, Farinella GM, Furnari A (2024)
+  Aff-ttention! affordances and attention models for short-term object
+  interaction anticipation. arxiv arXiv:240601194
+
+\bibitem[{Nag et~al(2023)Nag, Zhu, Deng, Song, and Xiang}]{nag2023difftad}
+Nag S, Zhu X, Deng J, Song YZ, Xiang T (2023) Difftad: Temporal action
+  detection with proposal denoising diffusion. In: ICCV
+
+\bibitem[{Nagarajan and Grauman(2018)}]{nagarajan2018attributes}
+Nagarajan T, Grauman K (2018) Attributes as operators: factorizing unseen
+  attribute-object compositions. In: ECCV
+
+\bibitem[{Nagarajan et~al(2019)Nagarajan, Feichtenhofer, and
+  Grauman}]{nagarajan2019grounded}
+Nagarajan T, Feichtenhofer C, Grauman K (2019) Grounded human-object
+  interaction hotspots from video. In: CVPR
+
+\bibitem[{Nagrani et~al(2021)Nagrani, Yang, Arnab, Jansen, Schmid, and
+  Sun}]{nagrani2021attention}
+Nagrani A, Yang S, Arnab A, Jansen A, Schmid C, Sun C (2021) Attention
+  bottlenecks for multimodal fusion. In: NeurIPS
+
+\bibitem[{Nan et~al(2021)Nan, Qiao, Xiao, Liu, Leng, Zhang, and
+  Lu}]{nan2021interventional}
+Nan G, Qiao R, Xiao Y, Liu J, Leng S, Zhang H, Lu W (2021) Interventional video
+  grounding with dual contrastive learning. In: CVPR
+
+\bibitem[{Nawhal et~al(2022)Nawhal, Jyothi, and Mori}]{nawhal2022rethinking}
+Nawhal M, Jyothi AA, Mori G (2022) Rethinking learning approaches for long-term
+  action anticipation. In: ECCV
+
+\bibitem[{Nguyen and Meunier(2019)}]{nguyen2019anomaly}
+Nguyen TN, Meunier J (2019) Anomaly detection in video sequence with
+  appearance-motion correspondence. In: ICCV
+
+\bibitem[{Nguyen et~al(2024)Nguyen, Nguyen, and Luu}]{nguyen2024hig}
+Nguyen TT, Nguyen P, Luu K (2024) Hig: Hierarchical interlacement graph
+  approach to scene graph generation in video understanding. In: CVPR
+
+\bibitem[{Ni et~al(2014)Ni, Paramathayalan, and Moulin}]{ni2014multiple}
+Ni B, Paramathayalan VR, Moulin P (2014) Multiple granularity analysis for
+  fine-grained action detection. In: CVPR
+
+\bibitem[{Nie et~al(2024)Nie, Chen, Jin, Zhu, Yan, and Qi}]{nie2024triplet}
+Nie X, Chen X, Jin H, Zhu Z, Yan Y, Qi D (2024) Triplet attention transformer
+  for spatiotemporal predictive learning. In: WACV
+
+\bibitem[{Niebles et~al(2008)Niebles, Wang, and
+  Fei-Fei}]{niebles2008unsupervised}
+Niebles JC, Wang H, Fei-Fei L (2008) Unsupervised learning of human action
+  categories using spatial-temporal words. IJCV
+
+\bibitem[{Niebles et~al(2010)Niebles, Chen, and Fei-Fei}]{niebles2010modeling}
+Niebles JC, Chen CW, Fei-Fei L (2010) Modeling temporal structure of
+  decomposable motion segments for activity classification. In: ECCV
+
+\bibitem[{Nikankin et~al(2023)Nikankin, Haim, and
+  Irani}]{nikankin2023sinfusion}
+Nikankin Y, Haim N, Irani M (2023) Sinfusion: training diffusion models on a
+  single image or video. In: ICML
+
+\bibitem[{Nowozin et~al(2007)Nowozin, Bakir, and
+  Tsuda}]{nowozin2007discriminative}
+Nowozin S, Bakir G, Tsuda K (2007) Discriminative subsequence mining for action
+  classification. In: ICCV
+
+\bibitem[{Ntinou et~al(2024)Ntinou, Sanchez, and
+  Tzimiropoulos}]{ntinou2024multiscale}
+Ntinou I, Sanchez E, Tzimiropoulos G (2024) Multiscale vision transformers meet
+  bipartite matching for efficient single-stage action localization. In: CVPR
+
+\bibitem[{Nugroho et~al(2023)Nugroho, Woo, Lee, and Kim}]{nugroho2023audio}
+Nugroho MA, Woo S, Lee S, Kim C (2023) Audio-visual glance network for
+  efficient video recognition. In: ICCV
+
+\bibitem[{Ohkawa et~al(2023)Ohkawa, He, Sener, Hodan, Tran, and
+  Keskin}]{ohkawa2023assemblyhands}
+Ohkawa T, He K, Sener F, Hodan T, Tran L, Keskin C (2023) {AssemblyHands:}
+  towards egocentric activity understanding via 3d hand pose estimation. In:
+  CVPR
+
+\bibitem[{Oikonomopoulos et~al(2005)Oikonomopoulos, Patras, and
+  Pantic}]{oikonomopoulos2005spatiotemporal}
+Oikonomopoulos A, Patras I, Pantic M (2005) Spatiotemporal saliency for human
+  action recognition. In: ICME
+
+\bibitem[{Oncescu et~al(2021)Oncescu, Henriques, Liu, Zisserman, and
+  Albanie}]{oncescu2021queryd}
+Oncescu AM, Henriques JF, Liu Y, Zisserman A, Albanie S (2021) Queryd: A video
+  dataset with high-quality text and audio narrations. In: ICASSP
+
+\bibitem[{Oneata et~al(2013)Oneata, Verbeek, and Schmid}]{oneata2013action}
+Oneata D, Verbeek J, Schmid C (2013) Action and event recognition with fisher
+  vectors on a compact feature set. In: ICCV
+
+\bibitem[{Ong et~al(2023)Ong, Ng, Li, Ai, Zhao, Yeo, and Liu}]{ong2023chaotic}
+Ong KE, Ng XL, Li Y, Ai W, Zhao K, Yeo SY, Liu J (2023) Chaotic world: A large
+  and challenging benchmark for human behavior understanding in chaotic events.
+  In: ICCV
+
+\bibitem[{Oprea et~al(2022)Oprea, Martinez-Gonzalez, Garcia-Garcia,
+  Castro-Vargas, Orts-Escolano, Garcia-Rodriguez, and
+  Argyros}]{oprea2022review}
+Oprea S, Martinez-Gonzalez P, Garcia-Garcia A, Castro-Vargas JA, Orts-Escolano
+  S, Garcia-Rodriguez J, Argyros A (2022) A review on deep learning techniques
+  for video prediction. IEEE TPAMI
+
+\bibitem[{Ortega et~al(2020)Ortega, Kose, Ca{\~n}as, Chao, Unnervik, Nieto,
+  Otaegui, and Salgado}]{ortega2020dmd}
+Ortega JD, Kose N, Ca{\~n}as P, Chao MA, Unnervik A, Nieto M, Otaegui O,
+  Salgado L (2020) Dmd: A large-scale multi-modal driver monitoring dataset for
+  attention and alertness analysis. In: ECCV
+
+\bibitem[{Otani et~al(2016)Otani, Nakashima, Rahtu, Heikkil{\"a}, and
+  Yokoya}]{otani2016learning}
+Otani M, Nakashima Y, Rahtu E, Heikkil{\"a} J, Yokoya N (2016) Learning joint
+  representations of videos and sentences with web image search. In: ECCVw
+
+\bibitem[{Owens et~al(2016)Owens, Isola, McDermott, Torralba, Adelson, and
+  Freeman}]{owens2016visually}
+Owens A, Isola P, McDermott J, Torralba A, Adelson EH, Freeman WT (2016)
+  Visually indicated sounds. In: CVPR
+
+\bibitem[{Pan et~al(2021)Pan, Chen, Shou, Liu, Shao, and Li}]{pan2021actor}
+Pan J, Chen S, Shou MZ, Liu Y, Shao J, Li H (2021) Actor-context-actor relation
+  network for spatio-temporal action localization. In: CVPR
+
+\bibitem[{Panagiotakis et~al(2018)Panagiotakis, Karvounas, and
+  Argyros}]{panagiotakis2018unsupervised}
+Panagiotakis C, Karvounas G, Argyros A (2018) {Unsupervised Detection of
+  Periodic Segments in Videos}. In: ICIP
+
+\bibitem[{Pareek and Thakkar(2021)}]{pareek2021survey}
+Pareek P, Thakkar A (2021) A survey on video-based human action recognition:
+  recent updates, datasets, challenges, and applications. UMT-AIR
+
+\bibitem[{Park et~al(2020)Park, Noh, and Ham}]{park2020learning}
+Park H, Noh J, Ham B (2020) Learning memory-guided normality for anomaly
+  detection. In: CVPR
+
+\bibitem[{Park et~al(2021{\natexlab{a}})Park, Lee, and Sohn}]{park2021bridge}
+Park J, Lee J, Sohn K (2021{\natexlab{a}}) Bridge to answer: Structure-aware
+  graph interaction network for video question answering. In: CVPR
+
+\bibitem[{Park et~al(2022)Park, Shen, Farhadi, Darrell, Choi, and
+  Rohrbach}]{park2022exposing}
+Park JS, Shen S, Farhadi A, Darrell T, Choi Y, Rohrbach A (2022) Exposing the
+  limits of video-text models through contrast sets. In: NAACL
+
+\bibitem[{Park et~al(2021{\natexlab{b}})Park, Kim, Lee, Choo, Lee, Kim, and
+  Choi}]{park2021vid}
+Park S, Kim K, Lee J, Choo J, Lee J, Kim S, Choi E (2021{\natexlab{b}})
+  Vid-ode: Continuous-time video generation with neural ordinary differential
+  equation. In: AAAI
+
+\bibitem[{Park et~al(2019)Park, Kim, Lu, and Cho}]{park2019relational}
+Park W, Kim D, Lu Y, Cho M (2019) Relational knowledge distillation. In: CVPR
+
+\bibitem[{Parmar and Morris(2019)}]{parmar2019and}
+Parmar P, Morris BT (2019) What and how well you performed? a multitask
+  learning approach to action quality assessment. In: CVPR
+
+\bibitem[{Patron-Perez et~al(2010)Patron-Perez, Marszalek, Zisserman, and
+  Reid}]{patron2010high}
+Patron-Perez A, Marszalek M, Zisserman A, Reid I (2010) High five: Recognising
+  human interactions in tv shows. In: BMVC
+
+\bibitem[{Patsch et~al(2024)Patsch, Zhang, Wu, Zakour, Salihu, and
+  Steinbach}]{patsch2024long}
+Patsch C, Zhang J, Wu Y, Zakour M, Salihu D, Steinbach E (2024) Long-term
+  action anticipation based on contextual alignment. In: ICASSP
+
+\bibitem[{Paul et~al(2018)Paul, Roy, and Roy-Chowdhury}]{paul2018w}
+Paul S, Roy S, Roy-Chowdhury AK (2018) W-talc: Weakly-supervised temporal
+  activity localization and classification. In: ECCV
+
+\bibitem[{Pei et~al(2011)Pei, Jia, and Zhu}]{pei2011parsing}
+Pei M, Jia Y, Zhu SC (2011) Parsing video events with goal inference and intent
+  prediction. In: ICCV
+
+\bibitem[{Peng et~al(2021)Peng, Zhang, Xu, Wang, Shuai, Bao, and
+  Zhou}]{peng2021neural}
+Peng S, Zhang Y, Xu Y, Wang Q, Shuai Q, Bao H, Zhou X (2021) Neural body:
+  Implicit neural representations with structured latent codes for novel view
+  synthesis of dynamic humans. In: CVPR
+
+\bibitem[{Peng and Schmid(2016)}]{peng2016multi}
+Peng X, Schmid C (2016) Multi-region two-stream r-cnn for action detection. In:
+  ECCV
+
+\bibitem[{Pian et~al(2023)Pian, Mo, Guo, and Tian}]{pian2023audio}
+Pian W, Mo S, Guo Y, Tian Y (2023) Audio-visual class-incremental learning. In:
+  ICCV
+
+\bibitem[{Pickup et~al(2014)Pickup, Pan, Wei, Shih, Zhang, Zisserman,
+  Scholkopf, and Freeman}]{pickup2014seeing}
+Pickup LC, Pan Z, Wei D, Shih Y, Zhang C, Zisserman A, Scholkopf B, Freeman WT
+  (2014) Seeing the arrow of time. In: CVPR
+
+\bibitem[{Piergiovanni and Ryoo(2020)}]{piergiovanni2020avid}
+Piergiovanni A, Ryoo M (2020) Avid dataset: Anonymized videos from diverse
+  countries. NeurIPS
+
+\bibitem[{Piergiovanni et~al(2020)Piergiovanni, Angelova, Toshev, and
+  Ryoo}]{piergiovanni2020adversarial}
+Piergiovanni A, Angelova A, Toshev A, Ryoo MS (2020) Adversarial generative
+  grammars for human activity prediction. In: ECCV
+
+\bibitem[{Piergiovanni et~al(2024)Piergiovanni, Noble, Kim, Ryoo, Gomes, and
+  Angelova}]{piergiovanni2024mirasol3b}
+Piergiovanni A, Noble I, Kim D, Ryoo MS, Gomes V, Angelova A (2024) Mirasol3b:
+  A multimodal autoregressive model for time-aligned and contextual modalities.
+  In: CVPR
+
+\bibitem[{Pirsiavash and Ramanan(2012)}]{pirsiavash2012detecting}
+Pirsiavash H, Ramanan D (2012) Detecting activities of daily living in
+  first-person camera views. In: CVPR
+
+\bibitem[{Pishchulin et~al(2013)Pishchulin, Andriluka, Gehler, and
+  Schiele}]{pishchulin2013strong}
+Pishchulin L, Andriluka M, Gehler P, Schiele B (2013) Strong appearance and
+  expressive spatial models for human pose estimation. In: CVPR
+
+\bibitem[{Plizzari et~al(2024)Plizzari, Goletto, Furnari, Bansal, Ragusa,
+  Farinella, Damen, and Tommasi}]{plizzari2024outlook}
+Plizzari C, Goletto G, Furnari A, Bansal S, Ragusa F, Farinella GM, Damen D,
+  Tommasi T (2024) An outlook into the future of egocentric vision. IJCV
+
+\bibitem[{Pogalin et~al(2008)Pogalin, Smeulders, and Thean}]{pogalin2008visual}
+Pogalin E, Smeulders AW, Thean AH (2008) {Visual Quasi-Periodicity}. In: CVPR
+
+\bibitem[{Poppe(2007)}]{poppe2007vision}
+Poppe R (2007) Vision-based human motion analysis: An overview. CVIU
+
+\bibitem[{Poppe(2010)}]{poppe2010survey}
+Poppe R (2010) A survey on vision-based human action recognition. IVC
+
+\bibitem[{Price et~al(2022)Price, Vondrick, and Damen}]{price2022unweavenet}
+Price W, Vondrick C, Damen D (2022) Unweavenet: Unweaving activity stories. In:
+  CVPR
+
+\bibitem[{Pu et~al(2023)Pu, Wu, Yang, and Wang}]{pu2023learning}
+Pu Y, Wu X, Yang L, Wang S (2023) Learning prompt-enhanced context features for
+  weakly-supervised video anomaly detection. arxiv
+
+\bibitem[{Purwanto et~al(2021)Purwanto, Chen, and Fang}]{purwanto2021dance}
+Purwanto D, Chen YT, Fang WH (2021) Dance with self-attention: A new look of
+  conditional random fields on anomaly detection in videos. In: ICCV
+
+\bibitem[{Qian et~al(2024)Qian, Li, Wu, Ye, Fei, Chua, Zhuang, and
+  Tang}]{qian2024momentor}
+Qian L, Li J, Wu Y, Ye Y, Fei H, Chua TS, Zhuang Y, Tang S (2024) Momentor:
+  Advancing video large language model with fine-grained temporal reasoning.
+  In: ICML
+
+\bibitem[{Qing et~al(2021)Qing, Su, Gan, Wang, Wu, Wang, Qiao, Yan, Gao, and
+  Sang}]{qing2021temporal}
+Qing Z, Su H, Gan W, Wang D, Wu W, Wang X, Qiao Y, Yan J, Gao C, Sang N (2021)
+  Temporal context aggregation network for temporal action proposal refinement.
+  In: CVPR
+
+\bibitem[{Qiu et~al(2017)Qiu, Yao, and Mei}]{qiu2017learning}
+Qiu Z, Yao T, Mei T (2017) Learning spatio-temporal representation with
+  pseudo-3d residual networks. In: ICCV
+
+\bibitem[{Qiu et~al(2019)Qiu, Yao, Ngo, Tian, and Mei}]{qiu2019learning}
+Qiu Z, Yao T, Ngo CW, Tian X, Mei T (2019) Learning spatio-temporal
+  representation with local and global diffusion. In: CVPR
+
+\bibitem[{Qu et~al(2020)Qu, Tang, Zou, Cheng, Dong, Zhou, and Xu}]{qu2020fine}
+Qu X, Tang P, Zou Z, Cheng Y, Dong J, Zhou P, Xu Z (2020) Fine-grained
+  iterative attention network for temporal language localization in videos. In:
+  MM
+
+\bibitem[{Radevski et~al(2023)Radevski, Grujicic, Blaschko, Moens, and
+  Tuytelaars}]{radevski2023multimodal}
+Radevski G, Grujicic D, Blaschko M, Moens MF, Tuytelaars T (2023) Multimodal
+  distillation for egocentric action recognition. In: ICCV
+
+\bibitem[{Radford et~al(2021)Radford, Kim, Hallacy, Ramesh, Goh, Agarwal,
+  Sastry, Askell, Mishkin, Clark et~al}]{radford2021learning}
+Radford A, Kim JW, Hallacy C, Ramesh A, Goh G, Agarwal S, Sastry G, Askell A,
+  Mishkin P, Clark J, et~al (2021) Learning transferable visual models from
+  natural language supervision. In: ICLR
+
+\bibitem[{Ragusa et~al(2021)Ragusa, Furnari, Livatino, and
+  Farinella}]{ragusa2021meccano}
+Ragusa F, Furnari A, Livatino S, Farinella GM (2021) The meccano dataset:
+  Understanding human-object interactions from egocentric videos in an
+  industrial-like domain. In: WACV
+
+\bibitem[{Rahman et~al(2019)Rahman, Xu, and Sigal}]{rahman2019watch}
+Rahman T, Xu B, Sigal L (2019) Watch, listen and tell: Multi-modal weakly
+  supervised dense event captioning. In: CVPR
+
+\bibitem[{Rahmani et~al(2014)Rahmani, Mahmood, Huynh, and
+  Mian}]{rahmani2014real}
+Rahmani H, Mahmood A, Huynh DQ, Mian A (2014) Real time action recognition
+  using histograms of depth gradients and random decision forests. In: WACV
+
+\bibitem[{Rai et~al(2021)Rai, Chen, Ji, Desai, Kozuka, Ishizaka, Adeli, and
+  Niebles}]{rai2021home}
+Rai N, Chen H, Ji J, Desai R, Kozuka K, Ishizaka S, Adeli E, Niebles JC (2021)
+  Home action genome: Cooperative compositional action understanding. In: CVPR
+
+\bibitem[{Ramachandra et~al(2020)Ramachandra, Jones, and
+  Vatsavai}]{ramachandra2020survey}
+Ramachandra B, Jones MJ, Vatsavai RR (2020) A survey of single-scene video
+  anomaly detection. IEEE TPAMI
+
+\bibitem[{Randall(2009)}]{randal2009movie}
+Randall M (2009) Movie narrative charts. \urlprefix\url{https://xkcd.com/657/}
+
+\bibitem[{Rangrej et~al(2023)Rangrej, Liang, Hassner, and
+  Clark}]{rangrej2023glitr}
+Rangrej SB, Liang KJ, Hassner T, Clark JJ (2023) Glitr: Glimpse transformers
+  with spatiotemporal consistency for online action prediction. In: WACV
+
+\bibitem[{Rasouli(2020)}]{rasouli2020deep}
+Rasouli A (2020) Deep learning for vision-based prediction: A survey. arxiv
+
+\bibitem[{Recasens et~al(2023)Recasens, Lin, Carreira, Jaegle, Wang, Alayrac,
+  Luc, Miech, Smaira, Hemsley et~al}]{recasens2023zorro}
+Recasens A, Lin J, Carreira J, Jaegle D, Wang L, Alayrac Jb, Luc P, Miech A,
+  Smaira L, Hemsley R, et~al (2023) Zorro: the masked multimodal transformer.
+  arxiv
+
+\bibitem[{Reddy and Shah(2013)}]{reddy2013recognizing}
+Reddy KK, Shah M (2013) Recognizing 50 human action categories of web videos.
+  MVA
+
+\bibitem[{Redmon et~al(2016)Redmon, Divvala, Girshick, and
+  Farhadi}]{redmon2016you}
+Redmon J, Divvala S, Girshick R, Farhadi A (2016) You only look once: Unified,
+  real-time object detection. In: CVPR
+
+\bibitem[{Regneri et~al(2013)Regneri, Rohrbach, Wetzel, Thater, Schiele, and
+  Pinkal}]{regneri2013grounding}
+Regneri M, Rohrbach M, Wetzel D, Thater S, Schiele B, Pinkal M (2013) Grounding
+  action descriptions in videos. TACL
+
+\bibitem[{Ren et~al(2024)Ren, Yao, Li, Sun, and Hou}]{ren2024timechat}
+Ren S, Yao L, Li S, Sun X, Hou L (2024) Timechat: A time-sensitive multimodal
+  large language model for long video understanding. In: CVPR
+
+\bibitem[{Rizve et~al(2023)Rizve, Mittal, Yu, Hall, Sajeev, Shah, and
+  Chen}]{rizve2023pivotal}
+Rizve MN, Mittal G, Yu Y, Hall M, Sajeev S, Shah M, Chen M (2023) Pivotal:
+  Prior-driven supervision for weakly-supervised temporal action localization.
+  In: CVPR
+
+\bibitem[{Rizzolatti et~al(2001)Rizzolatti, Fogassi, and
+  Gallese}]{rizzolatti2001neurophysiological}
+Rizzolatti G, Fogassi L, Gallese V (2001) Neurophysiological mechanisms
+  underlying the understanding and imitation of action. Nature reviews
+  neuroscience
+
+\bibitem[{Rodin et~al(2021)Rodin, Furnari, Mavroeidis, and
+  Farinella}]{rodin2021predicting}
+Rodin I, Furnari A, Mavroeidis D, Farinella GM (2021) Predicting the future
+  from first person (egocentric) vision: A survey. CVIU
+
+\bibitem[{Rodriguez et~al(2008)Rodriguez, Ahmed, and
+  Shah}]{rodriguez2008action}
+Rodriguez MD, Ahmed J, Shah M (2008) Action mach a spatio-temporal maximum
+  average correlation height filter for action recognition. In: CVPR
+
+\bibitem[{Rohr(1994)}]{rohr1994towards}
+Rohr K (1994) Towards model-based recognition of human movements in image
+  sequences. CVGIP
+
+\bibitem[{Rohrbach et~al(2012)Rohrbach, Amin, Andriluka, and
+  Schiele}]{rohrbach2012database}
+Rohrbach M, Amin S, Andriluka M, Schiele B (2012) A database for fine grained
+  activity detection of cooking activities. In: CVPR
+
+\bibitem[{Rombach et~al(2022)Rombach, Blattmann, Lorenz, Esser, and
+  Ommer}]{rombach2022high}
+Rombach R, Blattmann A, Lorenz D, Esser P, Ommer B (2022) High-resolution image
+  synthesis with latent diffusion models. In: CVPR
+
+\bibitem[{Roy and Fernando(2021)}]{roy2021action}
+Roy D, Fernando B (2021) Action anticipation using pairwise human-object
+  interactions and transformers. IEEE T-IP
+
+\bibitem[{Roy and Fernando(2022)}]{roy2022action}
+Roy D, Fernando B (2022) Action anticipation using latent goal learning. In:
+  WACV
+
+\bibitem[{Roy et~al(2024)Roy, Rajendiran, and Fernando}]{roy2024interaction}
+Roy D, Rajendiran R, Fernando B (2024) Interaction region visual transformer
+  for egocentric action anticipation. In: WACV
+
+\bibitem[{Runia et~al(2018)Runia, Snoek, and Smeulders}]{runia2018real}
+Runia TF, Snoek CG, Smeulders AW (2018) {Real-World Repetition Estimation by
+  Div, Grad and Curl}. In: CVPR
+
+\bibitem[{Ryali et~al(2023)Ryali, Hu, Bolya, Wei, Fan, Huang, Aggarwal,
+  Chowdhury, Poursaeed, Hoffman et~al}]{ryali2023hiera}
+Ryali C, Hu YT, Bolya D, Wei C, Fan H, Huang PY, Aggarwal V, Chowdhury A,
+  Poursaeed O, Hoffman J, et~al (2023) Hiera: A hierarchical vision transformer
+  without the bells-and-whistles. In: ICML
+
+\bibitem[{Ryoo et~al(2021)Ryoo, Piergiovanni, Arnab, Dehghani, and
+  Angelova}]{ryoo2021tokenlearner}
+Ryoo M, Piergiovanni A, Arnab A, Dehghani M, Angelova A (2021) Tokenlearner:
+  Adaptive space-time tokenization for videos. NeurIPS
+
+\bibitem[{Ryoo(2011)}]{ryoo2011human}
+Ryoo MS (2011) Human activity prediction: Early recognition of ongoing
+  activities from streaming videos. In: ICCV
+
+\bibitem[{Ryoo and Aggarwal(2009)}]{ryoo2009spatio}
+Ryoo MS, Aggarwal JK (2009) Spatio-temporal relationship match: Video structure
+  comparison for recognition of complex human activities. In: ICCV
+
+\bibitem[{Sadanand and Corso(2012)}]{sadanand2012action}
+Sadanand S, Corso JJ (2012) Action bank: A high-level representation of
+  activity in video. In: CVPR
+
+\bibitem[{Saini et~al(2022)Saini, Pham, and
+  Shrivastava}]{saini2022disentangling}
+Saini N, Pham K, Shrivastava A (2022) Disentangling visual embeddings for
+  attributes and objects. In: CVPR
+
+\bibitem[{Saini et~al(2023)Saini, Wang, Swaminathan, Jayasundara, He, Gupta,
+  and Shrivastava}]{saini2023chop}
+Saini N, Wang H, Swaminathan A, Jayasundara V, He B, Gupta K, Shrivastava A
+  (2023) Chop \& learn: Recognizing and generating object-state compositions.
+  In: ICCV
+
+\bibitem[{Saito et~al(2017)Saito, Matsumoto, and Saito}]{saito2017temporal}
+Saito M, Matsumoto E, Saito S (2017) Temporal generative adversarial nets with
+  singular value clipping. In: ICCV
+
+\bibitem[{Sakoe and Chiba(1978)}]{sakoe1978dynamic}
+Sakoe H, Chiba S (1978) Dynamic programming algorithm optimization for spoken
+  word recognition. IEEE TASSP
+
+\bibitem[{Sandvine(2024)}]{sandvine2024global}
+Sandvine I (2024) Global internet phenomena report. North America and Latin
+  America
+
+\bibitem[{Schiappa et~al(2023)Schiappa, Rawat, and Shah}]{schiappa2023self}
+Schiappa MC, Rawat YS, Shah M (2023) Self-supervised learning for videos: A
+  survey. CSUR
+
+\bibitem[{Schuldt et~al(2004)Schuldt, Laptev, and
+  Caputo}]{schuldt2004recognizing}
+Schuldt C, Laptev I, Caputo B (2004) Recognizing human actions: a local svm
+  approach. In: ICPR
+
+\bibitem[{Selva et~al(2023)Selva, Johansen, Escalera, Nasrollahi, Moeslund, and
+  Clap{\'e}s}]{selva2023video}
+Selva J, Johansen AS, Escalera S, Nasrollahi K, Moeslund TB, Clap{\'e}s A
+  (2023) Video transformers: A survey. IEEE TPAMI
+
+\bibitem[{Sener et~al(2022)Sener, Chatterjee, Shelepov, He, Singhania, Wang,
+  and Yao}]{sener2022assembly101}
+Sener F, Chatterjee D, Shelepov D, He K, Singhania D, Wang R, Yao A (2022)
+  Assembly101: A large-scale multi-view video dataset for understanding
+  procedural activities. In: CVPR
+
+\bibitem[{Seo et~al(2021)Seo, Nagrani, and Schmid}]{seo2021look}
+Seo PH, Nagrani A, Schmid C (2021) Look before you speak: Visually
+  contextualized utterances. In: CVPR
+
+\bibitem[{Seo et~al(2022)Seo, Nagrani, Arnab, and Schmid}]{seo2022end}
+Seo PH, Nagrani A, Arnab A, Schmid C (2022) End-to-end generative pretraining
+  for multimodal video captioning. In: CVPR
+
+\bibitem[{Sermanet et~al(2017)Sermanet, Xu, and
+  Levine}]{sermanet2017unsupervised}
+Sermanet P, Xu K, Levine S (2017) Unsupervised perceptual rewards for imitation
+  learning. In: ICLRw
+
+\bibitem[{Sermanet et~al(2018)Sermanet, Lynch, Chebotar, Hsu, Jang, Schaal,
+  Levine, and Brain}]{sermanet2018time}
+Sermanet P, Lynch C, Chebotar Y, Hsu J, Jang E, Schaal S, Levine S, Brain G
+  (2018) Time-contrastive networks: Self-supervised learning from video. In:
+  ICRA
+
+\bibitem[{Sevilla-Lara et~al(2019)Sevilla-Lara, Liao, G{\"u}ney, Jampani,
+  Geiger, and Black}]{sevilla2019integration}
+Sevilla-Lara L, Liao Y, G{\"u}ney F, Jampani V, Geiger A, Black MJ (2019) On
+  the integration of optical flow and action recognition. In: GCPR
+
+\bibitem[{Shahroudy et~al(2016)Shahroudy, Liu, Ng, and Wang}]{shahroudy2016ntu}
+Shahroudy A, Liu J, Ng TT, Wang G (2016) Ntu rgb+ d: A large scale dataset for
+  3d human activity analysis. In: CVPR
+
+\bibitem[{Shao et~al(2020)Shao, Zhao, Dai, and Lin}]{shao2020finegym}
+Shao D, Zhao Y, Dai B, Lin D (2020) Finegym: A hierarchical video dataset for
+  fine-grained action understanding. In: CVPR
+
+\bibitem[{Shao et~al(2023)Shao, Wang, Quan, Zheng, Yang, and
+  Yang}]{shao2023action}
+Shao J, Wang X, Quan R, Zheng J, Yang J, Yang Y (2023) Action sensitivity
+  learning for temporal action localization. In: ICCV
+
+\bibitem[{Sharma et~al(2015)Sharma, Kiros, and
+  Salakhutdinov}]{sharma2015action}
+Sharma S, Kiros R, Salakhutdinov R (2015) Action recognition using visual
+  attention. In: ICLR
+
+\bibitem[{Shechtman and Irani(2005)}]{shechtman2005space}
+Shechtman E, Irani M (2005) Space-time behavior based correlation. In: CVPR
+
+\bibitem[{Sheikh et~al(2005)Sheikh, Sheikh, and Shah}]{sheikh2005exploring}
+Sheikh Y, Sheikh M, Shah M (2005) Exploring the space of a human action. In:
+  ICCV
+
+\bibitem[{Shen et~al(2023)Shen, Li, and Elhoseiny}]{shen2023mostgan}
+Shen X, Li X, Elhoseiny M (2023) Mostgan-v: Video generation with temporal
+  motion styles. In: CVPR
+
+\bibitem[{Shen and Elhamifar(2024)}]{shen2024progress}
+Shen Y, Elhamifar E (2024) Progress-aware online action segmentation for
+  egocentric procedural task videos. In: CVPR
+
+\bibitem[{Shen et~al(2018)Shen, Ni, Li, and Zhuang}]{shen2018egocentric}
+Shen Y, Ni B, Li Z, Zhuang N (2018) Egocentric activity prediction via event
+  modulated attention. In: ECCV
+
+\bibitem[{Shen et~al(2017)Shen, Li, Su, Li, Chen, Jiang, and
+  Xue}]{shen2017weakly}
+Shen Z, Li J, Su Z, Li M, Chen Y, Jiang YG, Xue X (2017) Weakly supervised
+  dense video captioning. In: CVPR
+
+\bibitem[{Shi et~al(2019)Shi, Ji, Liang, Duan, Chen, Niu, and
+  Zhou}]{shi2019dense}
+Shi B, Ji L, Liang Y, Duan N, Chen P, Niu Z, Zhou M (2019) Dense procedure
+  captioning in narrated instructional videos. In: ACL
+
+\bibitem[{Shi et~al(2023)Shi, Zhong, Cao, Ma, Li, and Tao}]{shi2023tridet}
+Shi D, Zhong Y, Cao Q, Ma L, Li J, Tao D (2023) Tridet: Temporal action
+  detection with relative boundary modeling. In: CVPR
+
+\bibitem[{Shou et~al(2021)Shou, Lei, Wang, Ghadiyaram, and
+  Feiszli}]{shou2021generic}
+Shou MZ, Lei SW, Wang W, Ghadiyaram D, Feiszli M (2021) Generic event boundary
+  detection: A benchmark for event segmentation. In: ICCV
+
+\bibitem[{Shou et~al(2016)Shou, Wang, and Chang}]{shou2016temporal}
+Shou Z, Wang D, Chang SF (2016) Temporal action localization in untrimmed
+  videos via multi-stage cnns. In: CVPR
+
+\bibitem[{Shou et~al(2017)Shou, Chan, Zareian, Miyazawa, and
+  Chang}]{shou2017cdc}
+Shou Z, Chan J, Zareian A, Miyazawa K, Chang SF (2017) Cdc:
+  Convolutional-de-convolutional networks for precise temporal action
+  localization in untrimmed videos. In: CVPR
+
+\bibitem[{Shou et~al(2018)Shou, Gao, Zhang, Miyazawa, and
+  Chang}]{shou2018autoloc}
+Shou Z, Gao H, Zhang L, Miyazawa K, Chang SF (2018) Autoloc: Weakly-supervised
+  temporal action localization in untrimmed videos. In: ECCV
+
+\bibitem[{Shrivastava and Shrivastava(2024)}]{shrivastava2024video}
+Shrivastava G, Shrivastava A (2024) Video prediction by modeling videos as
+  continuous multi-dimensional processes. In: CVPR
+
+\bibitem[{Sigal et~al(2010)Sigal, Balan, and Black}]{sigal2010humaneva}
+Sigal L, Balan AO, Black MJ (2010) Humaneva: Synchronized video and motion
+  capture dataset and baseline algorithm for evaluation of articulated human
+  motion. IJCV
+
+\bibitem[{Sigurdsson et~al(2016)Sigurdsson, Varol, Wang, Farhadi, Laptev, and
+  Gupta}]{sigurdsson2016hollywood}
+Sigurdsson GA, Varol G, Wang X, Farhadi A, Laptev I, Gupta A (2016) Hollywood
+  in homes: Crowdsourcing data collection for activity understanding. In: ECCV
+
+\bibitem[{Sigurdsson et~al(2018)Sigurdsson, Gupta, Schmid, Farhadi, and
+  Alahari}]{sigurdsson2018charades}
+Sigurdsson GA, Gupta A, Schmid C, Farhadi A, Alahari K (2018) Charades-ego: A
+  large-scale dataset of paired third and first person videos. arxiv
+
+\bibitem[{Simonyan and Zisserman(2014)}]{simonyan2014two}
+Simonyan K, Zisserman A (2014) Two-stream convolutional networks for action
+  recognition in videos. NeurIPS
+
+\bibitem[{Singer et~al(2023)Singer, Polyak, Hayes, Yin, An, Zhang, Hu, Yang,
+  Ashual, Gafni et~al}]{singer2023make}
+Singer U, Polyak A, Hayes T, Yin X, An J, Zhang S, Hu Q, Yang H, Ashual O,
+  Gafni O, et~al (2023) Make-a-video: Text-to-video generation without
+  text-video data. In: ICLR
+
+\bibitem[{Singh et~al(2016)Singh, Marks, Jones, Tuzel, and
+  Shao}]{singh2016multi}
+Singh B, Marks TK, Jones M, Tuzel O, Shao M (2016) A multi-stream
+  bi-directional recurrent neural network for fine-grained action detection.
+  In: CVPR
+
+\bibitem[{Singh et~al(2017)Singh, Saha, Sapienza, Torr, and
+  Cuzzolin}]{singh2017online}
+Singh G, Saha S, Sapienza M, Torr PH, Cuzzolin F (2017) Online real-time
+  multiple spatiotemporal action localisation and prediction. In: ICCV
+
+\bibitem[{Singh et~al(2024)Singh, Wu, Orife, and Kalayeh}]{singh2024looking}
+Singh N, Wu CW, Orife I, Kalayeh M (2024) Looking similar sounding different:
+  Leveraging counterfactual cross-modal pairs for audiovisual representation
+  learning. In: CVPR
+
+\bibitem[{Sinha et~al(2024)Sinha, Stergiou, and Damen}]{sinha2024every}
+Sinha S, Stergiou A, Damen D (2024) Every shot counts: Using exemplars for
+  repetition counting in videos. arxiv
+
+\bibitem[{Skorokhodov et~al(2022)Skorokhodov, Tulyakov, and
+  Elhoseiny}]{skorokhodov2022stylegan}
+Skorokhodov I, Tulyakov S, Elhoseiny M (2022) Stylegan-v: A continuous video
+  generator with the price, image quality and perks of stylegan2. In: CVPR
+
+\bibitem[{Smaira et~al(2020)Smaira, Carreira, Noland, Clancy, Wu, and
+  Zisserman}]{smaira2020short}
+Smaira L, Carreira J, Noland E, Clancy E, Wu A, Zisserman A (2020) A short note
+  on the kinetics-700-2020 human action dataset. arxiv
+
+\bibitem[{Smith et~al(2024)Smith, De~Mello, Kautz, Linderman, and
+  Byeon}]{smith2024convolutional}
+Smith J, De~Mello S, Kautz J, Linderman S, Byeon W (2024) Convolutional state
+  space models for long-range spatiotemporal modeling. NeurIPS
+
+\bibitem[{Song et~al(2024)Song, Chai, Wang, Zhang, Zhou, Wu, Chi, Guo, Ye,
+  Zhang et~al}]{song2024moviechat}
+Song E, Chai W, Wang G, Zhang Y, Zhou H, Wu F, Chi H, Guo X, Ye T, Zhang Y,
+  et~al (2024) Moviechat: From dense token to sparse memory for long video
+  understanding. In: CVPR
+
+\bibitem[{Song et~al(2019)Song, Zhang, Yu, and Sun}]{song2019tacnet}
+Song L, Zhang S, Yu G, Sun H (2019) Tacnet: Transition-aware context network
+  for spatio-temporal action detection. In: CVPR
+
+\bibitem[{Song et~al(2021)Song, Yu, Yuan, and Liu}]{song2021human}
+Song L, Yu G, Yuan J, Liu Z (2021) Human pose estimation and its application to
+  action recognition: A survey. JVCIR
+
+\bibitem[{Soomro et~al(2012)Soomro, Zamir, and Shah}]{soomro2012ucf101}
+Soomro K, Zamir AR, Shah M (2012) Ucf101: A dataset of 101 human actions
+  classes from videos in the wild. arxiv
+
+\bibitem[{Soomro et~al(2015)Soomro, Idrees, and Shah}]{soomro2015action}
+Soomro K, Idrees H, Shah M (2015) Action localization in videos through context
+  walk. In: ICCV
+
+\bibitem[{Sou{\v{c}}ek et~al(2022)Sou{\v{c}}ek, Alayrac, Miech, Laptev, and
+  Sivic}]{souvcek2022look}
+Sou{\v{c}}ek T, Alayrac JB, Miech A, Laptev I, Sivic J (2022) Look for the
+  change: Learning object states and state-modifying actions from untrimmed web
+  videos. In: CVPR
+
+\bibitem[{Sou{\v{c}}ek et~al(2024)Sou{\v{c}}ek, Damen, Wray, Laptev, Sivic
+  et~al}]{damen2024genhowto}
+Sou{\v{c}}ek T, Damen D, Wray M, Laptev I, Sivic J, et~al (2024) Genhowto:
+  Learning to generate actions and state transformations from instructional
+  videos. In: CVPR
+
+\bibitem[{Spunt et~al(2011)Spunt, Satpute, and
+  Lieberman}]{spunt2011identifying}
+Spunt RP, Satpute AB, Lieberman MD (2011) Identifying the what, why, and how of
+  an observed action: an fmri study of mentalizing and mechanizing during
+  action observation. JCN
+
+\bibitem[{Srivastava et~al(2015)Srivastava, Mansimov, and
+  Salakhudinov}]{srivastava2015unsupervised}
+Srivastava N, Mansimov E, Salakhudinov R (2015) Unsupervised learning of video
+  representations using lstms. In: ICML
+
+\bibitem[{Srivastava and Sharma(2024{\natexlab{a}})}]{srivastava2024omnivec}
+Srivastava S, Sharma G (2024{\natexlab{a}}) Omnivec: Learning robust
+  representations with cross modal sharing. In: WACV
+
+\bibitem[{Srivastava and Sharma(2024{\natexlab{b}})}]{srivastava2024omnivec2}
+Srivastava S, Sharma G (2024{\natexlab{b}}) Omnivec2-a novel transformer based
+  network for large scale multimodal and multitask learning. In: CVPR
+
+\bibitem[{Stein and McKenna(2013)}]{stein2013combining}
+Stein S, McKenna SJ (2013) Combining embedded accelerometers with computer
+  vision for recognizing food preparation activities. In: UbiComp
+
+\bibitem[{Stergiou and Damen(2023{\natexlab{a}})}]{stergiou2023play}
+Stergiou A, Damen D (2023{\natexlab{a}}) Play it back: Iterative attention for
+  audio recognition. In: ICASSP
+
+\bibitem[{Stergiou and Damen(2023{\natexlab{b}})}]{stergiou2023wisdom}
+Stergiou A, Damen D (2023{\natexlab{b}}) The wisdom of crowds: Temporal
+  progressive attention for early action prediction. In: CVPR
+
+\bibitem[{Stergiou and Deligiannis(2023)}]{stergiou2023leaping}
+Stergiou A, Deligiannis N (2023) Leaping into memories: Space-time deep feature
+  synthesis. In: ICCV
+
+\bibitem[{Stergiou and Poppe(2019)}]{stergiou2019analyzing}
+Stergiou A, Poppe R (2019) Analyzing human--human interactions: A survey. CVIU
+
+\bibitem[{Stergiou and Poppe(2021{\natexlab{a}})}]{stergiou2021learn}
+Stergiou A, Poppe R (2021{\natexlab{a}}) Learn to cycle: Time-consistent
+  feature discovery for action recognition. PRL
+
+\bibitem[{Stergiou and Poppe(2021{\natexlab{b}})}]{stergiou2021multi}
+Stergiou A, Poppe R (2021{\natexlab{b}}) Multi-temporal convolutions for human
+  action recognition in videos. In: IJCNN
+
+\bibitem[{Stergiou et~al(2024)Stergiou, De~Weerdt, and
+  Deligiannis}]{stergiou2024holistic}
+Stergiou A, De~Weerdt B, Deligiannis N (2024) Holistic representation learning
+  for multitask trajectory anomaly detection. In: WACV
+
+\bibitem[{Sudhakaran et~al(2020)Sudhakaran, Escalera, and
+  Lanz}]{sudhakaran2020gate}
+Sudhakaran S, Escalera S, Lanz O (2020) Gate-shift networks for video action
+  recognition. In: CVPR
+
+\bibitem[{Sultani et~al(2018)Sultani, Chen, and Shah}]{sultani2018real}
+Sultani W, Chen C, Shah M (2018) Real-world anomaly detection in surveillance
+  videos. In: CVPR
+
+\bibitem[{Sun et~al(2018)Sun, Shrivastava, Vondrick, Murphy, Sukthankar, and
+  Schmid}]{sun2018actor}
+Sun C, Shrivastava A, Vondrick C, Murphy K, Sukthankar R, Schmid C (2018)
+  Actor-centric relation network. In: ECCV
+
+\bibitem[{Sun et~al(2019{\natexlab{a}})Sun, Myers, Vondrick, Murphy, and
+  Schmid}]{sun2019videobert}
+Sun C, Myers A, Vondrick C, Murphy K, Schmid C (2019{\natexlab{a}}) Videobert:
+  A joint model for video and language representation learning. In: CVPR
+
+\bibitem[{Sun et~al(2019{\natexlab{b}})Sun, Shrivastava, Vondrick, Sukthankar,
+  Murphy, and Schmid}]{sun2019relational}
+Sun C, Shrivastava A, Vondrick C, Sukthankar R, Murphy K, Schmid C
+  (2019{\natexlab{b}}) Relational action forecasting. In: CVPR
+
+\bibitem[{Sun et~al(2015)Sun, Jia, Yeung, and Shi}]{sun2015human}
+Sun L, Jia K, Yeung DY, Shi BE (2015) Human action recognition using factorized
+  spatio-temporal convolutional networks. In: ICCV
+
+\bibitem[{Sun et~al(2022{\natexlab{a}})Sun, Cao, Jiang, Yuan, Bai, Kitani, and
+  Luo}]{sun2022dancetrack}
+Sun P, Cao J, Jiang Y, Yuan Z, Bai S, Kitani K, Luo P (2022{\natexlab{a}})
+  Dancetrack: Multi-object tracking in uniform appearance and diverse motion.
+  In: CVPR
+
+\bibitem[{Sun et~al(2009)Sun, Chen, and Hauptmann}]{sun2009action}
+Sun X, Chen M, Hauptmann A (2009) Action recognition via local descriptors and
+  holistic features. In: CVPRw
+
+\bibitem[{Sun et~al(2021)Sun, Panda, Chen, Oliva, Feris, and
+  Saenko}]{sun2021dynamic}
+Sun X, Panda R, Chen CFR, Oliva A, Feris R, Saenko K (2021) Dynamic network
+  quantization for efficient video inference. In: ICCV
+
+\bibitem[{Sun et~al(2022{\natexlab{b}})Sun, Ke, Rahmani, Bennamoun, Wang, and
+  Liu}]{sun2022human}
+Sun Z, Ke Q, Rahmani H, Bennamoun M, Wang G, Liu J (2022{\natexlab{b}}) Human
+  action recognition from various data modalities: A review. IEEE TPAMI
+
+\bibitem[{Sung et~al(2012)Sung, Ponce, Selman, and
+  Saxena}]{sung2012unstructured}
+Sung J, Ponce C, Selman B, Saxena A (2012) Unstructured human activity
+  detection from rgbd images. In: ICRA
+
+\bibitem[{Sur{\'\i}s et~al(2021)Sur{\'\i}s, Liu, and
+  Vondrick}]{suris2021learning}
+Sur{\'\i}s D, Liu R, Vondrick C (2021) Learning the predictability of the
+  future. In: CVPR
+
+\bibitem[{Tan et~al(2023{\natexlab{a}})Tan, Gao, Wu, Xu, Xia, Li, and
+  Li}]{tan2023temporal}
+Tan C, Gao Z, Wu L, Xu Y, Xia J, Li S, Li SZ (2023{\natexlab{a}}) Temporal
+  attention unit: Towards efficient spatiotemporal predictive learning. In:
+  CVPR
+
+\bibitem[{Tan et~al(2021)Tan, Tang, Wang, and Wu}]{tan2021relaxed}
+Tan J, Tang J, Wang L, Wu G (2021) Relaxed transformer decoders for direct
+  action proposal generation. In: ICCV
+
+\bibitem[{Tan et~al(2023{\natexlab{b}})Tan, Nagarajan, and
+  Grauman}]{tan2023egodistill}
+Tan S, Nagarajan T, Grauman K (2023{\natexlab{b}}) Egodistill: Egocentric head
+  motion distillation for efficient video understanding. NeurIPS
+
+\bibitem[{Tang et~al(2020{\natexlab{a}})Tang, Xia, Mu, Pang, and
+  Lu}]{tang2020asynchronous}
+Tang J, Xia J, Mu X, Pang B, Lu C (2020{\natexlab{a}}) Asynchronous interaction
+  aggregation for action detection. In: ECCV
+
+\bibitem[{Tang et~al(2019)Tang, Ding, Rao, Zheng, Zhang, Zhao, Lu, and
+  Zhou}]{tang2019coin}
+Tang Y, Ding D, Rao Y, Zheng Y, Zhang D, Zhao L, Lu J, Zhou J (2019) Coin: A
+  large-scale dataset for comprehensive instructional video analysis. In: CVPR
+
+\bibitem[{Tang et~al(2020{\natexlab{b}})Tang, Ni, Zhou, Zhang, Lu, Wu, and
+  Zhou}]{tang2020uncertainty}
+Tang Y, Ni Z, Zhou J, Zhang D, Lu J, Wu Y, Zhou J (2020{\natexlab{b}})
+  Uncertainty-aware score distribution learning for action quality assessment.
+  In: CVPR
+
+\bibitem[{Tang et~al(2024)Tang, Dong, Tang, Chu, and Liang}]{tang2024vmrnn}
+Tang Y, Dong P, Tang Z, Chu X, Liang J (2024) Vmrnn: Integrating vision mamba
+  and lstm for efficient and accurate spatiotemporal forecasting. In: CVPR
+
+\bibitem[{Taylor et~al(2010)Taylor, Fergus, LeCun, and
+  Bregler}]{taylor2010convolutional}
+Taylor GW, Fergus R, LeCun Y, Bregler C (2010) Convolutional learning of
+  spatio-temporal features. In: ECCV
+
+\bibitem[{Thakur et~al(2024)Thakur, Beyan, Morerio, Murino, and
+  Del~Bue}]{thakur2024anticipating}
+Thakur S, Beyan C, Morerio P, Murino V, Del~Bue A (2024) Anticipating next
+  active objects for egocentric videos. IEEE Access
+
+\bibitem[{Thangali and Sclaroff(2005)}]{thangali2005periodic}
+Thangali A, Sclaroff S (2005) Periodic motion detection and estimation via
+  space-time sampling. In: WACV
+
+\bibitem[{Thoker et~al(2023)Thoker, Doughty, and Snoek}]{thoker2023tubelet}
+Thoker FM, Doughty H, Snoek CGM (2023) Tubelet-contrastive self-supervision for
+  video-efficient generalization. In: ICCV
+
+\bibitem[{Thompson et~al(2019)Thompson, Bird, and
+  Catmur}]{thompson2019conceptualizing}
+Thompson EL, Bird G, Catmur C (2019) Conceptualizing and testing action
+  understanding. NBR
+
+\bibitem[{Thurau and Hlav{\'a}c(2008)}]{thurau2008pose}
+Thurau C, Hlav{\'a}c V (2008) Pose primitive based human action recognition in
+  videos or still images. In: CVPR
+
+\bibitem[{Tian et~al(2020)Tian, Li, and Xu}]{tian2020unified}
+Tian Y, Li D, Xu C (2020) Unified multisensory perception: Weakly-supervised
+  audio-visual video parsing. In: ECCV
+
+\bibitem[{Tian et~al(2021)Tian, Pang, Chen, Singh, Verjans, and
+  Carneiro}]{tian2021weakly}
+Tian Y, Pang G, Chen Y, Singh R, Verjans JW, Carneiro G (2021)
+  Weakly-supervised video anomaly detection with robust temporal feature
+  magnitude learning. In: ICCV
+
+\bibitem[{Torabi et~al(2016)Torabi, Tandon, and Sigal}]{torabi2016learning}
+Torabi A, Tandon N, Sigal L (2016) Learning language-visual embedding for movie
+  understanding with natural-language. arXiv
+
+\bibitem[{la~Torre~Frade et~al(2008)la~Torre~Frade, Hodgins, Bargteil, Artal,
+  Macey, Castells, and Beltran}]{deguide2008guide}
+la~Torre~Frade FD, Hodgins JK, Bargteil AW, Artal XM, Macey JC, Castells ACI,
+  Beltran J (2008) Guide to the carnegie mellon university multimodal activity
+  (cmu-mmac) database. Tech. rep., CMU
+
+\bibitem[{Touvron et~al(2023)Touvron, Lavril, Izacard, Martinet, Lachaux,
+  Lacroix, Rozi{\`e}re, Goyal, Hambro, Azhar et~al}]{touvron2023llama}
+Touvron H, Lavril T, Izacard G, Martinet X, Lachaux MA, Lacroix T, Rozi{\`e}re
+  B, Goyal N, Hambro E, Azhar F, et~al (2023) Llama: Open and efficient
+  foundation language models. arxiv
+
+\bibitem[{Tran et~al(2015)Tran, Bourdev, Fergus, Torresani, and
+  Paluri}]{tran2015learning}
+Tran D, Bourdev L, Fergus R, Torresani L, Paluri M (2015) Learning
+  spatiotemporal features with 3d convolutional networks. In: ICCV
+
+\bibitem[{Tran et~al(2018)Tran, Wang, Torresani, Ray, LeCun, and
+  Paluri}]{tran2018closer}
+Tran D, Wang H, Torresani L, Ray J, LeCun Y, Paluri M (2018) A closer look at
+  spatiotemporal convolutions for action recognition. In: CVPR
+
+\bibitem[{Tran et~al(2019)Tran, Wang, Torresani, and Feiszli}]{tran2019video}
+Tran D, Wang H, Torresani L, Feiszli M (2019) Video classification with
+  channel-separated convolutional networks. In: ICCV
+
+\bibitem[{Tran et~al(2012)Tran, Kakadiaris, and Shah}]{tran2012part}
+Tran KN, Kakadiaris IA, Shah SK (2012) Part-based motion descriptor image for
+  human action recognition. PR
+
+\bibitem[{Tschernezki et~al(2024)Tschernezki, Darkhalil, Zhu, Fouhey, Laina,
+  Larlus, Damen, and Vedaldi}]{tschernezki2024epic}
+Tschernezki V, Darkhalil A, Zhu Z, Fouhey D, Laina I, Larlus D, Damen D,
+  Vedaldi A (2024) Epic fields: Marrying 3d geometry and video understanding.
+  NeurIPS
+
+\bibitem[{Tsuchida et~al(2019)Tsuchida, Fukayama, Hamasaki, and
+  Goto}]{tsuchida2019aist}
+Tsuchida S, Fukayama S, Hamasaki M, Goto M (2019) Aist dance video database:
+  Multi-genre, multi-dancer, and multi-camera database for dance information
+  processing. In: ISMIR
+
+\bibitem[{Turaga et~al(2008)Turaga, Chellappa, Subrahmanian, and
+  Udrea}]{turaga2008machine}
+Turaga P, Chellappa R, Subrahmanian VS, Udrea O (2008) Machine recognition of
+  human activities: A survey. IEEE TCSVT
+
+\bibitem[{Uithol et~al(2011)Uithol, van Rooij, Bekkering, and
+  Haselager}]{uithol2011understanding}
+Uithol S, van Rooij I, Bekkering H, Haselager P (2011) Understanding motor
+  resonance. Social neuroscience
+
+\bibitem[{Ullah et~al(2017)Ullah, Ahmad, Muhammad, Sajjad, and
+  Baik}]{ullah2017action}
+Ullah A, Ahmad J, Muhammad K, Sajjad M, Baik SW (2017) Action recognition in
+  video sequences using deep bi-directional lstm with cnn features. IEEE access
+
+\bibitem[{Ulutan et~al(2020)Ulutan, Rallapalli, Srivatsa, Torres, and
+  Manjunath}]{ulutan2020actor}
+Ulutan O, Rallapalli S, Srivatsa M, Torres C, Manjunath B (2020) Actor
+  conditioned attention maps for video action detection. In: WACV
+
+\bibitem[{Vaina and Jaulent(1991)}]{vaina1991object}
+Vaina LM, Jaulent MC (1991) Object structure and action requirements: A
+  compatibility model for functional recognition. IJIS
+
+\bibitem[{Van~Gemeren et~al(2016)Van~Gemeren, Poppe, and
+  Veltkamp}]{van2016spatio}
+Van~Gemeren C, Poppe R, Veltkamp RC (2016) Spatio-temporal detection of
+  fine-grained dyadic human interactions. In: HBU
+
+\bibitem[{Varol et~al(2017)Varol, Laptev, and Schmid}]{varol2017long}
+Varol G, Laptev I, Schmid C (2017) Long-term temporal convolutions for action
+  recognition. IEEE TPAMI
+
+\bibitem[{Villegas et~al(2017)Villegas, Yang, Zou, Sohn, Lin, and
+  Lee}]{villegas2017learning}
+Villegas R, Yang J, Zou Y, Sohn S, Lin X, Lee H (2017) Learning to generate
+  long-term future via hierarchical prediction. In: ICML
+
+\bibitem[{Villegas et~al(2018)Villegas, Erhan, Lee
+  et~al}]{villegas2018hierarchical}
+Villegas R, Erhan D, Lee H, et~al (2018) Hierarchical long-term video
+  prediction without supervision. In: ICML
+
+\bibitem[{Villegas et~al(2022)Villegas, Babaeizadeh, Kindermans, Moraldo,
+  Zhang, Saffar, Castro, Kunze, and Erhan}]{villegas2022phenaki}
+Villegas R, Babaeizadeh M, Kindermans PJ, Moraldo H, Zhang H, Saffar MT, Castro
+  S, Kunze J, Erhan D (2022) Phenaki: Variable length video generation from
+  open domain textual descriptions. In: ICLR
+
+\bibitem[{Vishwakarma and Agrawal(2013)}]{vishwakarma2013survey}
+Vishwakarma S, Agrawal A (2013) A survey on activity recognition and behavior
+  understanding in video surveillance. TVC
+
+\bibitem[{Voleti et~al(2022)Voleti, Jolicoeur-Martineau, and
+  Pal}]{voleti2022mcvd}
+Voleti V, Jolicoeur-Martineau A, Pal C (2022) Mcvd-masked conditional video
+  diffusion for prediction, generation, and interpolation. NeurIPS
+
+\bibitem[{Vondrick et~al(2016{\natexlab{a}})Vondrick, Pirsiavash, and
+  Torralba}]{vondrick2016anticipating}
+Vondrick C, Pirsiavash H, Torralba A (2016{\natexlab{a}}) Anticipating visual
+  representations from unlabeled video. In: CVPR
+
+\bibitem[{Vondrick et~al(2016{\natexlab{b}})Vondrick, Pirsiavash, and
+  Torralba}]{vondrick2016generating}
+Vondrick C, Pirsiavash H, Torralba A (2016{\natexlab{b}}) Generating videos
+  with scene dynamics. NeurIPS
+
+\bibitem[{Wang et~al(2023{\natexlab{a}})Wang, Zhao, Yang, Long, and
+  Li}]{wang2023temporal}
+Wang B, Zhao Y, Yang L, Long T, Li X (2023{\natexlab{a}}) Temporal action
+  localization in the deep learning era: A survey. IEEE TPAMI
+
+\bibitem[{Wang and Schmid(2013)}]{wang2013action}
+Wang H, Schmid C (2013) Action recognition with improved trajectories. In: ICCV
+
+\bibitem[{Wang and Cherian(2019)}]{wang2019gods}
+Wang J, Cherian A (2019) Gods: Generalized one-class discriminative subspaces
+  for anomaly detection. In: ICCV
+
+\bibitem[{Wang et~al(2018{\natexlab{a}})Wang, Jiang, Ma, Liu, and
+  Xu}]{wang2018bidirectional}
+Wang J, Jiang W, Ma L, Liu W, Xu Y (2018{\natexlab{a}}) Bidirectional attentive
+  fusion with context gating for dense video captioning. In: CVPR
+
+\bibitem[{Wang et~al(2020{\natexlab{a}})Wang, Jiao, and Liu}]{wang2020self}
+Wang J, Jiao J, Liu YH (2020{\natexlab{a}}) Self-supervised video
+  representation learning by pace prediction. In: ECCV
+
+\bibitem[{Wang et~al(2020{\natexlab{b}})Wang, Ma, and
+  Jiang}]{wang2020temporally}
+Wang J, Ma L, Jiang W (2020{\natexlab{b}}) Temporally grounding language
+  queries in videos by contextual boundary-aware prediction. In: AAAI
+
+\bibitem[{Wang et~al(2021{\natexlab{a}})Wang, Gao, Li, Hu, Jiang, Guo, Ji, and
+  Sun}]{wang2021enhancing}
+Wang J, Gao Y, Li K, Hu J, Jiang X, Guo X, Ji R, Sun X (2021{\natexlab{a}})
+  Enhancing unsupervised video representation learning by decoupling the scene
+  and the motion. In: AAAI
+
+\bibitem[{Wang et~al(2022{\natexlab{a}})Wang, Ge, Cai, Yan, Lin, Shan, Qie, and
+  Shou}]{wang2022object}
+Wang J, Ge Y, Cai G, Yan R, Lin X, Shan Y, Qie X, Shou MZ (2022{\natexlab{a}})
+  Object-aware video-language pre-training for retrieval. In: CVPR
+
+\bibitem[{Wang et~al(2023{\natexlab{b}})Wang, Ge, Yan, Ge, Lin, Tsutsui, Lin,
+  Cai, Wu, Shan et~al}]{wang2023all}
+Wang J, Ge Y, Yan R, Ge Y, Lin KQ, Tsutsui S, Lin X, Cai G, Wu J, Shan Y, et~al
+  (2023{\natexlab{b}}) All in one: Exploring unified video-language
+  pre-training. In: CVPR
+
+\bibitem[{Wang et~al(2024{\natexlab{a}})Wang, Chen, Luo, He, Yuan, Wu, and
+  Jiang}]{wang2024omnivid}
+Wang J, Chen D, Luo C, He B, Yuan L, Wu Z, Jiang YG (2024{\natexlab{a}})
+  Omnivid: A generative framework for universal video understanding. In: CVPR
+
+\bibitem[{Wang et~al(2016{\natexlab{a}})Wang, Li, and
+  Lazebnik}]{wang2016learning}
+Wang L, Li Y, Lazebnik S (2016{\natexlab{a}}) Learning deep
+  structure-preserving image-text embeddings. In: CVPR
+
+\bibitem[{Wang et~al(2016{\natexlab{b}})Wang, Xiong, Wang, Qiao, Lin, Tang, and
+  Van~Gool}]{wang2016temporal}
+Wang L, Xiong Y, Wang Z, Qiao Y, Lin D, Tang X, Van~Gool L (2016{\natexlab{b}})
+  Temporal segment networks: Towards good practices for deep action
+  recognition. In: ECCV
+
+\bibitem[{Wang et~al(2017{\natexlab{a}})Wang, Xiong, Lin, and
+  Van~Gool}]{wang2017untrimmednets}
+Wang L, Xiong Y, Lin D, Van~Gool L (2017{\natexlab{a}}) Untrimmednets for
+  weakly supervised action recognition and detection. In: CVPR
+
+\bibitem[{Wang et~al(2018{\natexlab{b}})Wang, Li, Li, and
+  Van~Gool}]{wang2018appearance}
+Wang L, Li W, Li W, Van~Gool L (2018{\natexlab{b}}) Appearance-and-relation
+  networks for video classification. In: CVPR
+
+\bibitem[{Wang et~al(2023{\natexlab{c}})Wang, Huang, Zhao, Tong, He, Wang,
+  Wang, and Qiao}]{wang2023videomae}
+Wang L, Huang B, Zhao Z, Tong Z, He Y, Wang Y, Wang Y, Qiao Y
+  (2023{\natexlab{c}}) Videomae v2: Scaling video masked autoencoders with dual
+  masking. In: CVPR
+
+\bibitem[{Wang et~al(2017{\natexlab{b}})Wang, Ni, and Yang}]{wang2017recurrent}
+Wang M, Ni B, Yang X (2017{\natexlab{b}}) Recurrent modeling of interaction
+  context for collective activity recognition. In: CVPR
+
+\bibitem[{Wang et~al(2018{\natexlab{c}})Wang, Li, Ogunbona, Wan, and
+  Escalera}]{wang2018rgb}
+Wang P, Li W, Ogunbona P, Wan J, Escalera S (2018{\natexlab{c}}) Rgb-d-based
+  human motion recognition with deep learning: A survey. CVIU
+
+\bibitem[{Wang et~al(2023{\natexlab{d}})Wang, Zhao, Yuan, Liu, and
+  Peng}]{wang2023learning}
+Wang Q, Zhao L, Yuan L, Liu T, Peng X (2023{\natexlab{d}}) Learning from
+  semantic alignment between unpaired multiviews for egocentric video
+  recognition. In: ICCV
+
+\bibitem[{Wang et~al(2023{\natexlab{e}})Wang, Chen, Wu, Chen, Dai, Liu, Yuan,
+  and Jiang}]{wang2023masked}
+Wang R, Chen D, Wu Z, Chen Y, Dai X, Liu M, Yuan L, Jiang YG
+  (2023{\natexlab{e}}) Masked video distillation: Rethinking masked feature
+  modeling for self-supervised video representation learning. In: CVPR
+
+\bibitem[{Wang et~al(2020{\natexlab{c}})Wang, Zheng, Yu, Tian, and
+  Hu}]{wang2020event}
+Wang T, Zheng H, Yu M, Tian Q, Hu H (2020{\natexlab{c}}) Event-centric
+  hierarchical representation for dense video captioning. IEEE TCSVT
+
+\bibitem[{Wang et~al(2021{\natexlab{b}})Wang, Zhang, Lu, Zheng, Cheng, and
+  Luo}]{wang2021end}
+Wang T, Zhang R, Lu Z, Zheng F, Cheng R, Luo P (2021{\natexlab{b}}) End-to-end
+  dense video captioning with parallel decoding. In: ICCV
+
+\bibitem[{Wang et~al(2020{\natexlab{d}})Wang, Tran, and
+  Feiszli}]{wang2020makes}
+Wang W, Tran D, Feiszli M (2020{\natexlab{d}}) What makes training multi-modal
+  classification networks hard? In: CVPR
+
+\bibitem[{Wang et~al(2023{\natexlab{f}})Wang, Chang, Zhang, Yan, Liu, Wang, and
+  Shou}]{wang2023magi}
+Wang W, Chang F, Zhang J, Yan R, Liu C, Wang B, Shou MZ (2023{\natexlab{f}})
+  Magi-net: Meta negative network for early activity prediction. IEEE T-IP
+
+\bibitem[{Wang and Gupta(2018)}]{wang2018videos}
+Wang X, Gupta A (2018) Videos as space-time region graphs. In: ECCV
+
+\bibitem[{Wang et~al(2018{\natexlab{d}})Wang, Girshick, Gupta, and
+  He}]{wang2018non}
+Wang X, Girshick R, Gupta A, He K (2018{\natexlab{d}}) Non-local neural
+  networks. In: CVPR
+
+\bibitem[{Wang et~al(2019{\natexlab{a}})Wang, Hu, Lai, Zhang, and
+  Zheng}]{wang2019progressive}
+Wang X, Hu JF, Lai JH, Zhang J, Zheng WS (2019{\natexlab{a}}) Progressive
+  teacher-student learning for early action prediction. In: CVPR
+
+\bibitem[{Wang et~al(2019{\natexlab{b}})Wang, Wu, Chen, Li, Wang, and
+  Wang}]{wang2019vatex}
+Wang X, Wu J, Chen J, Li L, Wang YF, Wang WY (2019{\natexlab{b}}) Vatex: A
+  large-scale, high-quality multilingual dataset for video-and-language
+  research. In: CVPR
+
+\bibitem[{Wang et~al(2007)Wang, Huang, and Tan}]{wang2007human}
+Wang Y, Huang K, Tan T (2007) Human activity recognition based on r transform.
+  In: CVPR
+
+\bibitem[{Wang et~al(2017{\natexlab{c}})Wang, Long, Wang, and
+  Yu}]{wang2017spatiotemporal}
+Wang Y, Long M, Wang J, Yu PS (2017{\natexlab{c}}) Spatiotemporal pyramid
+  network for video action recognition. In: CVPR
+
+\bibitem[{Wang et~al(2018{\natexlab{e}})Wang, Gao, Long, Wang, and
+  Philip}]{wang2018predrnn++}
+Wang Y, Gao Z, Long M, Wang J, Philip SY (2018{\natexlab{e}}) Predrnn++:
+  Towards a resolution of the deep-in-time dilemma in spatiotemporal predictive
+  learning. In: ICML
+
+\bibitem[{Wang et~al(2020{\natexlab{e}})Wang, Wu, Long, and
+  Tenenbaum}]{wang2020probabilistic}
+Wang Y, Wu J, Long M, Tenenbaum JB (2020{\natexlab{e}}) Probabilistic video
+  prediction from noisy data with a posterior confidence. In: CVPR
+
+\bibitem[{Wang et~al(2021{\natexlab{c}})Wang, Chen, Jiang, Song, Han, and
+  Huang}]{wang2021adaptive}
+Wang Y, Chen Z, Jiang H, Song S, Han Y, Huang G (2021{\natexlab{c}}) Adaptive
+  focus for efficient video recognition. In: ICCV
+
+\bibitem[{Wang et~al(2022{\natexlab{b}})Wang, Yue, Lin, Jiang, Lai, Kulikov,
+  Orlov, Shi, and Huang}]{wang2022adafocus}
+Wang Y, Yue Y, Lin Y, Jiang H, Lai Z, Kulikov V, Orlov N, Shi H, Huang G
+  (2022{\natexlab{b}}) Adafocus v2: End-to-end training of spatial dynamic
+  networks for video recognition. In: CVPR
+
+\bibitem[{Wang et~al(2022{\natexlab{c}})Wang, Yue, Xu, Hassani, Kulikov, Orlov,
+  Song, Shi, and Huang}]{wang2022adafocusv3}
+Wang Y, Yue Y, Xu X, Hassani A, Kulikov V, Orlov N, Song S, Shi H, Huang G
+  (2022{\natexlab{c}}) Adafocusv3: On unified spatial-temporal dynamic video
+  recognition. In: ECCV
+
+\bibitem[{Wang et~al(2024{\natexlab{b}})Wang, Li, Li, Yu, He, Chen, Pei, Zheng,
+  Xu, Wang et~al}]{wang2024internvideo2}
+Wang Y, Li K, Li X, Yu J, He Y, Chen G, Pei B, Zheng R, Xu J, Wang Z, et~al
+  (2024{\natexlab{b}}) Internvideo2: Scaling video foundation models for
+  multimodal video understanding. arxiv
+
+\bibitem[{Wang et~al(2022{\natexlab{d}})Wang, Zhong, Miao, Ma, and
+  Specia}]{wang2022contrastive}
+Wang Z, Zhong Y, Miao Y, Ma L, Specia L (2022{\natexlab{d}}) Contrastive
+  video-language learning with fine-grained frame sampling. arXiv preprint
+  arXiv:221005039
+
+\bibitem[{Wei et~al(2022)Wei, Fan, Xie, Wu, Yuille, and
+  Feichtenhofer}]{wei2022masked}
+Wei C, Fan H, Xie S, Wu CY, Yuille A, Feichtenhofer C (2022) Masked feature
+  prediction for self-supervised visual pre-training. In: CVPR
+
+\bibitem[{Weinland et~al(2011)Weinland, Ronfard, and
+  Boyer}]{weinland2011survey}
+Weinland D, Ronfard R, Boyer E (2011) A survey of vision-based methods for
+  action representation, segmentation and recognition. CVIU
+
+\bibitem[{Weinzaepfel et~al(2015)Weinzaepfel, Harchaoui, and
+  Schmid}]{weinzaepfel2015learning}
+Weinzaepfel P, Harchaoui Z, Schmid C (2015) Learning to track for
+  spatio-temporal action localization. In: ICCV
+
+\bibitem[{Weinzaepfel et~al(2016)Weinzaepfel, Martin, and
+  Schmid}]{weinzaepfel2016towards}
+Weinzaepfel P, Martin X, Schmid C (2016) Towards weakly-supervised action
+  localization. arxiv
+
+\bibitem[{Wong and Cipolla(2007)}]{wong2007extracting}
+Wong SF, Cipolla R (2007) Extracting spatiotemporal interest points using
+  global information. In: ICCV
+
+\bibitem[{Wray et~al(2019)Wray, Larlus, Csurka, and Damen}]{wray2019fine}
+Wray M, Larlus D, Csurka G, Damen D (2019) Fine-grained action retrieval
+  through multiple parts-of-speech embeddings. In: CVPR
+
+\bibitem[{Wray et~al(2021)Wray, Doughty, and Damen}]{wray2021semantic}
+Wray M, Doughty H, Damen D (2021) On semantic similarity in video retrieval.
+  In: CVPR
+
+\bibitem[{Wu et~al(2015)Wu, Zhang, Savarese, and Saxena}]{wu2015watch}
+Wu C, Zhang J, Savarese S, Saxena A (2015) Watch-n-patch: Unsupervised
+  understanding of actions and relations. In: CVPR
+
+\bibitem[{Wu et~al(2021{\natexlab{a}})Wu, Huang, Zhang, Li, Ji, Yang, Sapiro,
+  and Duan}]{wu2021godiva}
+Wu C, Huang L, Zhang Q, Li B, Ji L, Yang F, Sapiro G, Duan N
+  (2021{\natexlab{a}}) Godiva: Generating open-domain videos from natural
+  descriptions. arxiv
+
+\bibitem[{Wu et~al(2022{\natexlab{a}})Wu, Liang, Ji, Yang, Fang, Jiang, and
+  Duan}]{wu2022nuwa}
+Wu C, Liang J, Ji L, Yang F, Fang Y, Jiang D, Duan N (2022{\natexlab{a}})
+  N{\"u}wa: Visual synthesis pre-training for neural visual world creation. In:
+  ECCV
+
+\bibitem[{Wu et~al(2019{\natexlab{a}})Wu, Feichtenhofer, Fan, He, Krahenbuhl,
+  and Girshick}]{wu2019long}
+Wu CY, Feichtenhofer C, Fan H, He K, Krahenbuhl P, Girshick R
+  (2019{\natexlab{a}}) Long-term feature banks for detailed video
+  understanding. In: CVPR
+
+\bibitem[{Wu et~al(2022{\natexlab{b}})Wu, Li, Mangalam, Fan, Xiong, Malik, and
+  Feichtenhofer}]{wu2022memvit}
+Wu CY, Li Y, Mangalam K, Fan H, Xiong B, Malik J, Feichtenhofer C
+  (2022{\natexlab{b}}) Memvit: Memory-augmented multiscale vision transformer
+  for efficient long-term video recognition. In: CVPR
+
+\bibitem[{Wu et~al(2021{\natexlab{b}})Wu, Yao, Wang, and
+  Long}]{wu2021motionrnn}
+Wu H, Yao Z, Wang J, Long M (2021{\natexlab{b}}) Motionrnn: A flexible model
+  for video prediction with spacetime-varying motions. In: CVPR
+
+\bibitem[{Wu et~al(2023{\natexlab{a}})Wu, Chen, Liu, Zhuge, Li, Qiao, Shu, Gan,
+  Xu, Ren et~al}]{wu2023newsnet}
+Wu H, Chen K, Liu H, Zhuge M, Li B, Qiao R, Shu X, Gan B, Xu L, Ren B, et~al
+  (2023{\natexlab{a}}) Newsnet: A novel dataset for hierarchical temporal
+  segmentation. In: CVPR
+
+\bibitem[{Wu et~al(2023{\natexlab{b}})Wu, Ge, Wang, Lei, Gu, Shi, Hsu, Shan,
+  Qie, and Shou}]{wu2023tune}
+Wu JZ, Ge Y, Wang X, Lei SW, Gu Y, Shi Y, Hsu W, Shan Y, Qie X, Shou MZ
+  (2023{\natexlab{b}}) Tune-a-video: One-shot tuning of image diffusion models
+  for text-to-video generation. In: CVPR
+
+\bibitem[{Wu et~al(2020{\natexlab{a}})Wu, Liu, Shi, Sun, Shao, Wu, and
+  Yang}]{wu2020not}
+Wu P, Liu J, Shi Y, Sun Y, Shao F, Wu Z, Yang Z (2020{\natexlab{a}}) Not only
+  look, but also listen: Learning multimodal violence detection under weak
+  supervision. In: ECCV
+
+\bibitem[{Wu et~al(2024)Wu, Cui, Li, and Zhu}]{wu2024haltingvt}
+Wu Q, Cui R, Li Y, Zhu H (2024) Haltingvt: Adaptive token halting transformer
+  for efficient video recognition. In: ICASSP
+
+\bibitem[{Wu et~al(2023{\natexlab{c}})Wu, Cao, Gao, Wu, and
+  Wang}]{wu2023stmixer}
+Wu T, Cao M, Gao Z, Wu G, Wang L (2023{\natexlab{c}}) Stmixer: A one-stage
+  sparse action detector. In: CVPR
+
+\bibitem[{Wu et~al(2021{\natexlab{c}})Wu, Wang, Hou, Lin, and
+  Luo}]{wu2021spatial}
+Wu X, Wang R, Hou J, Lin H, Luo J (2021{\natexlab{c}}) Spatial--temporal
+  relation reasoning for action prediction in videos. IJCV
+
+\bibitem[{Wu et~al(2021{\natexlab{d}})Wu, Zhao, and Wang}]{wu2021anticipating}
+Wu X, Zhao J, Wang R (2021{\natexlab{d}}) Anticipating future relations via
+  graph growing for action prediction. In: AAAI
+
+\bibitem[{Wu and Yang(2021)}]{wu2021exploring}
+Wu Y, Yang Y (2021) Exploring heterogeneous clues for weakly-supervised
+  audio-visual video parsing. In: CVPR
+
+\bibitem[{Wu et~al(2020{\natexlab{b}})Wu, Zhu, Wang, Yang, and
+  Wu}]{wu2020learning}
+Wu Y, Zhu L, Wang X, Yang Y, Wu F (2020{\natexlab{b}}) Learning to anticipate
+  egocentric actions by imagination. IEEE T-IP
+
+\bibitem[{Wu et~al(2019{\natexlab{b}})Wu, Xiong, Jiang, and
+  Davis}]{wu2019liteeval}
+Wu Z, Xiong C, Jiang YG, Davis LS (2019{\natexlab{b}}) Liteeval: A
+  coarse-to-fine framework for resource efficient video recognition. NeurIPS
+
+\bibitem[{Wu et~al(2019{\natexlab{c}})Wu, Xiong, Ma, Socher, and
+  Davis}]{wu2019adaframe}
+Wu Z, Xiong C, Ma CY, Socher R, Davis LS (2019{\natexlab{c}}) Adaframe:
+  Adaptive frame selection for fast video recognition. In: CVPR
+
+\bibitem[{Wu et~al(2020{\natexlab{c}})Wu, Li, Xiong, Jiang, and
+  Davis}]{wu2020dynamic}
+Wu Z, Li H, Xiong C, Jiang YG, Davis LS (2020{\natexlab{c}}) A dynamic frame
+  selection framework for fast video recognition. IEEE TPAMI
+
+\bibitem[{Xia et~al(2022{\natexlab{a}})Xia, Wang, Wu, Wang, and
+  Han}]{xia2022temporal}
+Xia B, Wang Z, Wu W, Wang H, Han J (2022{\natexlab{a}}) Temporal saliency query
+  network for efficient video recognition. In: ECCV
+
+\bibitem[{Xia et~al(2022{\natexlab{b}})Xia, Wu, Wang, Su, He, Yang, Fan, and
+  Ouyang}]{xia2022nsnet}
+Xia B, Wu W, Wang H, Su R, He D, Yang H, Fan X, Ouyang W (2022{\natexlab{b}})
+  Nsnet: Non-saliency suppression sampler for efficient video recognition. In:
+  ECCV
+
+\bibitem[{Xiao et~al(2020)Xiao, Lee, Grauman, Malik, and
+  Feichtenhofer}]{xiao2020audiovisual}
+Xiao F, Lee YJ, Grauman K, Malik J, Feichtenhofer C (2020) Audiovisual slowfast
+  networks for video recognition. arXiv
+
+\bibitem[{Xiao et~al(2021)Xiao, Shang, Yao, and Chua}]{xiao2021next}
+Xiao J, Shang X, Yao A, Chua TS (2021) Next-qa: Next phase of
+  question-answering to explaining temporal actions. In: CVPR
+
+\bibitem[{Xiao et~al(2022)Xiao, Zhou, Chua, and Yan}]{xiao2022video}
+Xiao J, Zhou P, Chua TS, Yan S (2022) Video graph transformer for video
+  question answering. In: ECCV
+
+\bibitem[{Xiao et~al(2023)Xiao, Zhou, Yao, Li, Hong, Yan, and
+  Chua}]{xiao2023contrastive}
+Xiao J, Zhou P, Yao A, Li Y, Hong R, Yan S, Chua TS (2023) Contrastive video
+  question answering via video graph transformer. IEEE TPAMI
+
+\bibitem[{Xiao et~al(2024)Xiao, Yao, Li, and Chua}]{xiao2024can}
+Xiao J, Yao A, Li Y, Chua TS (2024) Can i trust your answer? visually grounded
+  video question answering. In: CVPR
+
+\bibitem[{Xing et~al(2023)Xing, Dai, Hu, Chen, Wu, and
+  Jiang}]{xing2023svformer}
+Xing Z, Dai Q, Hu H, Chen J, Wu Z, Jiang YG (2023) Svformer: Semi-supervised
+  video transformer for action recognition. In: CVPR
+
+\bibitem[{Xiong et~al(2017)Xiong, Zhao, Wang, Lin, and Tang}]{xiong2017pursuit}
+Xiong Y, Zhao Y, Wang L, Lin D, Tang X (2017) A pursuit of temporal accuracy in
+  general activity detection. arxiv
+
+\bibitem[{Xu et~al(2017{\natexlab{a}})Xu, Zhao, Xiao, Wu, Zhang, He, and
+  Zhuang}]{xu2017video}
+Xu D, Zhao Z, Xiao J, Wu F, Zhang H, He X, Zhuang Y (2017{\natexlab{a}}) Video
+  question answering via gradually refined attention over appearance and
+  motion. In: MM
+
+\bibitem[{Xu et~al(2019{\natexlab{a}})Xu, Xiao, Zhao, Shao, Xie, and
+  Zhuang}]{xu2019self}
+Xu D, Xiao J, Zhao Z, Shao J, Xie D, Zhuang Y (2019{\natexlab{a}})
+  Self-supervised spatiotemporal learning via video clip order prediction. In:
+  CVPR
+
+\bibitem[{Xu et~al(2017{\natexlab{b}})Xu, Das, and Saenko}]{xu2017r}
+Xu H, Das A, Saenko K (2017{\natexlab{b}}) R-c3d: Region convolutional 3d
+  network for temporal activity detection. In: ICCV
+
+\bibitem[{Xu et~al(2019{\natexlab{b}})Xu, He, Plummer, Sigal, Sclaroff, and
+  Saenko}]{xu2019multilevel}
+Xu H, He K, Plummer BA, Sigal L, Sclaroff S, Saenko K (2019{\natexlab{b}})
+  Multilevel language and vision integration for text-to-clip retrieval. In:
+  AAAI
+
+\bibitem[{Xu et~al(2021)Xu, Ghosh, Huang, Okhonko, Aghajanyan, Metze,
+  Zettlemoyer, and Feichtenhofer}]{xu2021videoclip}
+Xu H, Ghosh G, Huang PY, Okhonko D, Aghajanyan A, Metze F, Zettlemoyer L,
+  Feichtenhofer C (2021) Videoclip: Contrastive pre-training for zero-shot
+  video-text understanding. In: EMNLP
+
+\bibitem[{Xu et~al(2023{\natexlab{a}})Xu, Ye, Yan, Shi, Ye, Xu, Li, Bi, Qian,
+  Wang et~al}]{xu2023mplug}
+Xu H, Ye Q, Yan M, Shi Y, Ye J, Xu Y, Li C, Bi B, Qian Q, Wang W, et~al
+  (2023{\natexlab{a}}) mplug-2: A modularized multi-modal foundation model
+  across text, image and video. In: ICML
+
+\bibitem[{Xu et~al(2016)Xu, Mei, Yao, and Rui}]{xu2016msr}
+Xu J, Mei T, Yao T, Rui Y (2016) Msr-vtt: A large video description dataset for
+  bridging video and language. In: CVPR
+
+\bibitem[{Xu et~al(2015{\natexlab{a}})Xu, Xiong, Chen, and
+  Corso}]{xu2015jointly}
+Xu R, Xiong C, Chen W, Corso J (2015{\natexlab{a}}) Jointly modeling deep video
+  and compositional text to bridge vision and language in a unified framework.
+  In: AAAI
+
+\bibitem[{Xu et~al(2019{\natexlab{c}})Xu, Yu, Miao, Wan, and
+  Ji}]{xu2019prediction}
+Xu W, Yu J, Miao Z, Wan L, Ji Q (2019{\natexlab{c}}) Prediction-cgan: Human
+  action prediction with conditional generative adversarial networks. In: MM
+
+\bibitem[{Xu et~al(2023{\natexlab{b}})Xu, Li, and Lu}]{xu2023dynamic}
+Xu X, Li YL, Lu C (2023{\natexlab{b}}) Dynamic context removal: A general
+  training strategy for robust models on video action predictive tasks. IJCV
+
+\bibitem[{Xu et~al(2015{\natexlab{b}})Xu, Qing, and Miao}]{xu2015activity}
+Xu Z, Qing L, Miao J (2015{\natexlab{b}}) Activity auto-completion: Predicting
+  human activities from partial videos. In: CVPR
+
+\bibitem[{Xue et~al(2022)Xue, Hang, Zeng, Sun, Liu, Yang, Fu, and
+  Guo}]{xue2022advancing}
+Xue H, Hang T, Zeng Y, Sun Y, Liu B, Yang H, Fu J, Guo B (2022) Advancing
+  high-resolution video-language representation with large-scale video
+  transcriptions. In: CVPR
+
+\bibitem[{Xue and Marculescu(2023)}]{xue2023dynamic}
+Xue Z, Marculescu R (2023) Dynamic multimodal fusion. In: CVPR
+
+\bibitem[{Xue et~al(2023)Xue, Song, Grauman, and Torresani}]{xue2023egocentric}
+Xue Z, Song Y, Grauman K, Torresani L (2023) Egocentric video task translation.
+  In: CVPR
+
+\bibitem[{Xue et~al(2024)Xue, Ashutosh, and Grauman}]{xue2024learning}
+Xue Z, Ashutosh K, Grauman K (2024) Learning object state changes in videos: An
+  open-world perspective. In: CVPR
+
+\bibitem[{Yan et~al(2022)Yan, Xiong, Arnab, Lu, Zhang, Sun, and
+  Schmid}]{yan2022multiview}
+Yan S, Xiong X, Arnab A, Lu Z, Zhang M, Sun C, Schmid C (2022) Multiview
+  transformers for video recognition. In: CVPR
+
+\bibitem[{Yan et~al(2023)Yan, Xiong, Nagrani, Arnab, Wang, Ge, Ross, and
+  Schmid}]{yan2023unloc}
+Yan S, Xiong X, Nagrani A, Arnab A, Wang Z, Ge W, Ross D, Schmid C (2023)
+  Unloc: A unified framework for video localization tasks. In: ICCV
+
+\bibitem[{Yan et~al(2021)Yan, Zhang, Abbeel, and Srinivas}]{yan2021videogpt}
+Yan W, Zhang Y, Abbeel P, Srinivas A (2021) Videogpt: Video generation using
+  vq-vae and transformers. arXiv
+
+\bibitem[{Yang et~al(2021)Yang, Miech, Sivic, Laptev, and
+  Schmid}]{yang2021just}
+Yang A, Miech A, Sivic J, Laptev I, Schmid C (2021) Just ask: Learning to
+  answer questions from millions of narrated videos. In: CVPR
+
+\bibitem[{Yang et~al(2022{\natexlab{a}})Yang, Miech, Sivic, Laptev, and
+  Schmid}]{yang2022learning}
+Yang A, Miech A, Sivic J, Laptev I, Schmid C (2022{\natexlab{a}}) Learning to
+  answer visual questions from web videos. IEEE TPAMI
+
+\bibitem[{Yang et~al(2022{\natexlab{b}})Yang, Miech, Sivic, Laptev, and
+  Schmid}]{yang2022tubedetr}
+Yang A, Miech A, Sivic J, Laptev I, Schmid C (2022{\natexlab{b}}) Tubedetr:
+  Spatio-temporal video grounding with transformers. In: CVPR
+
+\bibitem[{Yang et~al(2022{\natexlab{c}})Yang, Miech, Sivic, Laptev, and
+  Schmid}]{yang2022zero}
+Yang A, Miech A, Sivic J, Laptev I, Schmid C (2022{\natexlab{c}}) Zero-shot
+  video question answering via frozen bidirectional language models. NeurIPS
+
+\bibitem[{Yang et~al(2023{\natexlab{a}})Yang, Nagrani, Seo, Miech, Pont-Tuset,
+  Laptev, Sivic, and Schmid}]{yang2023vid2seq}
+Yang A, Nagrani A, Seo PH, Miech A, Pont-Tuset J, Laptev I, Sivic J, Schmid C
+  (2023{\natexlab{a}}) Vid2seq: Large-scale pretraining of a visual language
+  model for dense video captioning. In: CVPR
+
+\bibitem[{Yang et~al(2024{\natexlab{a}})Yang, Nagrani, Laptev, Sivic, and
+  Schmid}]{yang2024vidchapters}
+Yang A, Nagrani A, Laptev I, Sivic J, Schmid C (2024{\natexlab{a}})
+  Vidchapters-7m: Video chapters at scale. NeurIPS
+
+\bibitem[{Yang et~al(2020{\natexlab{a}})Yang, Xu, Shi, Dai, and
+  Zhou}]{yang2020temporal}
+Yang C, Xu Y, Shi J, Dai B, Zhou B (2020{\natexlab{a}}) Temporal pyramid
+  network for action recognition. In: CVPR
+
+\bibitem[{Yang and Liu(2024)}]{yang2024active}
+Yang D, Liu Y (2024) Active object detection with knowledge aggregation and
+  distillation from large models. In: CVPR
+
+\bibitem[{Yang et~al(2020{\natexlab{b}})Yang, Hu, Mettes, and
+  Snoek}]{yang2020localizing}
+Yang P, Hu VT, Mettes P, Snoek CG (2020{\natexlab{b}}) Localizing the common
+  action among a few videos. In: ECCV
+
+\bibitem[{Yang et~al(2023{\natexlab{b}})Yang, Zhang, Liu, Jiang, and
+  He}]{yang2023video}
+Yang S, Zhang L, Liu Y, Jiang Z, He Y (2023{\natexlab{b}}) Video diffusion
+  models with local-global context guidance. In: IJCAI
+
+\bibitem[{Yang et~al(2019)Yang, Yang, Liu, Xiao, Davis, and
+  Kautz}]{yang2019step}
+Yang X, Yang X, Liu MY, Xiao F, Davis LS, Kautz J (2019) Step: Spatio-temporal
+  progressive learning for video action detection. In: CVPR
+
+\bibitem[{Yang et~al(2024{\natexlab{b}})Yang, Liu, and Wu}]{yang2024text}
+Yang Z, Liu J, Wu P (2024{\natexlab{b}}) Text prompt with normality guidance
+  for weakly supervised video anomaly detection. In: CVPR
+
+\bibitem[{Yao and Fei-Fei(2010)}]{yao2010modeling}
+Yao B, Fei-Fei L (2010) Modeling mutual context of object and human pose in
+  human-object interaction activities. In: CVPR
+
+\bibitem[{Yao et~al(2019)Yao, Lei, and Zhong}]{yao2019review}
+Yao G, Lei T, Zhong J (2019) A review of convolutional-neural-network-based
+  action recognition. PRL
+
+\bibitem[{Yao et~al(2023)Yao, Cheng, and Zou}]{yao2023poserac}
+Yao Z, Cheng X, Zou Y (2023) {PoseRAC: Pose Saliency Transformer for Repetitive
+  Action Counting}. arxiv
+
+\bibitem[{Ye and Bilodeau(2022)}]{ye2022vptr}
+Ye X, Bilodeau GA (2022) Vptr: Efficient transformers for video prediction. In:
+  ICPR
+
+\bibitem[{Ye and Bilodeau(2023)}]{ye2023unified}
+Ye X, Bilodeau GA (2023) A unified model for continuous conditional video
+  prediction. In: CVPRw
+
+\bibitem[{Ye and Bilodeau(2024)}]{ye2024stdiff}
+Ye X, Bilodeau GA (2024) Stdiff: Spatio-temporal diffusion for continuous
+  stochastic video prediction. In: AAAI
+
+\bibitem[{Ye et~al(2017)Ye, Zhao, Li, Chen, Xiao, and Zhuang}]{ye2017video}
+Ye Y, Zhao Z, Li Y, Chen L, Xiao J, Zhuang Y (2017) Video question answering
+  via attribute-augmented attention network learning. In: SIGIR
+
+\bibitem[{Yeung et~al(2016)Yeung, Russakovsky, Mori, and
+  Fei-Fei}]{yeung2016end}
+Yeung S, Russakovsky O, Mori G, Fei-Fei L (2016) End-to-end learning of action
+  detection from frame glimpses in videos. In: CVPR
+
+\bibitem[{Yeung et~al(2018)Yeung, Russakovsky, Jin, Andriluka, Mori, and
+  Fei-Fei}]{yeung2018every}
+Yeung S, Russakovsky O, Jin N, Andriluka M, Mori G, Fei-Fei L (2018) Every
+  moment counts: Dense detailed labeling of actions in complex videos. IJCV
+
+\bibitem[{Yilmaz and Shah(2006)}]{yilmaz2006matching}
+Yilmaz A, Shah M (2006) Matching actions in presence of camera motion. CVIU
+
+\bibitem[{Yilmaz et~al(2006)Yilmaz, Javed, and Shah}]{yilmaz2006object}
+Yilmaz A, Javed O, Shah M (2006) Object tracking: A survey. CSUR
+
+\bibitem[{Yoon et~al(2020)Yoon, Kim, Gallo, Park, and Kautz}]{yoon2020novel}
+Yoon JS, Kim K, Gallo O, Park HS, Kautz J (2020) Novel view synthesis of
+  dynamic scenes with globally coherent depths from a monocular camera. In:
+  CVPR
+
+\bibitem[{Yu et~al(2022{\natexlab{a}})Yu, Wang, Vasudevan, Yeung,
+  Seyedhosseini, and Wu}]{yu2022coca}
+Yu J, Wang Z, Vasudevan V, Yeung L, Seyedhosseini M, Wu Y (2022{\natexlab{a}})
+  Coca: Contrastive captioners are image-text foundation models. arxiv
+
+\bibitem[{Yu et~al(2023{\natexlab{a}})Yu, Li, Zhao, Zhang, and
+  Wang}]{yu2023video}
+Yu J, Li X, Zhao X, Zhang H, Wang YX (2023{\natexlab{a}}) Video state-changing
+  object segmentation. In: ICCV
+
+\bibitem[{Yu et~al(2021)Yu, Tack, Mo, Kim, Kim, Ha, and Shin}]{yugenerating}
+Yu S, Tack J, Mo S, Kim H, Kim J, Ha JW, Shin J (2021) Generating videos with
+  dynamics-aware implicit generative adversarial networks. In: ICLR
+
+\bibitem[{Yu et~al(2022{\natexlab{b}})Yu, Tack, Mo, Kim, Kim, Ha, and
+  Shin}]{yu2022generating}
+Yu S, Tack J, Mo S, Kim H, Kim J, Ha JW, Shin J (2022{\natexlab{b}}) Generating
+  videos with dynamics-aware implicit generative adversarial networks. In: ICLR
+
+\bibitem[{Yu et~al(2023{\natexlab{b}})Yu, Cho, Yadav, and Bansal}]{yu2023self}
+Yu S, Cho J, Yadav P, Bansal M (2023{\natexlab{b}}) Self-chained image-language
+  model for video localization and question answering. NeurIPS
+
+\bibitem[{Yu et~al(2023{\natexlab{c}})Yu, Sohn, Kim, and Shin}]{yu2023avideo}
+Yu S, Sohn K, Kim S, Shin J (2023{\natexlab{c}}) Video probabilistic diffusion
+  models in projected latent space. In: CVPR
+
+\bibitem[{Yu et~al(2024)Yu, Nie, Huang, Li, Shin, and
+  Anandkumar}]{yu2024efficient}
+Yu S, Nie W, Huang DA, Li B, Shin J, Anandkumar A (2024) Efficient video
+  diffusion models via content-frame motion-latent decomposition. In: ICLR
+
+\bibitem[{Yu et~al(2017)Yu, Ko, Choi, and Kim}]{yu2017end}
+Yu Y, Ko H, Choi J, Kim G (2017) End-to-end concept word detection for video
+  captioning, retrieval, and question answering. In: CVPR
+
+\bibitem[{Yuan et~al(2019)Yuan, Mei, and Zhu}]{yuan2019find}
+Yuan Y, Mei T, Zhu W (2019) To find where you talk: Temporal sentence
+  localization in video with attention based location regression. In: AAAI
+
+\bibitem[{Yue-Hei~Ng et~al(2015)Yue-Hei~Ng, Hausknecht, Vijayanarasimhan,
+  Vinyals, Monga, and Toderici}]{yue2015beyond}
+Yue-Hei~Ng J, Hausknecht M, Vijayanarasimhan S, Vinyals O, Monga R, Toderici G
+  (2015) Beyond short snippets: Deep networks for video classification. In:
+  CVPR
+
+\bibitem[{Zaheer et~al(2020{\natexlab{a}})Zaheer, Mahmood, Astrid, and
+  Lee}]{zaheer2020claws}
+Zaheer MZ, Mahmood A, Astrid M, Lee SI (2020{\natexlab{a}}) Claws: Clustering
+  assisted weakly supervised learning with normalcy suppression for anomalous
+  event detection. In: ECCV
+
+\bibitem[{Zaheer et~al(2020{\natexlab{b}})Zaheer, Mahmood, Shin, and
+  Lee}]{zaheer2020self}
+Zaheer MZ, Mahmood A, Shin H, Lee SI (2020{\natexlab{b}}) A self-reasoning
+  framework for anomaly detection using video-level labels. IEEE SPL
+
+\bibitem[{Zanella et~al(2024)Zanella, Menapace, Mancini, Wang, and
+  Ricci}]{zanella2024harnessing}
+Zanella L, Menapace W, Mancini M, Wang Y, Ricci E (2024) Harnessing large
+  language models for training-free video anomaly detection. In: CVPR
+
+\bibitem[{Zatsarynna et~al(2021)Zatsarynna, Abu~Farha, and
+  Gall}]{zatsarynna2021multi}
+Zatsarynna O, Abu~Farha Y, Gall J (2021) Multi-modal temporal convolutional
+  network for anticipating actions in egocentric videos. In: CVPRw, pp
+  2249--2258
+
+\bibitem[{Zatsarynna et~al(2024)Zatsarynna, Bahrami, Farha, Francesca, and
+  Gall}]{zatsarynna2024gated}
+Zatsarynna O, Bahrami E, Farha YA, Francesca G, Gall J (2024) Gated temporal
+  diffusion for stochastic long-term dense anticipation. In: ECCV
+
+\bibitem[{Zellers et~al(2021)Zellers, Lu, Hessel, Yu, Park, Cao, Farhadi, and
+  Choi}]{zellers2021merlot}
+Zellers R, Lu X, Hessel J, Yu Y, Park JS, Cao J, Farhadi A, Choi Y (2021)
+  Merlot: Multimodal neural script knowledge models. NeurIPS
+
+\bibitem[{Zellers et~al(2022)Zellers, Lu, Lu, Yu, Zhao, Salehi, Kusupati,
+  Hessel, Farhadi, and Choi}]{zellers2022merlot}
+Zellers R, Lu J, Lu X, Yu Y, Zhao Y, Salehi M, Kusupati A, Hessel J, Farhadi A,
+  Choi Y (2022) Merlot reserve: Neural script knowledge through vision and
+  language and sound. In: CVPR
+
+\bibitem[{Zelnik-Manor and Irani(2001)}]{zelnik2001event}
+Zelnik-Manor L, Irani M (2001) Event-based analysis of video. In: CVPR
+
+\bibitem[{Zeng et~al(2017)Zeng, Chen, Chuang, Liao, Niebles, and
+  Sun}]{zeng2017leveraging}
+Zeng KH, Chen TH, Chuang CY, Liao YH, Niebles JC, Sun M (2017) Leveraging video
+  descriptions to learn video question answering. In: AAAI
+
+\bibitem[{Zeng et~al(2019)Zeng, Huang, Tan, Rong, Zhao, Huang, and
+  Gan}]{zeng2019graph}
+Zeng R, Huang W, Tan M, Rong Y, Zhao P, Huang J, Gan C (2019) Graph
+  convolutional networks for temporal action localization. In: ICCV
+
+\bibitem[{Zeng et~al(2024)Zeng, Wei, Zheng, Zou, Wei, Zhang, and
+  Li}]{zeng2024make}
+Zeng Y, Wei G, Zheng J, Zou J, Wei Y, Zhang Y, Li H (2024) Make pixels dance:
+  High-dynamic video generation. In: CVPR
+
+\bibitem[{Zha et~al(2021)Zha, Zhu, Xun, Yang, and Liu}]{zha2021shifted}
+Zha X, Zhu W, Xun L, Yang S, Liu J (2021) Shifted chunk transformer for
+  spatio-temporal representational learning. NeurIPS
+
+\bibitem[{Zhai et~al(2020)Zhai, Wang, Tang, Zhang, Yuan, and Hua}]{zhai2020two}
+Zhai Y, Wang L, Tang W, Zhang Q, Yuan J, Hua G (2020) Two-stream consensus
+  network for weakly-supervised temporal action localization. In: ECCV
+
+\bibitem[{Zhang et~al(2016)Zhang, Wang, Wang, Qiao, and Wang}]{zhang2016real}
+Zhang B, Wang L, Wang Z, Qiao Y, Wang H (2016) Real-time action recognition
+  with enhanced motion vector cnns. In: CVPR
+
+\bibitem[{Zhang et~al(2021{\natexlab{a}})Zhang, Cao, Yang, Chen, and
+  Zou}]{zhang2021cola}
+Zhang C, Cao M, Yang D, Chen J, Zou Y (2021{\natexlab{a}}) Cola:
+  Weakly-supervised temporal action localization with snippet contrastive
+  learning. In: CVPR
+
+\bibitem[{Zhang et~al(2022{\natexlab{a}})Zhang, Yang, Weng, Cao, Wang, and
+  Zou}]{zhang2022unsupervised}
+Zhang C, Yang T, Weng J, Cao M, Wang J, Zou Y (2022{\natexlab{a}}) Unsupervised
+  pre-training for temporal action localization tasks. In: CVPR
+
+\bibitem[{Zhang et~al(2022{\natexlab{b}})Zhang, Wu, and
+  Li}]{zhang2022actionformer}
+Zhang CL, Wu J, Li Y (2022{\natexlab{b}}) Actionformer: Localizing moments of
+  actions with transformers. In: ECCV
+
+\bibitem[{Zhang et~al(2020)Zhang, Xu, Han, and He}]{zhang2020context}
+Zhang H, Xu X, Han G, He S (2020) Context-aware and scale-insensitive temporal
+  repetition counting. In: CVPR
+
+\bibitem[{Zhang et~al(2021{\natexlab{b}})Zhang, Sun, Jing, Zhen, Zhou, and
+  Goh}]{zhang2021natural}
+Zhang H, Sun A, Jing W, Zhen L, Zhou JT, Goh RSM (2021{\natexlab{b}}) Natural
+  language video localization: A revisit in span-based question answering
+  framework. IEEE TPAMI
+
+\bibitem[{Zhang et~al(2023{\natexlab{a}})Zhang, Li, and Bing}]{zhang2023video}
+Zhang H, Li X, Bing L (2023{\natexlab{a}}) Video-llama: An instruction-tuned
+  audio-visual language model for video understanding. In: EMNLP
+
+\bibitem[{Zhang et~al(2023{\natexlab{b}})Zhang, Liu, Zheng, and
+  Su}]{zhang2023modeling}
+Zhang H, Liu D, Zheng Q, Su B (2023{\natexlab{b}}) Modeling video as stochastic
+  processes for fine-grained video representation learning. In: CVPR
+
+\bibitem[{Zhang et~al(2019{\natexlab{a}})Zhang, Zhang, Zhong, Lei, Yang, Du,
+  and Chen}]{zhang2019comprehensive}
+Zhang HB, Zhang YX, Zhong B, Lei Q, Yang L, Du JX, Chen DS (2019{\natexlab{a}})
+  A comprehensive survey of vision-based human action recognition methods.
+  Sensors
+
+\bibitem[{Zhang et~al(2019{\natexlab{b}})Zhang, Qing, and
+  Miao}]{zhang2019temporal}
+Zhang J, Qing L, Miao J (2019{\natexlab{b}}) Temporal convolutional network
+  with complementary inner bag loss for weakly supervised anomaly detection.
+  In: ICIP
+
+\bibitem[{Zhang et~al(2023{\natexlab{c}})Zhang, Rao, and
+  Agrawala}]{zhang2023adding}
+Zhang L, Rao A, Agrawala M (2023{\natexlab{c}}) Adding conditional control to
+  text-to-image diffusion models. In: ICCV
+
+\bibitem[{Zhang et~al(2013)Zhang, Zhu, and Derpanis}]{zhang2013actemes}
+Zhang W, Zhu M, Derpanis KG (2013) From actemes to action: A
+  strongly-supervised representation for detailed action understanding. In:
+  ICCV
+
+\bibitem[{Zhang et~al(2024{\natexlab{a}})Zhang, Yoon, Bansal, and
+  Yao}]{zhang2024multimodal}
+Zhang X, Yoon J, Bansal M, Yao H (2024{\natexlab{a}}) Multimodal representation
+  learning by alternating unimodal adaptation. In: CVPR
+
+\bibitem[{Zhang et~al(2019{\natexlab{c}})Zhang, Tokmakov, Hebert, and
+  Schmid}]{zhang2019structured}
+Zhang Y, Tokmakov P, Hebert M, Schmid C (2019{\natexlab{c}}) A structured model
+  for action detection. In: CVPR
+
+\bibitem[{Zhang et~al(2021{\natexlab{c}})Zhang, Shao, and
+  Snoek}]{zhang2021repetitive}
+Zhang Y, Shao L, Snoek CG (2021{\natexlab{c}}) {Repetitive Activity Counting by
+  Sight and Sound}. In: CVPR
+
+\bibitem[{Zhang et~al(2022{\natexlab{c}})Zhang, Bai, Wang, Xu, and
+  Fu}]{zhang2022look}
+Zhang Y, Bai Y, Wang H, Xu Y, Fu Y (2022{\natexlab{c}}) Look more but care less
+  in video recognition. NeurIPS
+
+\bibitem[{Zhang et~al(2024{\natexlab{b}})Zhang, Hu, Cheng, Paudel, and
+  Yang}]{zhang2024extdm}
+Zhang Z, Hu J, Cheng W, Paudel D, Yang J (2024{\natexlab{b}}) Extdm:
+  Distribution extrapolation diffusion model for video prediction. In: CVPR
+
+\bibitem[{Zhao et~al(2011)Zhao, Fei-Fei, and Xing}]{zhao2011online}
+Zhao B, Fei-Fei L, Xing EP (2011) Online detection of unusual events in videos
+  via dynamic sparse coding. In: CVPR
+
+\bibitem[{Zhao et~al(2021)Zhao, Thabet, and Ghanem}]{zhao2021video}
+Zhao C, Thabet AK, Ghanem B (2021) Video self-stitching graph network for
+  temporal action localization. In: ICCV
+
+\bibitem[{Zhao et~al(2023)Zhao, Liu, Mangalam, and Ghanem}]{zhao2023re2tal}
+Zhao C, Liu S, Mangalam K, Ghanem B (2023) Re2tal: Rewiring pretrained video
+  backbones for reversible temporal action localization. In: CVPR
+
+\bibitem[{Zhao and Wildes(2019)}]{zhao2019spatiotemporal}
+Zhao H, Wildes RP (2019) Spatiotemporal feature residual propagation for action
+  prediction. In: ICCV
+
+\bibitem[{Zhao and Wildes(2020)}]{zhao2020diverse}
+Zhao H, Wildes RP (2020) On diverse asynchronous activity anticipation. In:
+  ECCV
+
+\bibitem[{Zhao et~al(2018)Zhao, Gan, Rouditchenko, Vondrick, McDermott, and
+  Torralba}]{zhao2018sound}
+Zhao H, Gan C, Rouditchenko A, Vondrick C, McDermott J, Torralba A (2018) The
+  sound of pixels. In: ECCV
+
+\bibitem[{Zhao et~al(2019)Zhao, Torralba, Torresani, and Yan}]{zhao2019hacs}
+Zhao H, Torralba A, Torresani L, Yan Z (2019) Hacs: Human action clips and
+  segments dataset for recognition and temporal localization. In: ICCV
+
+\bibitem[{Zhao and Snoek(2019)}]{zhao2019dance}
+Zhao J, Snoek CG (2019) Dance with flow: Two-in-one stream action detection.
+  In: CVPR
+
+\bibitem[{Zhao et~al(2022)Zhao, Zhang, Li, Chen, Shuai, Xu, Liu, Kundu, Xiong,
+  Modolo et~al}]{zhao2022tuber}
+Zhao J, Zhang Y, Li X, Chen H, Shuai B, Xu M, Liu C, Kundu K, Xiong Y, Modolo
+  D, et~al (2022) Tuber: Tubelet transformer for video action detection. In:
+  CVPR
+
+\bibitem[{Zhao et~al(2024{\natexlab{a}})Zhao, Gundavarapu, Yuan, Zhou, Yan,
+  Sun, Friedman, Qian, Weyand, Zhao et~al}]{zhao2024videoprism}
+Zhao L, Gundavarapu NB, Yuan L, Zhou H, Yan S, Sun JJ, Friedman L, Qian R,
+  Weyand T, Zhao Y, et~al (2024{\natexlab{a}}) Videoprism: A foundational
+  visual encoder for video understanding. ICML
+
+\bibitem[{Zhao et~al(2024{\natexlab{b}})Zhao, Huang, Zhou, Yao, Ding, Wang,
+  Wang, Liu, and Feng}]{zhao2024skim}
+Zhao Z, Huang X, Zhou H, Yao K, Ding E, Wang J, Wang X, Liu W, Feng B
+  (2024{\natexlab{b}}) Skim then focus: Integrating contextual and fine-grained
+  views for repetitive action counting. arxiv
+
+\bibitem[{Zheng et~al(2020)Zheng, Wu, Chen, Yang, Zhu, Shen, Kehtarnavaz, and
+  Shah}]{zheng2020deep}
+Zheng C, Wu W, Chen C, Yang T, Zhu S, Shen J, Kehtarnavaz N, Shah M (2020) Deep
+  learning-based human pose estimation: A survey. CSUR
+
+\bibitem[{Zheng et~al(2023)Zheng, Song, Su, Liu, Yan, and
+  Nie}]{zheng2023egocentric}
+Zheng N, Song X, Su T, Liu W, Yan Y, Nie L (2023) Egocentric early action
+  prediction via adversarial knowledge distillation. ACM TOMM
+
+\bibitem[{Zhong et~al(2019)Zhong, Li, Kong, Liu, Li, and Li}]{zhong2019graph}
+Zhong JX, Li N, Kong W, Liu S, Li TH, Li G (2019) Graph convolutional label
+  noise cleaner: Train a plug-and-play action classifier for anomaly detection.
+  In: CVPR
+
+\bibitem[{Zhong et~al(2023{\natexlab{a}})Zhong, Liang, Zharkov, and
+  Neumann}]{zhong2023mmvp}
+Zhong Y, Liang L, Zharkov I, Neumann U (2023{\natexlab{a}}) Mmvp:
+  Motion-matrix-based video prediction. In: ICCV
+
+\bibitem[{Zhong et~al(2023{\natexlab{b}})Zhong, Martin, Voit, Gall, and
+  Beyerer}]{zhong2023survey}
+Zhong Z, Martin M, Voit M, Gall J, Beyerer J (2023{\natexlab{b}}) A survey on
+  deep learning techniques for action anticipation. arxiv
+
+\bibitem[{Zhong et~al(2023{\natexlab{c}})Zhong, Schneider, Voit, Stiefelhagen,
+  and Beyerer}]{zhong2023anticipative}
+Zhong Z, Schneider D, Voit M, Stiefelhagen R, Beyerer J (2023{\natexlab{c}})
+  Anticipative feature fusion transformer for multi-modal action anticipation.
+  In: WACV
+
+\bibitem[{Zhou et~al(2018{\natexlab{a}})Zhou, Andonian, Oliva, and
+  Torralba}]{zhou2018temporal}
+Zhou B, Andonian A, Oliva A, Torralba A (2018{\natexlab{a}}) Temporal
+  relational reasoning in videos. In: ECCV
+
+\bibitem[{Zhou et~al(2023)Zhou, Mart{\'\i}n-Mart{\'\i}n, Kapadia, Savarese, and
+  Niebles}]{zhou2023procedure}
+Zhou H, Mart{\'\i}n-Mart{\'\i}n R, Kapadia M, Savarese S, Niebles JC (2023)
+  Procedure-aware pretraining for instructional video understanding. In: CVPR
+
+\bibitem[{Zhou et~al(2022)Zhou, Wang, Zhang, Sun, Zhang, Birchfield, Guo, Kong,
+  Wang, and Zhong}]{zhou2022audio}
+Zhou J, Wang J, Zhang J, Sun W, Zhang J, Birchfield S, Guo D, Kong L, Wang M,
+  Zhong Y (2022) Audio--visual segmentation. In: ECCV
+
+\bibitem[{Zhou et~al(2018{\natexlab{b}})Zhou, Xu, and Corso}]{zhou2018towards}
+Zhou L, Xu C, Corso JJ (2018{\natexlab{b}}) Towards automatic learning of
+  procedures from web instructional videos. In: AAAI
+
+\bibitem[{Zhou et~al(2018{\natexlab{c}})Zhou, Zhou, Corso, Socher, and
+  Xiong}]{zhou2018end}
+Zhou L, Zhou Y, Corso JJ, Socher R, Xiong C (2018{\natexlab{c}}) End-to-end
+  dense video captioning with masked transformer. In: CVPR
+
+\bibitem[{Zhou et~al(2024)Zhou, Arnab, Buch, Yan, Myers, Xiong, Nagrani, and
+  Schmid}]{zhou2024streaming}
+Zhou X, Arnab A, Buch S, Yan S, Myers A, Xiong X, Nagrani A, Schmid C (2024)
+  Streaming dense video captioning. In: CVPR
+
+\bibitem[{Zhou and Berg(2015)}]{zhou2015temporal}
+Zhou Y, Berg TL (2015) Temporal perception and prediction in ego-centric video.
+  In: ICCV
+
+\bibitem[{Zhou et~al(2018{\natexlab{d}})Zhou, Sun, Zha, and
+  Zeng}]{zhou2018mict}
+Zhou Y, Sun X, Zha ZJ, Zeng W (2018{\natexlab{d}}) Mict: Mixed 3d/2d
+  convolutional tube for human action recognition. In: CVPR
+
+\bibitem[{Zhu and Yang(2020)}]{zhu2020actbert}
+Zhu L, Yang Y (2020) Actbert: Learning global-local video-text representations.
+  In: CVPR
+
+\bibitem[{Zhu et~al(2016)Zhu, Hu, Sun, Cao, and Qiao}]{zhu2016key}
+Zhu W, Hu J, Sun G, Cao X, Qiao Y (2016) A key volume mining deep framework for
+  action recognition. In: CVPR
+
+\bibitem[{Zhu and Newsam(2019)}]{zhu2019motion}
+Zhu Y, Newsam S (2019) Motion-aware feature for improved video anomaly
+  detection. In: BMVC
+
+\bibitem[{Zhu et~al(2023)Zhu, Shen, and Xia}]{zhu2023personality}
+Zhu Y, Shen X, Xia R (2023) Personality-aware human-centric multimodal
+  reasoning: A new task, dataset and baselines. arxiv
+
+\bibitem[{Zhu et~al(2024)Zhu, Zhang, Tan, Wu, and Wang}]{zhu2024dual}
+Zhu Y, Zhang G, Tan J, Wu G, Wang L (2024) Dual detrs for multi-label temporal
+  action detection. In: CVPR
+
+\bibitem[{Zhuang et~al(2024)Zhuang, Li, Chen, Wang, Liu, Qiao, and
+  Wang}]{zhuang2024vlogger}
+Zhuang S, Li K, Chen X, Wang Y, Liu Z, Qiao Y, Wang Y (2024) Vlogger: Make your
+  dream a vlog. In: CVPR
+
+\bibitem[{Zhuo et~al(2019)Zhuo, Cheng, Zhang, Wong, and
+  Kankanhalli}]{zhuo2019explainable}
+Zhuo T, Cheng Z, Zhang P, Wong Y, Kankanhalli M (2019) Explainable video action
+  reasoning via prior knowledge and state transitions. In: MM
+
+\bibitem[{Zong et~al(2021)Zong, Wang, Chen, Chen, and Gong}]{zong2021motion}
+Zong M, Wang R, Chen X, Chen Z, Gong Y (2021) Motion saliency based
+  multi-stream multiplier resnets for action recognition. IVC
+
+\end{thebibliography}
