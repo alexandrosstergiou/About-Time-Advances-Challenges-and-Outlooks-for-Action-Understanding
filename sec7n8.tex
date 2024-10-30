@@ -1,0 +1,139 @@
+
+\definecolor{vidred}{HTML}{f3a9a6}
+\definecolor{temptasks}{HTML}{EA6B66}
+\definecolor{vislang}{HTML}{ffd3aa}
+\definecolor{mm}{HTML}{FFB570}
+\definecolor{eap}{HTML}{d1a8c2}
+\definecolor{vfp}{HTML}{B5739D}
+\definecolor{states}{HTML}{c0d3f0}
+\definecolor{vad}{HTML}{7EA6E0}
+\definecolor{aa}{HTML}{aed2cc}
+\definecolor{gen}{HTML}{67AB9F}
+
+
+\begin{figure*}[t]
+    \centering
+    \begin{minipage}[c]{\linewidth}
+    \includegraphics[width=\linewidth]{figs/works_per_year.png}
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{c c c c c c c c c c}
+         \textcolor{vidred}{VRe} : 27 &
+         \textcolor{temptasks}{TS} : 181 &
+         \textcolor{vislang}{V\&L} : 275 &
+         \textcolor{mm}{MM} : 146 &
+         \textcolor{eap}{EAP} : 23 &
+         \textcolor{vfp}{VFP} : 18 &
+         \textcolor{states}{ST} : 28 &
+         \textcolor{vad}{VAD} : 138 &
+         \textcolor{aa}{AA} : 36 &
+         \textcolor{gen}{Gen} : 213
+         \\
+    \end{tabular}
+    }
+    \caption[Caption]{\textbf{Number of action understanding works per year}. Groups (bottom to top) are shown for video reduction approaches \textcolor{vidred}{VRe}, temporal tasks \textcolor{temptasks}{TS}, vision and language methods \textcolor{vislang}{V\&L}, multimodal models \textcolor{mm}{MM}, early action prediction \textcolor{eap}{EAP}, video frame prediction \textcolor{vfp}{VFP}, state-based tasks \textcolor{states}{ST}, video anomaly detection \textcolor{vad}{VAD}, action anticipation \textcolor{aa}{AA}, and video generation \textcolor{gen}{Gen}. The number of relevant papers per group is approximated by all works citing influential papers with $\geq 300$ citations\textcolor{red}{$^*$}. Small disparities are expected as very recent works may not be considered. The total number of action understanding works is shown for 2006, 2012, 2017, and 2023.}
+    % legend: 
+    %[color 1.1] Video reduction methods, 
+    %[color 1.2] Temporal tasks, 
+    %[color 1.3] Video-language, 
+    %[color 1.4] Multi-modal, 
+    %[color 2.1] EAP, 
+    %[color 2.2] VFP, 
+    %[color 2.3] State changes, 
+    %[color 2.4] Anomaly detection
+    %[color 3.1] AA
+    %[color 3.2] Gnerative models
+    \label{fig:works_over_year}
+    \end{minipage}
+\end{figure*}
+
+
+\section{What's to Come in a Big Picture}
+\label{sec:outlook}
+
+Progress in video understanding has been rapid over the last few years as shown in \Cref{fig:works_over_year}. Vision and language, video generation, and anomaly detection tasks have been at the forefront of recent efforts. Well-established problems such as temporal tasks have continued to be relevant. Considering the current research directions, we provide a look into the future and explore three main pathways beyond continuing current trends. As models become abstract we envision how abstractions can be reasoned in the future in \Cref{sec:outlook::reason}. We then consider what tasks and objectives future action understanding models will aim to solve in \Cref{sec:outlook::tasks}. Finally, we discuss what improvements in efficiency may be in \Cref{sec:outlook::efficiency}.
+
+%Overall, move to application, so focus on a diversity of tasks, in a production environment and with specific data.
+
+% Adaptability to new tasks?
+
+
+
+\subsection{Reasoning semantics}
+\label{sec:outlook::reason}
+
+We discuss three outlooks based on reasoning.
+
+\subsubsection{Intentions in the visual world}
+
+Desires and goals determine the performance of actions. Understanding intentions from visual cues is developed early in adolescence \citep{flavell1999cognitive} as it helps acquire foundational cognition abilities related to the causal relation between mental states \citep{flavell1998social}, roles in activities \citep{woodward2009infants}, and definitions of personality traits \citep{nelson1980factors}. These abilities are learned primarily observationally from interactions with the physical world and with limited use of language. Despite the great progress of VLMs in learning the procedural steps of task \citep{li2025llama,li2024mini,wu2024longvideobench} with the inclusion of embeddings guided by natural language, the reliance on visual information remains partial. \citet{al2024unibench} showed that scaling models and data sizes do not offer substantial reasoning performance gains for vision tasks despite strong performance in skill-based tasks. A new avenue for future video models to explore beyond upward scaling can be designing open-world models based on multi-level semantics based on human intentions and goals. Inferring information about the visual world in a scene will not necessarily be associated with learned language embeddings but adaptively over modalities. Such approaches may be trained with longitudinal data specific to individuals tailoring the model's understanding of the world based on the user's goals, objectives, intentions, and interactions.
+
+
+
+\subsubsection{Linking visual understanding principles across model generations}
+
+Current models rely on scale and data availability to address general tasks. Looking back, the field has shifted towards advancements that improve scalability; DT, to DPMs, CNNs, ViTs, and now VLMs. There are several recently introduced candidates \citep{dao2022flashattention,gu2023mamba,poli2023hyena} with their scalability potential being currently explored. We believe that in the near future, we will continue to push towards better-scaling architectures as they are still an active area of research with increasing innovation and interest. Future multi-modal models will further problem-solving abilities at a greater number of tasks. However, traits as to how to reason on solving tasks are not passed on from each model generation. A step forward can thus include the design of models and architectures that can import principles for understanding the visual world from the previous iteration of approaches and aim to refine them with new knowledge. Such cognitive principles to implicitly or explicitly import in later models can potentially be inspired by globally accepted useful principles in human cognition. Such properties can be based on Gestalt conditions from cognitive psychology \citep{koffka2013principles,kohler1967gestalt} to describe essential properties, groupings, and understanding identities in visual scenes. Convergence and improvements in resource use for each principle can be elements passed over through model generations through configurations in the embedding space or high-level processes in the network structure. In turn, the evaluation of models can also move beyond skill-based benchmarks to eventually achieve high performance and migrate to benchmarks based on cognitive principles that can be the basis of future research.
+
+\blfootnote{\noindent \textcolor{red}{$^*$} From GoogleScholar as of the 28th of October 2024.}
+
+\subsubsection{Novel problem adaptation}
+
+Zero-shot model performance has increased significantly over the past years. This success is especially evident in language and semantic-based video tasks the large capacity and context of models aid their application. However, limitations still exist in tasks orthogonal to pre-text SSL objectives \citep{liu2024mmbench}. Recent approaches such as modality \citep{lin2023vision,sung2022vl}, information gating \citep{zhang2024llama}, or probabilistic \citep{upadhyay2023probvlm} adapters, visual prompt learning \citep{khattak2023maple}, knowledge distillation \citep{mistretta2024improving}, and model caching \citep{zhang2021tip} have been used to improve zero-shot performance of pre-trained models. However, there are very few structural elements in model architectures or objectives that explicitly improve zero-shot performance in unseen distinct tasks. A promising direction to bridge this gap is the use of a unified model that acts as a mixture of experts controller  \citep{bao2022vlmo,lin2024moe,wang2022image,yu2024boosting}. Models that are sparsely trained in a mixture of experts also allow for faster inference times with only task-relative sub-models by using conditional computations \citep{bengio2013estimating,jacobs1991adaptive}. The integration of experts can be done regardless of the backbone architecture chosen making it an approach that can stand the test of time.
+
+
+\subsection{Better task definitions}
+\label{sec:outlook::tasks}
+
+\subsubsection{Objectives}
+
+Representation learning has seen rapid growth over the years. Explicitly learning meaningful representations can be useful in learning good distributions that can be used as priors to downstream tasks \citep{bengio2013representation,janocha2017loss,larochelle2009exploring}. Drawing inspiration from \citep{bengio2013representation} a number of widely-accepted beneficial properties are discussed below
+
+\noindent
+\textbf{Temporal and spatial coherence}. Instances that are temporally or spatially proximally close should correspond to similar representations. This can extend to maintaining a similar rate of change in the representations across instances or semantically similar examples is another coherence prior that has been explored in objectives relating to cyclic consistency \citep{dwibedi2018temporal,donahue2024learning,haresh2021learning}, video procedural learning \citep{chen2022frame,sermanet2018time}, DTW \citep{dvornik2021drop,hadji2021representation}, and cross-frame stochasticity \citep{zhang2023modeling}. Such objectives can be explored in a more general context as pre-training tasks to adapt common SSL approaches specifically to video data. 
+
+\noindent
+\textbf{Abstractions and hierarchies}. Beyond fine-grained categories in which abstract representations can cover a varied number of classes, abstractions are also present in high-level attributes. Most of the current literature does not focus on learning abstractions explicitly but instead learn implicit connections between specific types \citep{li2024deal}, often leading to spurious correlations \citep{chen2020counterfactual,kim2023exposing,tian2024argue}. This can lead to both task- and instance-based misalignments \citep{zhang2024rethinking}. Enforcing semantic abstraction hierarchies in the objective can potentially mitigate such misalignments. Promising efforts have included partial order relations \citep{alper2024emergent},  prototype learning \citep{ramesh2022hierarchical}, hyperbolic representations \citep{mettes2024hyperbolic}, and scene graphs \citep{li2024scene}. As models are becoming more polysemantic at a fast pace, the role of research aimed at utilizing natural hierarchies and abstractions can be expected to be more important.
+
+\noindent
+\textbf{Natural clustering and manifolds}. Local representations tend to preserve similar polysemantic characteristics. Works have shown that real data are not represented within the totality of the feature space but are instead in dense concentrations over specific regions \citep{genovese2012minimax,jiang2018trust,liang2022mind}. Using the tangent space has shown great promise as a prior to guiding vision tasks such as generation \citep{he2023manifold}, model explanations \citep{bordt2023manifold}, anomaly detection \citep{shin2023anomaly}, and corruption robustness \citep{chen2022vita}. However, the use and adaptation of the tangent space from real data distributions as an objective-steering prior largely remain an open question for large-scale multi-model action understanding models. 
+
+
+
+%\subsubsection{Learning schemes}
+%- different learning schemes apart from pre-training/fine-tuning or VLM adoption --> online learning, self-supervision for specific (temporal) tasks
+
+%\subsubsection{Deviations from memorized patterns}
+
+%- Adaptations to deviations from memorized patterns (in-context learning, task familiarity vs task complexity)
+
+\subsubsection{Limitations in performance beyond metrics}
+
+Beyond benchmarking models on tasks and metrically evaluating performance, understanding the distributions and correlations learned provides new research opportunities. 
+
+A promising direction includes interpretations of LLM and VLM capabilities such as In-Context Learning (ICL) \citep{brown2020language,hoffmann2022empirical} and Chain-of Thought (CoT) \citep{wei2022chain} prompting. \citet{bansal2023rethinking} has shown that these capabilities are only influenced by a small number of attention/feedforward layers which can perform highly for specific tasks.  
+
+
+Disparities between target and learned features can also happen due to shortcuts learned by the models. Common factors that can lead to shortcuts include
+the multiple local minima in the contrastive losses landscape \citep{robinson2021can}, vision information being suppressed by language for most VLM tasks \citep{li2023addressing}, and low mutual information between latent representations and real data \citep{adnan2022monitoring}. Recently, \citet{bleeker2024demonstrating} showed that the introduction of unique information distal to the overall training distribution favors the reliance and creation of shortcuts by VLMs with contrastive objectives.
+
+
+%\subsection{Understanding/explaining performance}
+%- explainability
+%- understanding limitations in task performance
+
+\subsection{Efficiency}
+\label{sec:outlook::efficiency}
+
+\subsubsection{Overcoming strong priors}
+
+\subsubsection{Privacy and specialization}
+
+%- in contrast to increasing scale
+%- overcoming too strong priors
+%- VLMs patch generalization?
+% reinforcement learning?
+
+% data privacy
+% more human in the loop, interactive understanding
+
+\section{Discussion}
+\label{sec:discussion}
