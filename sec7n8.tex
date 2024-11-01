@@ -61,7 +61,9 @@ Progress in video understanding has been rapid over the last few years as shown 
 \subsection{Reasoning semantics}
 \label{sec:outlook::reason}
 
-We discuss three outlooks based on reasoning.
+
+Objectives and reasoning mechanisms are central to understanding the consequentiality of actions. They rely on multiple levels of abstraction developed from both analogies and conceptualization. We explore general future directions for interpreting intentions, adapting to unseen scenarios, and passing perceptual information across model generations. 
+
 
 \subsubsection{Intentions in the visual world}
 
@@ -69,19 +71,23 @@ Desires and goals determine the performance of actions. Understanding intentions
 
 
 
-\subsubsection{Linking visual understanding principles across model generations}
-
-Current models rely on scale and data availability to address general tasks. Looking back, the field has shifted towards advancements that improve scalability; DT, to DPMs, CNNs, ViTs, and now VLMs. There are several recently introduced candidates \citep{dao2022flashattention,gu2023mamba,poli2023hyena} with their scalability potential being currently explored. We believe that in the near future, we will continue to push towards better-scaling architectures as they are still an active area of research with increasing innovation and interest. Future multi-modal models will further problem-solving abilities at a greater number of tasks. However, traits as to how to reason on solving tasks are not passed on from each model generation. A step forward can thus include the design of models and architectures that can import principles for understanding the visual world from the previous iteration of approaches and aim to refine them with new knowledge. Such cognitive principles to implicitly or explicitly import in later models can potentially be inspired by globally accepted useful principles in human cognition. Such properties can be based on Gestalt conditions from cognitive psychology \citep{koffka2013principles,kohler1967gestalt} to describe essential properties, groupings, and understanding identities in visual scenes. Convergence and improvements in resource use for each principle can be elements passed over through model generations through configurations in the embedding space or high-level processes in the network structure. In turn, the evaluation of models can also move beyond skill-based benchmarks to eventually achieve high performance and migrate to benchmarks based on cognitive principles that can be the basis of future research.
-
-\blfootnote{\noindent \textcolor{red}{$^*$} From GoogleScholar as of the 28th of October 2024.}
-
 \subsubsection{Novel problem adaptation}
 
 Zero-shot model performance has increased significantly over the past years. This success is especially evident in language and semantic-based video tasks the large capacity and context of models aid their application. However, limitations still exist in tasks orthogonal to pre-text SSL objectives \citep{liu2024mmbench}. Recent approaches such as modality \citep{lin2023vision,sung2022vl}, information gating \citep{zhang2024llama}, or probabilistic \citep{upadhyay2023probvlm} adapters, visual prompt learning \citep{khattak2023maple}, knowledge distillation \citep{mistretta2024improving}, and model caching \citep{zhang2021tip} have been used to improve zero-shot performance of pre-trained models. However, there are very few structural elements in model architectures or objectives that explicitly improve zero-shot performance in unseen distinct tasks. A promising direction to bridge this gap is the use of a unified model that acts as a mixture of experts controller  \citep{bao2022vlmo,lin2024moe,wang2022image,yu2024boosting}. Models that are sparsely trained in a mixture of experts also allow for faster inference times with only task-relative sub-models by using conditional computations \citep{bengio2013estimating,jacobs1991adaptive}. The integration of experts can be done regardless of the backbone architecture chosen making it an approach that can stand the test of time.
 
+\blfootnote{\noindent \textcolor{red}{$^*$} From GoogleScholar as of the 28th of October 2024.}
+
+\subsubsection{Linking visual understanding principles across model generations}
+
+Current models rely on scale and data availability to address general tasks. Looking back, the field has shifted towards advancements that improve scalability; DT, to DPMs, CNNs, ViTs, and now VLMs. There are several recently introduced candidates \citep{dao2022flashattention,gu2023mamba,poli2023hyena} with their scalability potential being currently explored. We believe that in the near future, we will continue to push towards better-scaling architectures as they are still an active area of research with increasing innovation and interest. Future multi-modal models will further problem-solving abilities at a greater number of tasks. However, traits as to how to reason on solving tasks are not passed on from each model generation. A step forward can thus include the design of models and architectures that can import principles for understanding the visual world from the previous iteration of approaches and aim to refine them with new knowledge. Such cognitive principles to implicitly or explicitly import in later models can potentially be inspired by globally accepted useful principles in human cognition. Such properties can be based on Gestalt conditions from cognitive psychology \citep{koffka2013principles,kohler1967gestalt} to describe essential properties, groupings, and understanding identities in visual scenes. Convergence and improvements in resource use for each principle can be elements passed over through model generations through configurations in the embedding space or high-level processes in the network structure. In turn, the evaluation of models can also move beyond skill-based benchmarks to eventually achieve high performance and migrate to benchmarks based on cognitive principles that can be the basis of future research.
+
+
 
 \subsection{Better task definitions}
 \label{sec:outlook::tasks}
+
+Current models training and benchmarked on general objectives that do not necessarily account for the temporal dynamics in videos. A potential research pathway for future research may revisit beneficial properties for representation learning. Additionally, future benchmarks can explore performance beyond metrics and instead focus on embedding distributions and feature correspondences. 
+
 
 \subsubsection{Objectives}
 
@@ -107,13 +113,8 @@ Representation learning has seen rapid growth over the years. Explicitly learnin
 
 \subsubsection{Limitations in performance beyond metrics}
 
-Beyond benchmarking models on tasks and metrically evaluating performance, understanding the distributions and correlations learned provides new research opportunities. 
-
-A promising direction includes interpretations of LLM and VLM capabilities such as In-Context Learning (ICL) \citep{brown2020language,hoffmann2022empirical} and Chain-of Thought (CoT) \citep{wei2022chain} prompting. \citet{bansal2023rethinking} has shown that these capabilities are only influenced by a small number of attention/feedforward layers which can perform highly for specific tasks.  
-
-
-Disparities between target and learned features can also happen due to shortcuts learned by the models. Common factors that can lead to shortcuts include
-the multiple local minima in the contrastive losses landscape \citep{robinson2021can}, vision information being suppressed by language for most VLM tasks \citep{li2023addressing}, and low mutual information between latent representations and real data \citep{adnan2022monitoring}. Recently, \citet{bleeker2024demonstrating} showed that the introduction of unique information distal to the overall training distribution favors the reliance and creation of shortcuts by VLMs with contrastive objectives.
+Beyond benchmarking models on tasks and metrically evaluating performance, understanding the distributions and correlations learned provides new research opportunities. A promising direction includes interpretations of LLM and VLM capabilities such as In-Context Learning (ICL) \citep{brown2020language,hoffmann2022empirical} and Chain-of Thought (CoT) \citep{wei2022chain} prompting. \citet{bansal2023rethinking} has shown that these capabilities are only influenced by a small number of attention/feedforward layers which can perform highly for specific tasks. Both \citet{baldassini2024makes,chen2024understanding} also showed that ICL in VLMs primarily relies on text information and not the visual modality. Disparities between target and learned features can also happen due to shortcuts learned by the models. Common factors that can lead to shortcuts include
+the multiple local minima in the contrastive losses landscape \citep{robinson2021can}, vision information being suppressed by language for most VLM tasks \citep{li2023addressing}, and low mutual information between latent representations and real data \citep{adnan2022monitoring}. Recently, \citet{bleeker2024demonstrating} showed that introducing unique information distal to the overall training distribution favors VLMs' reliance and creation of shortcuts with contrastive objectives. These insights provide opportunities for future research to explore objectives and models with better multi-modal and data-varying generalizability capabilities.
 
 
 %\subsection{Understanding/explaining performance}
@@ -123,9 +124,20 @@ the multiple local minima in the contrastive losses landscape \citep{robinson202
 \subsection{Efficiency}
 \label{sec:outlook::efficiency}
 
-\subsubsection{Overcoming strong priors}
+Efficiency of methods has been regularly mentioned as a metric for their real-time applicability. Looking beyond inference speeds bounded to specific computation environments, we overview general properties that future works may use. Given the rapid deployment of models in a multitude of applications we also highlight privacy concerns that remain unaddressed and opportunities for domain specialization.  
+
+\subsubsection{Generalizable priors}
+
+Modern models are primarily trained on large-scaled uncurated datasets aimed at generalizing to multiple domains. This training distribution however can include noise or be insufficient for domain-specific datasets. Recent approaches have aimed to reduce training data requirements through the inclusion of distribution priors during training. \citet{kahana2022improving} aimed to improve zero-shot performance by introducing a joint objective of matching label distributions and minimizing the divergence to original zero-shot predictions. \citet{gao2022pyramidclip} used multiple levels of abstraction to contrast language and visual semantics to improve training efficiency. In later works, \citet{nag2024safari} used a weakly-supervised approach for refining pseudo-object-masks by cross-modal alignment in low-annotation settings. Approaches specifically utilizing priors in videos include concept distillation from normalized language embeddings \citep{ranasinghe2023language}, and motion-specific alignment between video and textual descriptions of movements \citep{zhang2024enhanced}. The distillation of data information and their use as priors within the optimization has already shown promise for reducing resource requirements and enabling more efficient training. It can also impose a constraint based on the nature of expected motions that can have potential benefits in the convergence of models.
+
 
 \subsubsection{Privacy and specialization}
+
+
+Vision-based models have shown to be susceptible to attacks that either invert their gradients to reconstruct inputs \citep{hatamizadeh2022gradvit} or discover intermediate representations \citep{fang2023gifd}. Research works have also shown that inputs and features from VLMs can also be inferred through learnable vision-language triggers \citep{bai2024badclip}, adversarial perturbations in video frames at inference \citep{li2024fmm}, backdoor attacks through adversarial patches in the training data \citep{carlini2022poisoning}, and injecting malicious prompts during instruction tuning \citep{liang2024vl}. \citet{kariyappa2023cocktail} have also shown that semantics from the original data can still be recovered even in distributed settings over large batches. Such vulnerabilities in the design and training distributions of action understanding models can be exploited across multiple downstream tasks, thus evaluating their robustness is a broad topic for the community to attend to.
+
+The importance of privacy can be better understood by a current slow shift toward domain-expert sub-models integrated into general-purpose frameworks. \citet{shen2024tag} repurposed general-purpose LLMs to domain-specific tasks significantly improving in-domain zero-shot generalizability. Vision-language models have also shown promising results through specialization by visual instructional tuning \citep{bai2024generalist} and evolutionary instruction-based prompting \citep{luo2024mmevol}. Enhancing video-based models with domain specialization remains to be explored further by future works through either singular general models of high capacity or multiple models in holistic frameworks.  
+
 
 %- in contrast to increasing scale
 %- overcoming too strong priors
@@ -137,3 +149,5 @@ the multiple local minima in the contrastive losses landscape \citep{robinson202
 
 \section{Discussion}
 \label{sec:discussion}
+
+Action understanding includes a diverse set of tasks over multiple domains. As it has become a well-matured field of research, we have aimed to provide a comprehensive review of the main challenges, discuss the relevant datasets and their primary modalities, explore seminal works emphasizing recent advancements, and envisage future research directions. The taxonomy of this survey is based on three temporal scopes from which tasks and approaches understand the actions performed.  We have discussed recognition tasks and approaches that use full observations of actions and aim to infer fine or coarse-grained scene information. Our second group includes tasks that predict the actions in videos from partial observations. The final set of tasks discusses future forecasting which includes anticipation models that require to infer general knowledge for future actions not yet performed. As the temporal nature of the three scopes is adjacent, we expect future models to address multiple aspects of action understanding jointly. We discuss the potential new unique set of challenges and research objectives that future works can explore. We believe that this survey can capture a holistic view of the current state of action understanding while offering a first step towards emerging and promising research directions.  
